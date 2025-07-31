@@ -1,0 +1,2342 @@
+[
+  {
+    "id": "UKC_FAQ_1",
+    "text": "Question: Can I receive an invoice for my booked train journey?\nAnswer: Yes, we can send you a new booking confirmation free of charge for up to 100 days after the ticket has been completely used. A fee of £25.00 per transaction (maximum of five E-ticket confirmations) will be charged after these 100 days. The E-ticket can be used for invoicing purposes.",
+    "metadata": {
+      "question": "Can I receive an invoice for my booked train journey?",
+      "answer": "Yes, we can send you a new booking confirmation free of charge for up to 100 days after the ticket has been completely used. A fee of £25.00 per transaction (maximum of five E-ticket confirmations) will be charged after these 100 days. The E-ticket can be used for invoicing purposes.",
+      "section": "Ticket Receipt and Invoice Questions",
+      "topics": [
+        "booking",
+        "invoice",
+        "payment",
+        "timing"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 62,
+      "created_at": "2025-07-31T10:48:34.008346"
+    }
+  },
+  {
+    "id": "UKC_FAQ_2",
+    "text": "Question: Do I need to reconfirm my train journey?\nAnswer: No, reconfirmation of UKConnect train journeys is not required. However, we recommend checking for any service updates on the day of travel.",
+    "metadata": {
+      "question": "Do I need to reconfirm my train journey?",
+      "answer": "No, reconfirmation of UKConnect train journeys is not required. However, we recommend checking for any service updates on the day of travel.",
+      "section": "Ticket Receipt and Invoice Questions",
+      "topics": [
+        "invoice"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 32,
+      "created_at": "2025-07-31T10:48:34.008352"
+    }
+  },
+  {
+    "id": "UKC_FAQ_3",
+    "text": "Question: Can I check for availability and fares without booking a journey?\nAnswer: Yes, you can check train availability and fares without finalising a booking. Payment is only processed as the final step, after entering your personal details.",
+    "metadata": {
+      "question": "Can I check for availability and fares without booking a journey?",
+      "answer": "Yes, you can check train availability and fares without finalising a booking. Payment is only processed as the final step, after entering your personal details.",
+      "section": "Ticket Receipt and Invoice Questions",
+      "topics": [
+        "booking",
+        "payment",
+        "fares"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 38,
+      "created_at": "2025-07-31T10:48:34.008355"
+    }
+  },
+  {
+    "id": "UKC_FAQ_4",
+    "text": "Question: What are the fare categories?\nAnswer: The letters A, B, C, D, E, F, G, H (Standard Class), J, K, L, M (First Class), and P, Q, R, S (Off-Peak/Super Off-Peak) are used to indicate different price categories across service classes.",
+    "metadata": {
+      "question": "What are the fare categories?",
+      "answer": "The letters A, B, C, D, E, F, G, H (Standard Class), J, K, L, M (First Class), and P, Q, R, S (Off-Peak/Super Off-Peak) are used to indicate different price categories across service classes.",
+      "section": "Ticket Receipt and Invoice Questions",
+      "topics": [
+        "fares"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 42,
+      "created_at": "2025-07-31T10:48:34.008358"
+    }
+  },
+  {
+    "id": "UKC_FAQ_5",
+    "text": "Question: Where can I find the fare conditions for my booked tickets?\nAnswer: Fare conditions for your booked tickets will be displayed during the booking process. Please note that tariff conditions are in English and can be accessed during booking.",
+    "metadata": {
+      "question": "Where can I find the fare conditions for my booked tickets?",
+      "answer": "Fare conditions for your booked tickets will be displayed during the booking process. Please note that tariff conditions are in English and can be accessed during booking.",
+      "section": "Ticket Receipt and Invoice Questions",
+      "topics": [
+        "booking",
+        "fares"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 40,
+      "created_at": "2025-07-31T10:48:34.008361"
+    }
+  },
+  {
+    "id": "UKC_FAQ_6",
+    "text": "Question: Why are my first and middle names sometimes combined without a space?\nAnswer: Your first and middle names are stored by our system as one continuous string without spaces. This is not an error and does not affect your booking validity.",
+    "metadata": {
+      "question": "Why are my first and middle names sometimes combined without a space?",
+      "answer": "Your first and middle names are stored by our system as one continuous string without spaces. This is not an error and does not affect your booking validity.",
+      "section": "Ticket Receipt and Invoice Questions",
+      "topics": [
+        "booking",
+        "timing"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 42,
+      "created_at": "2025-07-31T10:48:34.008363"
+    }
+  },
+  {
+    "id": "UKC_FAQ_1",
+    "text": "Question: How can I change my booking?\nAnswer: The ticket number must start with 812 (UKConnect ticket reference).  The ticket was not paid for by voucher or promotional code (exceptions apply; full voucher payments may allow online rebooking under certain circumstances).  There must be an active train booking for your ticket. Open tickets or tickets without corresponding journey segments cannot be rebooked online currently.  Currently, only single journey tickets or return tickets with direct routes (point-to-point) can be rebooked online.",
+    "metadata": {
+      "question": "How can I change my booking?",
+      "answer": "The ticket number must start with 812 (UKConnect ticket reference).  The ticket was not paid for by voucher or promotional code (exceptions apply; full voucher payments may allow online rebooking under certain circumstances).  There must be an active train booking for your ticket. Open tickets or tickets without corresponding journey segments cannot be rebooked online currently.  Currently, only single journey tickets or return tickets with direct routes (point-to-point) can be rebooked online.",
+      "section": "Booking and Cancellation",
+      "topics": [
+        "booking",
+        "payment",
+        "rebooking",
+        "modification"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 80,
+      "created_at": "2025-07-31T10:48:34.008367"
+    }
+  },
+  {
+    "id": "UKC_FAQ_2",
+    "text": "Question: Which tickets/bookings cannot be rebooked online currently?\nAnswer: Bookings containing journey segments with other rail operators  Bookings containing reservations where a ticket has not yet been issued  Bookings with multiple valid tickets for the same person and route  Tickets with a status other than \"Valid\"  Bookings with segments showing status other than \"Confirmed\" (e.g., containing segments with \"Waitlist\" status)  Tickets that do not display fare calculation (promotional tickets)  Bookings containing special services (e.g., bicycle transport, wheelchair assistance, pet transport)  Tickets that are part of a group booking * Tickets where the booking class does not correspond to the fare code",
+    "metadata": {
+      "question": "Which tickets/bookings cannot be rebooked online currently?",
+      "answer": "Bookings containing journey segments with other rail operators  Bookings containing reservations where a ticket has not yet been issued  Bookings with multiple valid tickets for the same person and route  Tickets with a status other than \"Valid\"  Bookings with segments showing status other than \"Confirmed\" (e.g., containing segments with \"Waitlist\" status)  Tickets that do not display fare calculation (promotional tickets)  Bookings containing special services (e.g., bicycle transport, wheelchair assistance, pet transport)  Tickets that are part of a group booking * Tickets where the booking class does not correspond to the fare code",
+      "section": "Booking and Cancellation",
+      "topics": [
+        "booking",
+        "fares",
+        "rebooking",
+        "modification"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 101,
+      "created_at": "2025-07-31T10:48:34.008372"
+    }
+  },
+  {
+    "id": "UKC_FAQ_3",
+    "text": "Question: Am I allowed to make changes to my online season ticket booking?\nAnswer: Season ticket bookings cannot yet be changed on ukconnect.com.",
+    "metadata": {
+      "question": "Am I allowed to make changes to my online season ticket booking?",
+      "answer": "Season ticket bookings cannot yet be changed on ukconnect.com.",
+      "section": "Booking and Cancellation",
+      "topics": [
+        "booking",
+        "modification"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 23,
+      "created_at": "2025-07-31T10:48:34.008374"
+    }
+  },
+  {
+    "id": "UKC_FAQ_4",
+    "text": "Question: What changes can I make to my ticket?\nAnswer: You can change the train service and travel dates. Changes to origin and destination stations or passenger name changes are not possible online.",
+    "metadata": {
+      "question": "What changes can I make to my ticket?",
+      "answer": "You can change the train service and travel dates. Changes to origin and destination stations or passenger name changes are not possible online.",
+      "section": "Booking and Cancellation",
+      "topics": [
+        "booking",
+        "modification"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 33,
+      "created_at": "2025-07-31T10:48:34.008376"
+    }
+  },
+  {
+    "id": "UKC_FAQ_5",
+    "text": "Question: After making changes to my itinerary online, can I make another change?\nAnswer: If fare conditions permit, multiple changes to the itinerary are possible.",
+    "metadata": {
+      "question": "After making changes to my itinerary online, can I make another change?",
+      "answer": "If fare conditions permit, multiple changes to the itinerary are possible.",
+      "section": "Booking and Cancellation",
+      "topics": [
+        "fares",
+        "modification"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 25,
+      "created_at": "2025-07-31T10:48:34.008378"
+    }
+  },
+  {
+    "id": "UKC_FAQ_6",
+    "text": "Question: Can a name be changed after booking?\nAnswer: The correct name(s) of the travelling passenger must be entered in the booking. First and last names must match travel documents exactly. Middle names are optional and can be added to the first name field, subject to character limitations.  First and middle names are stored without spaces - this is not an error and doesn't affect your booking. * Subsequent name changes, including adding names to tickets, are not permitted.",
+    "metadata": {
+      "question": "Can a name be changed after booking?",
+      "answer": "The correct name(s) of the travelling passenger must be entered in the booking. First and last names must match travel documents exactly. Middle names are optional and can be added to the first name field, subject to character limitations.  First and middle names are stored without spaces - this is not an error and doesn't affect your booking. * Subsequent name changes, including adding names to tickets, are not permitted.",
+      "section": "Booking and Cancellation",
+      "topics": [
+        "booking",
+        "modification"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 79,
+      "created_at": "2025-07-31T10:48:34.008382"
+    }
+  },
+  {
+    "id": "UKC_FAQ_7",
+    "text": "Question: Is it possible to apply changes to only some passengers in the same booking?\nAnswer: Changes apply to all passengers travelling together. Individual passenger name changes or adjustments to passenger numbers are not possible online.",
+    "metadata": {
+      "question": "Is it possible to apply changes to only some passengers in the same booking?",
+      "answer": "Changes apply to all passengers travelling together. Individual passenger name changes or adjustments to passenger numbers are not possible online.",
+      "section": "Booking and Cancellation",
+      "topics": [
+        "booking",
+        "modification"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 36,
+      "created_at": "2025-07-31T10:48:34.008384"
+    }
+  },
+  {
+    "id": "UKC_FAQ_8",
+    "text": "Question: Until what time before departure can a journey be rebooked online?\nAnswer: Online rebooking minimum times vary by departure station. For major stations, rebooking is possible up to 2 hours before departure.",
+    "metadata": {
+      "question": "Until what time before departure can a journey be rebooked online?",
+      "answer": "Online rebooking minimum times vary by departure station. For major stations, rebooking is possible up to 2 hours before departure.",
+      "section": "Booking and Cancellation",
+      "topics": [
+        "booking",
+        "rebooking",
+        "timing",
+        "modification"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 33,
+      "created_at": "2025-07-31T10:48:34.008386"
+    }
+  },
+  {
+    "id": "UKC_FAQ_9",
+    "text": "Question: Will differences in booking fees be refunded if the new journey choice is cheaper?\nAnswer: Online refunds are currently not available for fare differences.",
+    "metadata": {
+      "question": "Will differences in booking fees be refunded if the new journey choice is cheaper?",
+      "answer": "Online refunds are currently not available for fare differences.",
+      "section": "Booking and Cancellation",
+      "topics": [
+        "booking",
+        "payment",
+        "refund",
+        "fares"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 25,
+      "created_at": "2025-07-31T10:48:34.008388"
+    }
+  },
+  {
+    "id": "UKC_FAQ_10",
+    "text": "Question: Why isn't rebooking processed in the same currency as the original ticket?\nAnswer: Rebooking calculations are processed in GBP, the standard currency for UK rail travel.",
+    "metadata": {
+      "question": "Why isn't rebooking processed in the same currency as the original ticket?",
+      "answer": "Rebooking calculations are processed in GBP, the standard currency for UK rail travel.",
+      "section": "Booking and Cancellation",
+      "topics": [
+        "booking",
+        "fares",
+        "rebooking",
+        "modification"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 27,
+      "created_at": "2025-07-31T10:48:34.008390"
+    }
+  },
+  {
+    "id": "UKC_FAQ_11",
+    "text": "Question: Will my seat reservation be included in the rebooking?\nAnswer: Yes, your seat reservation will be transferred to the new booking where available.",
+    "metadata": {
+      "question": "Will my seat reservation be included in the rebooking?",
+      "answer": "Yes, your seat reservation will be transferred to the new booking where available.",
+      "section": "Booking and Cancellation",
+      "topics": [
+        "booking",
+        "rebooking",
+        "modification"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 24,
+      "created_at": "2025-07-31T10:48:34.008391"
+    }
+  },
+  {
+    "id": "UKC_FAQ_12",
+    "text": "Question: Will my meal preferences be included in the rebooking?\nAnswer: Yes, any special meal requests will be transferred to the new booking.",
+    "metadata": {
+      "question": "Will my meal preferences be included in the rebooking?",
+      "answer": "Yes, any special meal requests will be transferred to the new booking.",
+      "section": "Booking and Cancellation",
+      "topics": [
+        "booking",
+        "rebooking",
+        "modification"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 23,
+      "created_at": "2025-07-31T10:48:34.008393"
+    }
+  },
+  {
+    "id": "UKC_FAQ_13",
+    "text": "Question: Will my accessibility requirements be included in the rebooking?\nAnswer: Yes, your accessibility requirements will be transferred to the new booking.",
+    "metadata": {
+      "question": "Will my accessibility requirements be included in the rebooking?",
+      "answer": "Yes, your accessibility requirements will be transferred to the new booking.",
+      "section": "Booking and Cancellation",
+      "topics": [
+        "booking",
+        "rebooking",
+        "eligibility",
+        "modification"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 22,
+      "created_at": "2025-07-31T10:48:34.008395"
+    }
+  },
+  {
+    "id": "UKC_FAQ_14",
+    "text": "Question: Will travel insurance purchased through UKConnect be included in the new ticket?\nAnswer: Yes, travel insurance obtained through UKConnect will remain valid on the new ticket.",
+    "metadata": {
+      "question": "Will travel insurance purchased through UKConnect be included in the new ticket?",
+      "answer": "Yes, travel insurance obtained through UKConnect will remain valid on the new ticket.",
+      "section": "Booking and Cancellation",
+      "topics": [
+        "booking"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 27,
+      "created_at": "2025-07-31T10:48:34.008396"
+    }
+  },
+  {
+    "id": "UKC_FAQ_15",
+    "text": "Question: Will I receive a new booking reference after rebooking?\nAnswer: No, your booking reference remains the same after rebooking.",
+    "metadata": {
+      "question": "Will I receive a new booking reference after rebooking?",
+      "answer": "No, your booking reference remains the same after rebooking.",
+      "section": "Booking and Cancellation",
+      "topics": [
+        "booking",
+        "rebooking",
+        "modification"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 20,
+      "created_at": "2025-07-31T10:48:34.008398"
+    }
+  },
+  {
+    "id": "UKC_FAQ_16",
+    "text": "Question: Will I receive a new ticket number after rebooking?\nAnswer: Yes, you will receive a new ticket number after rebooking.",
+    "metadata": {
+      "question": "Will I receive a new ticket number after rebooking?",
+      "answer": "Yes, you will receive a new ticket number after rebooking.",
+      "section": "Booking and Cancellation",
+      "topics": [
+        "booking",
+        "rebooking",
+        "modification"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 21,
+      "created_at": "2025-07-31T10:48:34.008400"
+    }
+  },
+  {
+    "id": "UKC_FAQ_17",
+    "text": "Question: Can I change my booking after checking in online?\nAnswer: No, only tickets with \"Valid\" status can be changed online.",
+    "metadata": {
+      "question": "Can I change my booking after checking in online?",
+      "answer": "No, only tickets with \"Valid\" status can be changed online.",
+      "section": "Booking and Cancellation",
+      "topics": [
+        "booking",
+        "modification"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 21,
+      "created_at": "2025-07-31T10:48:34.008401"
+    }
+  },
+  {
+    "id": "UKC_FAQ_18",
+    "text": "Question: I want to change a rail journey that's part of a package purchased through a travel agent. What should I consider?\nAnswer: Changes on ukconnect.com are limited to the rail journey only. No changes to other package services (e.g., hotel, car hire) will be processed.",
+    "metadata": {
+      "question": "I want to change a rail journey that's part of a package purchased through a travel agent. What should I consider?",
+      "answer": "Changes on ukconnect.com are limited to the rail journey only. No changes to other package services (e.g., hotel, car hire) will be processed.",
+      "section": "Booking and Cancellation",
+      "topics": [
+        "modification"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 46,
+      "created_at": "2025-07-31T10:48:34.008404"
+    }
+  },
+  {
+    "id": "UKC_FAQ_19",
+    "text": "Question: I want to process an online change to a rail booking purchased through a travel agent. What should I consider?\nAnswer: You can change your rail booking online, but your travel agent will not have access to your new electronic ticket.",
+    "metadata": {
+      "question": "I want to process an online change to a rail booking purchased through a travel agent. What should I consider?",
+      "answer": "You can change your rail booking online, but your travel agent will not have access to your new electronic ticket.",
+      "section": "Booking and Cancellation",
+      "topics": [
+        "booking",
+        "modification"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 42,
+      "created_at": "2025-07-31T10:48:34.008406"
+    }
+  },
+  {
+    "id": "UKC_FAQ_1",
+    "text": "Question: Why can I no longer see all my bookings in my profile?\nAnswer: Bookings made before 15.03.2022 via your profile on ukconnect.com or in the UKConnect app are no longer visible. You can add them again if necessary.",
+    "metadata": {
+      "question": "Why can I no longer see all my bookings in my profile?",
+      "answer": "Bookings made before 15.03.2022 via your profile on ukconnect.com or in the UKConnect app are no longer visible. You can add them again if necessary.",
+      "section": "Booking Platform",
+      "topics": [
+        "booking"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 39,
+      "created_at": "2025-07-31T10:48:34.008408"
+    }
+  },
+  {
+    "id": "UKC_FAQ_2",
+    "text": "Question: Why can I no longer see third-party bookings in my profile?\nAnswer: To add third-party bookings, please use your smartphone. Via desktop and tablet, you can only add third-party bookings if you're part of the same booking as the profile owner.",
+    "metadata": {
+      "question": "Why can I no longer see third-party bookings in my profile?",
+      "answer": "To add third-party bookings, please use your smartphone. Via desktop and tablet, you can only add third-party bookings if you're part of the same booking as the profile owner.",
+      "section": "Booking Platform",
+      "topics": [
+        "booking"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 42,
+      "created_at": "2025-07-31T10:48:34.008411"
+    }
+  },
+  {
+    "id": "UKC_FAQ_3",
+    "text": "Question: Where can I see booking class information for fares?\nAnswer: On desktop and tablet, booking class information is displayed directly in the journey results.",
+    "metadata": {
+      "question": "Where can I see booking class information for fares?",
+      "answer": "On desktop and tablet, booking class information is displayed directly in the journey results.",
+      "section": "Booking Platform",
+      "topics": [
+        "booking",
+        "fares"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 25,
+      "created_at": "2025-07-31T10:48:34.008413"
+    }
+  },
+  {
+    "id": "UKC_FAQ_4",
+    "text": "Question: Where can I see train seating plans?\nAnswer: On desktop and tablet, seating plans are available directly in the journey results where applicable.",
+    "metadata": {
+      "question": "Where can I see train seating plans?",
+      "answer": "On desktop and tablet, seating plans are available directly in the journey results where applicable.",
+      "section": "Booking Platform",
+      "topics": [],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 24,
+      "created_at": "2025-07-31T10:48:34.008414"
+    }
+  },
+  {
+    "id": "UKC_FAQ_5",
+    "text": "Question: How do I arrange an upgrade?\nAnswer: On desktop and tablet, you can arrange upgrades after successful booking via Profile → My bookings → Edit booking → Book upgrade for this journey.",
+    "metadata": {
+      "question": "How do I arrange an upgrade?",
+      "answer": "On desktop and tablet, you can arrange upgrades after successful booking via Profile → My bookings → Edit booking → Book upgrade for this journey.",
+      "section": "Booking Platform",
+      "topics": [
+        "booking",
+        "modification"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 33,
+      "created_at": "2025-07-31T10:48:34.008417"
+    }
+  },
+  {
+    "id": "UKC_FAQ_6",
+    "text": "Question: How can I make bookings for more than 9 passengers?\nAnswer: Group bookings for more than 9 passengers can be arranged using our group booking form.",
+    "metadata": {
+      "question": "How can I make bookings for more than 9 passengers?",
+      "answer": "Group bookings for more than 9 passengers can be arranged using our group booking form.",
+      "section": "Booking Platform",
+      "topics": [
+        "booking"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 27,
+      "created_at": "2025-07-31T10:48:34.008419"
+    }
+  },
+  {
+    "id": "UKC_FAQ_7",
+    "text": "Question: Why don't I see saved payment card data from the UKConnect app on desktop?\nAnswer: Payment card data saving is device-specific. Cards saved via desktop/tablet are not available on mobile and vice versa.",
+    "metadata": {
+      "question": "Why don't I see saved payment card data from the UKConnect app on desktop?",
+      "answer": "Payment card data saving is device-specific. Cards saved via desktop/tablet are not available on mobile and vice versa.",
+      "section": "Booking Platform",
+      "topics": [
+        "payment"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 34,
+      "created_at": "2025-07-31T10:48:34.008421"
+    }
+  },
+  {
+    "id": "UKC_FAQ_8",
+    "text": "Question: Some functions aren't available on my smartphone. What can I do?\nAnswer: The following features are temporarily available only via desktop and tablet: Redeeming vouchers and promotion codes, Booking multi-leg journeys, Making rebookings.",
+    "metadata": {
+      "question": "Some functions aren't available on my smartphone. What can I do?",
+      "answer": "The following features are temporarily available only via desktop and tablet: Redeeming vouchers and promotion codes, Booking multi-leg journeys, Making rebookings.",
+      "section": "Booking Platform",
+      "topics": [
+        "booking",
+        "rebooking",
+        "modification"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 34,
+      "created_at": "2025-07-31T10:48:34.008423"
+    }
+  },
+  {
+    "id": "UKC_FAQ_9",
+    "text": "Question: Can I book connecting services with other rail operators?\nAnswer: Yes, you can choose from our partner rail operators across the UK rail network.",
+    "metadata": {
+      "question": "Can I book connecting services with other rail operators?",
+      "answer": "Yes, you can choose from our partner rail operators across the UK rail network.",
+      "section": "Booking Platform",
+      "topics": [
+        "booking"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 25,
+      "created_at": "2025-07-31T10:48:34.008425"
+    }
+  },
+  {
+    "id": "UKC_FAQ_10",
+    "text": "Question: What if I need further support?\nAnswer: You can contact our customer support team for assistance.",
+    "metadata": {
+      "question": "What if I need further support?",
+      "answer": "You can contact our customer support team for assistance.",
+      "section": "Booking Platform",
+      "topics": [],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 17,
+      "created_at": "2025-07-31T10:48:34.008427"
+    }
+  },
+  {
+    "id": "UKC_FAQ_1",
+    "text": "Question: What credit and debit cards are accepted?\nAnswer: Credit Cards Accepted: - Visa (including Visa Business, Visa Corporate) - Mastercard (including Mastercard Business, Mastercard Corporate) - American Express (including American Express Corporate, American Express Business) Debit Cards Accepted: - Visa Debit (UK and international) - Mastercard Debit (UK and international) - Maestro (UK and EU) - UK bank debit cards (all major UK banks) All cards must support 3-D Secure authentication for online transactions.",
+    "metadata": {
+      "question": "What credit and debit cards are accepted?",
+      "answer": "Credit Cards Accepted: - Visa (including Visa Business, Visa Corporate) - Mastercard (including Mastercard Business, Mastercard Corporate) - American Express (including American Express Corporate, American Express Business) Debit Cards Accepted: - Visa Debit (UK and international) - Mastercard Debit (UK and international) - Maestro (UK and EU) - UK bank debit cards (all major UK banks) All cards must support 3-D Secure authentication for online transactions.",
+      "section": "Comprehensive Payment Methods",
+      "topics": [
+        "payment",
+        "security",
+        "modification"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 75,
+      "created_at": "2025-07-31T10:48:34.008430"
+    }
+  },
+  {
+    "id": "UKC_FAQ_2",
+    "text": "Question: What digital payment methods are available?\nAnswer: Digital Wallets: - Apple Pay (iPhone, iPad, Apple Watch, Mac) - Google Pay (Android devices, web browsers) - Samsung Pay (Samsung devices) Online Payment Services: - PayPal (including PayPal Credit where eligible) - PayPal Business accounts for corporate bookings Contactless Payments: - All contactless-enabled credit/debit cards - Mobile contactless payments via digital wallets",
+    "metadata": {
+      "question": "What digital payment methods are available?",
+      "answer": "Digital Wallets: - Apple Pay (iPhone, iPad, Apple Watch, Mac) - Google Pay (Android devices, web browsers) - Samsung Pay (Samsung devices) Online Payment Services: - PayPal (including PayPal Credit where eligible) - PayPal Business accounts for corporate bookings Contactless Payments: - All contactless-enabled credit/debit cards - Mobile contactless payments via digital wallets",
+      "section": "Comprehensive Payment Methods",
+      "topics": [
+        "booking",
+        "payment",
+        "eligibility",
+        "modification"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 61,
+      "created_at": "2025-07-31T10:48:34.008433"
+    }
+  },
+  {
+    "id": "UKC_FAQ_3",
+    "text": "Question: How does the Pay Monthly / PayLater service work?\nAnswer: PayLater allows UK residents over 18 to book now and pay later with flexible payment options: - Individual invoices: Pay within 15 days of email receipt (no fees if paid on time) - Monthly statements: Consolidated billing with £2.50 processing fee - Partial payments accepted (10-100% of total amount) - ID verification required for first use - Credit assessment determines eligibility Late payment fees: £12 first reminder, £20 second reminder.",
+    "metadata": {
+      "question": "How does the Pay Monthly / PayLater service work?",
+      "answer": "PayLater allows UK residents over 18 to book now and pay later with flexible payment options: - Individual invoices: Pay within 15 days of email receipt (no fees if paid on time) - Monthly statements: Consolidated billing with £2.50 processing fee - Partial payments accepted (10-100% of total amount) - ID verification required for first use - Credit assessment determines eligibility Late payment fees: £12 first reminder, £20 second reminder.",
+      "section": "Comprehensive Payment Methods",
+      "topics": [
+        "payment",
+        "fares",
+        "invoice",
+        "security",
+        "timing",
+        "booking",
+        "modification"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 81,
+      "created_at": "2025-07-31T10:48:34.008438"
+    }
+  },
+  {
+    "id": "UKC_FAQ_4",
+    "text": "Question: What corporate payment options are available?\nAnswer: Corporate Cards: - Visa Business and Corporate cards - Mastercard Business and Corporate cards - American Express Corporate cards - Purchase cards and procurement cards Business Payment Methods: - Direct billing accounts (30-day payment terms) - Purchase order systems for large organizations - Corporate PayPal Business accounts - Bank transfers for high-value group bookings Invoice Processing: - Detailed VAT invoices with expense coding - Multiple cost center allocation available - Integration with expense management systems",
+    "metadata": {
+      "question": "What corporate payment options are available?",
+      "answer": "Corporate Cards: - Visa Business and Corporate cards - Mastercard Business and Corporate cards - American Express Corporate cards - Purchase cards and procurement cards Business Payment Methods: - Direct billing accounts (30-day payment terms) - Purchase order systems for large organizations - Corporate PayPal Business accounts - Bank transfers for high-value group bookings Invoice Processing: - Detailed VAT invoices with expense coding - Multiple cost center allocation available - Integration with expense management systems",
+      "section": "Comprehensive Payment Methods",
+      "topics": [
+        "booking",
+        "invoice",
+        "payment"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 83,
+      "created_at": "2025-07-31T10:48:34.008442"
+    }
+  },
+  {
+    "id": "UKC_FAQ_5",
+    "text": "Question: Are there any payment method restrictions or fees?\nAnswer: No Additional Fees: - No surcharges for any accepted payment methods - No booking fees for standard transactions - Currency conversion available at bank rates (no markup) Payment Restrictions: - Prepaid cards may be declined by fraud prevention systems - Gift cards and store cards are not accepted - Cash payments only accepted at station ticket offices - Cheques are not accepted for online bookings International Considerations: - International cards welcome with standard bank foreign exchange rates - Some international banks may charge foreign transaction fees (UKConnect does not control these)",
+    "metadata": {
+      "question": "Are there any payment method restrictions or fees?",
+      "answer": "No Additional Fees: - No surcharges for any accepted payment methods - No booking fees for standard transactions - Currency conversion available at bank rates (no markup) Payment Restrictions: - Prepaid cards may be declined by fraud prevention systems - Gift cards and store cards are not accepted - Cash payments only accepted at station ticket offices - Cheques are not accepted for online bookings International Considerations: - International cards welcome with standard bank foreign exchange rates - Some international banks may charge foreign transaction fees (UKConnect does not control these)",
+      "section": "Comprehensive Payment Methods",
+      "topics": [
+        "booking",
+        "payment",
+        "fares",
+        "modification"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 101,
+      "created_at": "2025-07-31T10:48:34.008446"
+    }
+  },
+  {
+    "id": "UKC_FAQ_6",
+    "text": "Question: What happens if my payment fails or is declined?\nAnswer: Common Decline Reasons: - Insufficient funds or credit limit exceeded - 3-D Secure authentication failure - Card issuer fraud prevention triggers - Expired or inactive payment method Resolution Steps: 1. Verify card details and billing address match exactly 2. Contact your bank to authorize the transaction 3. Try an alternative payment method 4. For persistent issues, call our payment support line at 0800-123-7893 Payment Hold Policy: Failed payments may result in a 24-hour hold on repeated booking attempts using the same payment method.",
+    "metadata": {
+      "question": "What happens if my payment fails or is declined?",
+      "answer": "Common Decline Reasons: - Insufficient funds or credit limit exceeded - 3-D Secure authentication failure - Card issuer fraud prevention triggers - Expired or inactive payment method Resolution Steps: 1. Verify card details and billing address match exactly 2. Contact your bank to authorize the transaction 3. Try an alternative payment method 4. For persistent issues, call our payment support line at 0800-123-7893 Payment Hold Policy: Failed payments may result in a 24-hour hold on repeated booking attempts using the same payment method.",
+      "section": "Comprehensive Payment Methods",
+      "topics": [
+        "payment",
+        "invoice",
+        "security",
+        "booking",
+        "modification"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 94,
+      "created_at": "2025-07-31T10:48:34.008450"
+    }
+  },
+  {
+    "id": "UKC_FAQ_7",
+    "text": "Question: How are refunds processed back to different payment methods?\nAnswer: Refund Processing Times: - Credit/Debit Cards: 3-5 business days - PayPal: 1-3 business days - Digital Wallets: 1-3 business days - PayLater: Adjusted invoice or account credit - Corporate Accounts: Bank transfer or account credit Refund Policies: - Refunds always return to original payment method - Partial refunds maintain original payment method - Corporate bookings can redirect refunds to different accounts with authorization - International refunds processed in original transaction currency",
+    "metadata": {
+      "question": "How are refunds processed back to different payment methods?",
+      "answer": "Refund Processing Times: - Credit/Debit Cards: 3-5 business days - PayPal: 1-3 business days - Digital Wallets: 1-3 business days - PayLater: Adjusted invoice or account credit - Corporate Accounts: Bank transfer or account credit Refund Policies: - Refunds always return to original payment method - Partial refunds maintain original payment method - Corporate bookings can redirect refunds to different accounts with authorization - International refunds processed in original transaction currency",
+      "section": "Comprehensive Payment Methods",
+      "topics": [
+        "payment",
+        "refund",
+        "invoice",
+        "timing",
+        "booking",
+        "modification"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 82,
+      "created_at": "2025-07-31T10:48:34.008454"
+    }
+  },
+  {
+    "id": "UKC_FAQ_1",
+    "text": "Question: Why do train prices vary throughout the day?\nAnswer: Train pricing follows demand-based and time-of-day structures. Peak hours (7-9 AM, 5-7 PM weekdays) have higher demand and premium pricing. Off-peak and Super Off-peak times offer discounted fares to encourage travel during quieter periods. Weekend pricing typically follows off-peak rates except for popular tourist routes.",
+    "metadata": {
+      "question": "Why do train prices vary throughout the day?",
+      "answer": "Train pricing follows demand-based and time-of-day structures. Peak hours (7-9 AM, 5-7 PM weekdays) have higher demand and premium pricing. Off-peak and Super Off-peak times offer discounted fares to encourage travel during quieter periods. Weekend pricing typically follows off-peak rates except for popular tourist routes.",
+      "section": "Pricing & Fare Structure",
+      "topics": [
+        "timing",
+        "fares"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 55,
+      "created_at": "2025-07-31T10:48:34.008457"
+    }
+  },
+  {
+    "id": "UKC_FAQ_2",
+    "text": "Question: What are the specific off-peak times and discounts?\nAnswer: Off-Peak Times: - Weekdays: 9:30 AM - 4:30 PM, after 7:00 PM - Weekends: All day Saturday and Sunday - Public holidays: All day Super Off-Peak Times: - Weekdays: 10:00 AM - 3:30 PM, after 8:00 PM - Weekends: All day Off-peak discounts range from 20-40% off peak fares. Super off-peak offers 30-50% discounts. Specific times may vary by route and are clearly displayed during booking.",
+    "metadata": {
+      "question": "What are the specific off-peak times and discounts?",
+      "answer": "Off-Peak Times: - Weekdays: 9:30 AM - 4:30 PM, after 7:00 PM - Weekends: All day Saturday and Sunday - Public holidays: All day Super Off-Peak Times: - Weekdays: 10:00 AM - 3:30 PM, after 8:00 PM - Weekends: All day Off-peak discounts range from 20-40% off peak fares. Super off-peak offers 30-50% discounts. Specific times may vary by route and are clearly displayed during booking.",
+      "section": "Pricing & Fare Structure",
+      "topics": [
+        "booking",
+        "timing",
+        "fares"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 76,
+      "created_at": "2025-07-31T10:48:34.008460"
+    }
+  },
+  {
+    "id": "UKC_FAQ_3",
+    "text": "Question: How are fare categories A-H and J-S structured?\nAnswer: Fare categories indicate pricing levels within each class: - A-H (Standard Class): A is most expensive peak fare, H is cheapest off-peak - J-M (First Class): J is premium peak fare, M is discounted off-peak - P-S (Advance/Promotional): Special advance purchase and promotional fares Each category has different flexibility, cancellation terms, and availability windows. Higher letter categories generally offer more restrictions but lower prices.",
+    "metadata": {
+      "question": "How are fare categories A-H and J-S structured?",
+      "answer": "Fare categories indicate pricing levels within each class: - A-H (Standard Class): A is most expensive peak fare, H is cheapest off-peak - J-M (First Class): J is premium peak fare, M is discounted off-peak - P-S (Advance/Promotional): Special advance purchase and promotional fares Each category has different flexibility, cancellation terms, and availability windows. Higher letter categories generally offer more restrictions but lower prices.",
+      "section": "Pricing & Fare Structure",
+      "topics": [
+        "cancellation",
+        "fares"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 74,
+      "created_at": "2025-07-31T10:48:34.008464"
+    }
+  },
+  {
+    "id": "UKC_FAQ_4",
+    "text": "Question: What determines the price difference between Standard and Flexible fares?\nAnswer: Flexible fares cost 15-35% more than Standard fares but include: free cancellation up to 24 hours before departure, free changes up to 2 hours before departure, no advance purchase requirements, and full refunds for delays over 2 hours. Standard fares have restricted change/cancellation policies but offer significant savings.",
+    "metadata": {
+      "question": "What determines the price difference between Standard and Flexible fares?",
+      "answer": "Flexible fares cost 15-35% more than Standard fares but include: free cancellation up to 24 hours before departure, free changes up to 2 hours before departure, no advance purchase requirements, and full refunds for delays over 2 hours. Standard fares have restricted change/cancellation policies but offer significant savings.",
+      "section": "Pricing & Fare Structure",
+      "topics": [
+        "payment",
+        "refund",
+        "fares",
+        "cancellation",
+        "eligibility",
+        "timing",
+        "modification"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 60,
+      "created_at": "2025-07-31T10:48:34.008467"
+    }
+  },
+  {
+    "id": "UKC_FAQ_5",
+    "text": "Question: Are there seasonal pricing variations?\nAnswer: Yes, seasonal variations apply to popular routes: - Summer (June-August): 10-25% premium on tourist routes - Christmas/New Year (Dec 20-Jan 5): 15-30% premium on most routes - Bank holidays: 10-20% premium depending on route popularity - School holidays: Variable pricing on family-oriented routes Advance booking (7+ days) can minimize seasonal premiums.",
+    "metadata": {
+      "question": "Are there seasonal pricing variations?",
+      "answer": "Yes, seasonal variations apply to popular routes: - Summer (June-August): 10-25% premium on tourist routes - Christmas/New Year (Dec 20-Jan 5): 15-30% premium on most routes - Bank holidays: 10-20% premium depending on route popularity - School holidays: Variable pricing on family-oriented routes Advance booking (7+ days) can minimize seasonal premiums.",
+      "section": "Pricing & Fare Structure",
+      "topics": [
+        "booking",
+        "timing",
+        "fares"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 58,
+      "created_at": "2025-07-31T10:48:34.008470"
+    }
+  },
+  {
+    "id": "UKC_FAQ_6",
+    "text": "Question: How does distance affect pricing?\nAnswer: UKConnect uses zone-based pricing combined with distance calculations. Short journeys (under 50 miles) have flat-rate pricing. Medium distances (50-200 miles) use linear distance pricing. Long journeys (200+ miles) include zone premiums for major city connections and may offer better per-mile value for advance bookings.",
+    "metadata": {
+      "question": "How does distance affect pricing?",
+      "answer": "UKConnect uses zone-based pricing combined with distance calculations. Short journeys (under 50 miles) have flat-rate pricing. Medium distances (50-200 miles) use linear distance pricing. Long journeys (200+ miles) include zone premiums for major city connections and may offer better per-mile value for advance bookings.",
+      "section": "Pricing & Fare Structure",
+      "topics": [
+        "booking",
+        "fares"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 51,
+      "created_at": "2025-07-31T10:48:34.008472"
+    }
+  },
+  {
+    "id": "UKC_FAQ_7",
+    "text": "Question: What are the current price ranges for major routes?\nAnswer: Sample Route Pricing (Standard/Flexible/First Class): - London-Manchester: £45-65 / £60-85 / £95-140 - London-Edinburgh: £65-95 / £85-125 / £145-220 - Birmingham-Glasgow: £55-80 / £75-105 / £120-180 - Liverpool-London: £50-75 / £70-95 / £110-165 Prices vary by time, season, and advance booking. Super off-peak and advance fares can be 40-60% lower than peak walk-up fares.",
+    "metadata": {
+      "question": "What are the current price ranges for major routes?",
+      "answer": "Sample Route Pricing (Standard/Flexible/First Class): - London-Manchester: £45-65 / £60-85 / £95-140 - London-Edinburgh: £65-95 / £85-125 / £145-220 - Birmingham-Glasgow: £55-80 / £75-105 / £120-180 - Liverpool-London: £50-75 / £70-95 / £110-165 Prices vary by time, season, and advance booking. Super off-peak and advance fares can be 40-60% lower than peak walk-up fares.",
+      "section": "Pricing & Fare Structure",
+      "topics": [
+        "booking",
+        "timing",
+        "fares"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 65,
+      "created_at": "2025-07-31T10:48:34.008477"
+    }
+  },
+  {
+    "id": "UKC_FAQ_1",
+    "text": "Question: Are student discounts available on UKConnect services?\nAnswer: Yes, UKConnect offers student discounts up to 34% off Standard and Flexible fares for full-time students aged 16-25. Students must register with a valid student ID and .ac.uk email address. The discount applies to off-peak and selected peak services across our network.",
+    "metadata": {
+      "question": "Are student discounts available on UKConnect services?",
+      "answer": "Yes, UKConnect offers student discounts up to 34% off Standard and Flexible fares for full-time students aged 16-25. Students must register with a valid student ID and .ac.uk email address. The discount applies to off-peak and selected peak services across our network.",
+      "section": "Student Discounts & Special Fares",
+      "topics": [
+        "timing",
+        "fares"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 51,
+      "created_at": "2025-07-31T10:48:34.008479"
+    }
+  },
+  {
+    "id": "UKC_FAQ_2",
+    "text": "Question: How do I apply for a student discount?\nAnswer: Register online at ukconnect.com/students with your student ID, full-time enrollment verification, and university email address. You'll receive a student railcard number that can be applied during booking. The railcard costs £30 annually and pays for itself with just a few journeys.",
+    "metadata": {
+      "question": "How do I apply for a student discount?",
+      "answer": "Register online at ukconnect.com/students with your student ID, full-time enrollment verification, and university email address. You'll receive a student railcard number that can be applied during booking. The railcard costs £30 annually and pays for itself with just a few journeys.",
+      "section": "Student Discounts & Special Fares",
+      "topics": [
+        "booking",
+        "payment",
+        "timing",
+        "security"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 51,
+      "created_at": "2025-07-31T10:48:34.008482"
+    }
+  },
+  {
+    "id": "UKC_FAQ_3",
+    "text": "Question: What is UKConnect's best price guarantee?\nAnswer: If you find a lower fare for the same journey on a competitor's website within 24 hours of booking, we'll refund the difference plus an additional 10% discount voucher. This applies to Standard and Flexible fares on like-for-like services. Submit price match requests through our website with competitor booking details.",
+    "metadata": {
+      "question": "What is UKConnect's best price guarantee?",
+      "answer": "If you find a lower fare for the same journey on a competitor's website within 24 hours of booking, we'll refund the difference plus an additional 10% discount voucher. This applies to Standard and Flexible fares on like-for-like services. Submit price match requests through our website with competitor booking details.",
+      "section": "Student Discounts & Special Fares",
+      "topics": [
+        "booking",
+        "timing",
+        "refund",
+        "fares"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 58,
+      "created_at": "2025-07-31T10:48:34.008485"
+    }
+  },
+  {
+    "id": "UKC_FAQ_4",
+    "text": "Question: Do student discounts apply to First Class tickets?\nAnswer: Student discounts apply to Standard and Flexible fares only. However, students can upgrade to First Class at a reduced rate when purchasing their initial ticket. Student upgrades to First Class receive a 20% discount off the standard upgrade fee.",
+    "metadata": {
+      "question": "Do student discounts apply to First Class tickets?",
+      "answer": "Student discounts apply to Standard and Flexible fares only. However, students can upgrade to First Class at a reduced rate when purchasing their initial ticket. Student upgrades to First Class receive a 20% discount off the standard upgrade fee.",
+      "section": "Student Discounts & Special Fares",
+      "topics": [
+        "booking",
+        "payment",
+        "fares"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 49,
+      "created_at": "2025-07-31T10:48:34.008488"
+    }
+  },
+  {
+    "id": "UKC_FAQ_5",
+    "text": "Question: Can students use the student discount with other promotional offers?\nAnswer: Student discounts cannot be combined with other promotional codes or group booking discounts. However, the student discount automatically applies to the lowest available fare in each booking class, ensuring you always receive the best student price.",
+    "metadata": {
+      "question": "Can students use the student discount with other promotional offers?",
+      "answer": "Student discounts cannot be combined with other promotional codes or group booking discounts. However, the student discount automatically applies to the lowest available fare in each booking class, ensuring you always receive the best student price.",
+      "section": "Student Discounts & Special Fares",
+      "topics": [
+        "booking",
+        "fares"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 48,
+      "created_at": "2025-07-31T10:48:34.008491"
+    }
+  },
+  {
+    "id": "UKC_FAQ_6",
+    "text": "Question: What happens if I book without applying my student discount?\nAnswer: If you forget to apply your student discount during booking, contact customer service within 24 hours with your booking reference and student railcard number. We can process a partial refund for the discount amount for bookings that haven't been used for travel.",
+    "metadata": {
+      "question": "What happens if I book without applying my student discount?",
+      "answer": "If you forget to apply your student discount during booking, contact customer service within 24 hours with your booking reference and student railcard number. We can process a partial refund for the discount amount for bookings that haven't been used for travel.",
+      "section": "Student Discounts & Special Fares",
+      "topics": [
+        "booking",
+        "payment",
+        "timing",
+        "refund"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 54,
+      "created_at": "2025-07-31T10:48:34.008504"
+    }
+  },
+  {
+    "id": "UKC_FAQ_7",
+    "text": "Question: Are there age restrictions for student discounts?\nAnswer: Student discounts are available for full-time students aged 16-25 enrolled in recognized UK educational institutions. Part-time students may be eligible with additional verification. Apprentices and vocational students qualify with appropriate documentation from their training provider.",
+    "metadata": {
+      "question": "Are there age restrictions for student discounts?",
+      "answer": "Student discounts are available for full-time students aged 16-25 enrolled in recognized UK educational institutions. Part-time students may be eligible with additional verification. Apprentices and vocational students qualify with appropriate documentation from their training provider.",
+      "section": "Student Discounts & Special Fares",
+      "topics": [
+        "security",
+        "timing",
+        "eligibility"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 44,
+      "created_at": "2025-07-31T10:48:34.008506"
+    }
+  },
+  {
+    "id": "UKC_FAQ_1",
+    "text": "Question: Are mobile tickets accepted on UKConnect trains?\nAnswer: Yes, mobile tickets are fully accepted on all UKConnect services. You can display your e-ticket confirmation on your smartphone screen to train staff and ticket inspectors. Mobile tickets are stored securely in the UKConnect app and can be accessed offline once downloaded.",
+    "metadata": {
+      "question": "Are mobile tickets accepted on UKConnect trains?",
+      "answer": "Yes, mobile tickets are fully accepted on all UKConnect services. You can display your e-ticket confirmation on your smartphone screen to train staff and ticket inspectors. Mobile tickets are stored securely in the UKConnect app and can be accessed offline once downloaded.",
+      "section": "Mobile Ticketing & Digital Services",
+      "topics": [
+        "booking",
+        "invoice"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 51,
+      "created_at": "2025-07-31T10:48:34.008509"
+    }
+  },
+  {
+    "id": "UKC_FAQ_2",
+    "text": "Question: Can I manage my bookings through the UKConnect mobile app?\nAnswer: Yes, the UKConnect app allows you to view, modify, and cancel bookings. You can access your booking history, download mobile tickets, receive real-time journey updates, and manage your customer profile. However, some advanced features like voucher redemption and complex multi-leg bookings are currently available only via desktop.",
+    "metadata": {
+      "question": "Can I manage my bookings through the UKConnect mobile app?",
+      "answer": "Yes, the UKConnect app allows you to view, modify, and cancel bookings. You can access your booking history, download mobile tickets, receive real-time journey updates, and manage your customer profile. However, some advanced features like voucher redemption and complex multi-leg bookings are currently available only via desktop.",
+      "section": "Mobile Ticketing & Digital Services",
+      "topics": [
+        "booking",
+        "timing",
+        "cancellation",
+        "modification"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 59,
+      "created_at": "2025-07-31T10:48:34.008512"
+    }
+  },
+  {
+    "id": "UKC_FAQ_3",
+    "text": "Question: What happens if my phone battery dies and I can't show my mobile ticket?\nAnswer: If your mobile device is unavailable, you can provide your booking reference number to train staff who can verify your ticket in their system. We recommend taking a screenshot of your ticket or noting your booking reference as backup. Physical tickets can be collected from station machines using your booking reference if needed.",
+    "metadata": {
+      "question": "What happens if my phone battery dies and I can't show my mobile ticket?",
+      "answer": "If your mobile device is unavailable, you can provide your booking reference number to train staff who can verify your ticket in their system. We recommend taking a screenshot of your ticket or noting your booking reference as backup. Physical tickets can be collected from station machines using your booking reference if needed.",
+      "section": "Mobile Ticketing & Digital Services",
+      "topics": [
+        "booking"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 69,
+      "created_at": "2025-07-31T10:48:34.008515"
+    }
+  },
+  {
+    "id": "UKC_FAQ_4",
+    "text": "Question: Can I transfer mobile tickets to another device?\nAnswer: Mobile tickets are linked to your UKConnect account and can be accessed from any device where you log in to the app or website. However, tickets cannot be transferred to other people's accounts or devices without proper rebooking procedures.",
+    "metadata": {
+      "question": "Can I transfer mobile tickets to another device?",
+      "answer": "Mobile tickets are linked to your UKConnect account and can be accessed from any device where you log in to the app or website. However, tickets cannot be transferred to other people's accounts or devices without proper rebooking procedures.",
+      "section": "Mobile Ticketing & Digital Services",
+      "topics": [
+        "booking",
+        "rebooking",
+        "modification"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 49,
+      "created_at": "2025-07-31T10:48:34.008518"
+    }
+  },
+  {
+    "id": "UKC_FAQ_5",
+    "text": "Question: Are there any limitations with mobile tickets compared to physical tickets?\nAnswer: Mobile tickets have the same functionality as physical tickets. However, some station facilities and partner services may have limited smartphone integration. For business expense purposes, mobile tickets serve as valid receipts and can be forwarded to accounting departments.",
+    "metadata": {
+      "question": "Are there any limitations with mobile tickets compared to physical tickets?",
+      "answer": "Mobile tickets have the same functionality as physical tickets. However, some station facilities and partner services may have limited smartphone integration. For business expense purposes, mobile tickets serve as valid receipts and can be forwarded to accounting departments.",
+      "section": "Mobile Ticketing & Digital Services",
+      "topics": [
+        "booking",
+        "invoice"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 51,
+      "created_at": "2025-07-31T10:48:34.008520"
+    }
+  },
+  {
+    "id": "UKC_FAQ_1",
+    "text": "Question: Can I transfer my ticket to another person?\nAnswer: Standard and First Class tickets are non-transferable between passengers. The passenger name must match valid photo ID for travel. However, Flexible fares allow name changes up to 24 hours before departure for a £25 administration fee, provided the new passenger meets all travel requirements.",
+    "metadata": {
+      "question": "Can I transfer my ticket to another person?",
+      "answer": "Standard and First Class tickets are non-transferable between passengers. The passenger name must match valid photo ID for travel. However, Flexible fares allow name changes up to 24 hours before departure for a £25 administration fee, provided the new passenger meets all travel requirements.",
+      "section": "Ticket Modifications & Transfers",
+      "topics": [
+        "payment",
+        "fares",
+        "timing",
+        "eligibility",
+        "booking",
+        "modification"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 54,
+      "created_at": "2025-07-31T10:48:34.008524"
+    }
+  },
+  {
+    "id": "UKC_FAQ_2",
+    "text": "Question: What are the detailed fees for ticket modifications?\nAnswer: Modification fees vary by fare type: Standard fares incur £25-£75 change fees depending on timing and route. Flexible fares allow free changes up to 2 hours before departure. First Class tickets have change fees of £25-£100. Same-day changes cost an additional £15. Weekend and peak-time changes may incur premium rates.",
+    "metadata": {
+      "question": "What are the detailed fees for ticket modifications?",
+      "answer": "Modification fees vary by fare type: Standard fares incur £25-£75 change fees depending on timing and route. Flexible fares allow free changes up to 2 hours before departure. First Class tickets have change fees of £25-£100. Same-day changes cost an additional £15. Weekend and peak-time changes may incur premium rates.",
+      "section": "Ticket Modifications & Transfers",
+      "topics": [
+        "payment",
+        "fares",
+        "timing",
+        "booking",
+        "modification"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 60,
+      "created_at": "2025-07-31T10:48:34.008527"
+    }
+  },
+  {
+    "id": "UKC_FAQ_3",
+    "text": "Question: Can I change my ticket to a different route or destination?\nAnswer: Route changes are treated as new bookings rather than modifications. You must cancel your original ticket (subject to cancellation fees) and purchase a new ticket for the different route. The price difference and applicable fees will apply. This policy ensures fare integrity across our network pricing structure.",
+    "metadata": {
+      "question": "Can I change my ticket to a different route or destination?",
+      "answer": "Route changes are treated as new bookings rather than modifications. You must cancel your original ticket (subject to cancellation fees) and purchase a new ticket for the different route. The price difference and applicable fees will apply. This policy ensures fare integrity across our network pricing structure.",
+      "section": "Ticket Modifications & Transfers",
+      "topics": [
+        "payment",
+        "fares",
+        "cancellation",
+        "booking",
+        "modification"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 60,
+      "created_at": "2025-07-31T10:48:34.008530"
+    }
+  },
+  {
+    "id": "UKC_FAQ_4",
+    "text": "Question: How late can I modify my booking before departure?\nAnswer: Online modifications are possible up to 2 hours before departure for most stations. Major stations like London terminals, Manchester Piccadilly, and Birmingham New Street allow changes up to 1 hour before departure. Station ticket offices can process changes up to 30 minutes before departure with additional fees.",
+    "metadata": {
+      "question": "How late can I modify my booking before departure?",
+      "answer": "Online modifications are possible up to 2 hours before departure for most stations. Major stations like London terminals, Manchester Piccadilly, and Birmingham New Street allow changes up to 1 hour before departure. Station ticket offices can process changes up to 30 minutes before departure with additional fees.",
+      "section": "Ticket Modifications & Transfers",
+      "topics": [
+        "booking",
+        "payment",
+        "timing",
+        "modification"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 58,
+      "created_at": "2025-07-31T10:48:34.008533"
+    }
+  },
+  {
+    "id": "UKC_FAQ_5",
+    "text": "Question: What happens if I miss my train after modifying my booking?\nAnswer: If you miss your rescheduled train, the same fare conditions apply as your modified ticket type. Flexible fare holders can take the next available service without additional charges. Standard fare holders must purchase a new ticket unless they have valid reasons (medical emergency, transport delays affecting your journey to the station).",
+    "metadata": {
+      "question": "What happens if I miss my train after modifying my booking?",
+      "answer": "If you miss your rescheduled train, the same fare conditions apply as your modified ticket type. Flexible fare holders can take the next available service without additional charges. Standard fare holders must purchase a new ticket unless they have valid reasons (medical emergency, transport delays affecting your journey to the station).",
+      "section": "Ticket Modifications & Transfers",
+      "topics": [
+        "booking",
+        "payment",
+        "fares",
+        "modification"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 64,
+      "created_at": "2025-07-31T10:48:34.008536"
+    }
+  },
+  {
+    "id": "UKC_FAQ_6",
+    "text": "Question: Can I modify tickets purchased with promotional codes or vouchers?\nAnswer: Tickets purchased with promotional codes or vouchers have restricted modification rights. Most promotional fares allow date/time changes for a higher fee (£35-£50) but route changes are not permitted. Voucher-purchased tickets must be cancelled and rebought if significant changes are needed, subject to voucher terms.",
+    "metadata": {
+      "question": "Can I modify tickets purchased with promotional codes or vouchers?",
+      "answer": "Tickets purchased with promotional codes or vouchers have restricted modification rights. Most promotional fares allow date/time changes for a higher fee (£35-£50) but route changes are not permitted. Voucher-purchased tickets must be cancelled and rebought if significant changes are needed, subject to voucher terms.",
+      "section": "Ticket Modifications & Transfers",
+      "topics": [
+        "payment",
+        "fares",
+        "timing",
+        "cancellation",
+        "booking",
+        "modification"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 56,
+      "created_at": "2025-07-31T10:48:34.008540"
+    }
+  },
+  {
+    "id": "UKC_FAQ_7",
+    "text": "Question: Are group booking modifications handled differently?\nAnswer: Group bookings (3+ passengers) can be modified up to 48 hours before departure. Individual passenger changes within a group booking incur standard modification fees per person. Entire group modifications may qualify for reduced per-person fees. Groups of 10+ passengers receive dedicated support for complex modifications.",
+    "metadata": {
+      "question": "Are group booking modifications handled differently?",
+      "answer": "Group bookings (3+ passengers) can be modified up to 48 hours before departure. Individual passenger changes within a group booking incur standard modification fees per person. Entire group modifications may qualify for reduced per-person fees. Groups of 10+ passengers receive dedicated support for complex modifications.",
+      "section": "Ticket Modifications & Transfers",
+      "topics": [
+        "payment",
+        "fares",
+        "timing",
+        "eligibility",
+        "booking",
+        "modification"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 53,
+      "created_at": "2025-07-31T10:48:34.008543"
+    }
+  },
+  {
+    "id": "UKC_FAQ_1",
+    "text": "Question: What is the specific 24-hour cancellation policy for Flexible fares?\nAnswer: Flexible fares can be cancelled up to 24 hours before scheduled departure without any penalty fees, receiving a full refund to the original payment method. Cancellations within 24 hours but more than 2 hours before departure incur a £15 service fee. Cancellations within 2 hours of departure forfeit 50% of the ticket value as a cancellation fee.",
+    "metadata": {
+      "question": "What is the specific 24-hour cancellation policy for Flexible fares?",
+      "answer": "Flexible fares can be cancelled up to 24 hours before scheduled departure without any penalty fees, receiving a full refund to the original payment method. Cancellations within 24 hours but more than 2 hours before departure incur a £15 service fee. Cancellations within 2 hours of departure forfeit 50% of the ticket value as a cancellation fee.",
+      "section": "Flexible Fare Policies",
+      "topics": [
+        "payment",
+        "refund",
+        "fares",
+        "timing",
+        "cancellation",
+        "booking"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 69,
+      "created_at": "2025-07-31T10:48:34.008547"
+    }
+  },
+  {
+    "id": "UKC_FAQ_2",
+    "text": "Question: How do Flexible fare changes work compared to Standard fares?\nAnswer: Flexible fares allow unlimited free changes (date, time, train service) up to 2 hours before departure. Changes within 2 hours incur a £10 same-day change fee. Standard fares require £25-£75 change fees depending on timing and route, with no free change window. First Class Flexible fares follow the same terms but apply to First Class inventory.",
+    "metadata": {
+      "question": "How do Flexible fare changes work compared to Standard fares?",
+      "answer": "Flexible fares allow unlimited free changes (date, time, train service) up to 2 hours before departure. Changes within 2 hours incur a £10 same-day change fee. Standard fares require £25-£75 change fees depending on timing and route, with no free change window. First Class Flexible fares follow the same terms but apply to First Class inventory.",
+      "section": "Flexible Fare Policies",
+      "topics": [
+        "fares",
+        "payment",
+        "timing",
+        "modification"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 68,
+      "created_at": "2025-07-31T10:48:34.008551"
+    }
+  },
+  {
+    "id": "UKC_FAQ_3",
+    "text": "Question: Can Flexible fare holders take any train on their travel date?\nAnswer: Yes, Flexible fare holders can take any UKConnect service on their booked date without advance rebooking. If your original train is cancelled or significantly delayed, you can board any alternative service that day. This same-day flexibility is the key benefit distinguishing Flexible from Standard fares.",
+    "metadata": {
+      "question": "Can Flexible fare holders take any train on their travel date?",
+      "answer": "Yes, Flexible fare holders can take any UKConnect service on their booked date without advance rebooking. If your original train is cancelled or significantly delayed, you can board any alternative service that day. This same-day flexibility is the key benefit distinguishing Flexible from Standard fares.",
+      "section": "Flexible Fare Policies",
+      "topics": [
+        "fares",
+        "cancellation",
+        "booking",
+        "rebooking",
+        "modification"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 58,
+      "created_at": "2025-07-31T10:48:34.008554"
+    }
+  },
+  {
+    "id": "UKC_FAQ_4",
+    "text": "Question: What happens if I miss my Flexible fare train?\nAnswer: Flexible fare holders can take the next available service on the same day at no additional cost. If travelling the next day, standard rebooking policies apply (free changes up to 24 hours before the new departure time). This flexibility makes Flexible fares ideal for business travel with uncertain timing.",
+    "metadata": {
+      "question": "What happens if I miss my Flexible fare train?",
+      "answer": "Flexible fare holders can take the next available service on the same day at no additional cost. If travelling the next day, standard rebooking policies apply (free changes up to 24 hours before the new departure time). This flexibility makes Flexible fares ideal for business travel with uncertain timing.",
+      "section": "Flexible Fare Policies",
+      "topics": [
+        "payment",
+        "fares",
+        "timing",
+        "booking",
+        "rebooking",
+        "modification"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 60,
+      "created_at": "2025-07-31T10:48:34.008557"
+    }
+  },
+  {
+    "id": "UKC_FAQ_5",
+    "text": "Question: Do Flexible fares include any additional services beyond flexibility?\nAnswer: Yes, Flexible fares include: priority customer service, enhanced delay compensation (full refund for delays over 30 minutes), complimentary seat reservations where available, and automatic rebooking on alternative services during disruptions. These services are included in the Flexible fare premium.",
+    "metadata": {
+      "question": "Do Flexible fares include any additional services beyond flexibility?",
+      "answer": "Yes, Flexible fares include: priority customer service, enhanced delay compensation (full refund for delays over 30 minutes), complimentary seat reservations where available, and automatic rebooking on alternative services during disruptions. These services are included in the Flexible fare premium.",
+      "section": "Flexible Fare Policies",
+      "topics": [
+        "refund",
+        "fares",
+        "booking",
+        "rebooking",
+        "modification"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 50,
+      "created_at": "2025-07-31T10:48:34.008559"
+    }
+  },
+  {
+    "id": "UKC_FAQ_6",
+    "text": "Question: How do refunds work for partially used Flexible return tickets?\nAnswer: For Flexible return tickets, unused portions can be refunded up to the original validity period. If you've used the outbound journey, the return portion can be refunded minus a £10 processing fee if cancelled more than 24 hours before the return departure. Within 24 hours, standard Flexible cancellation terms apply to the unused portion.",
+    "metadata": {
+      "question": "How do refunds work for partially used Flexible return tickets?",
+      "answer": "For Flexible return tickets, unused portions can be refunded up to the original validity period. If you've used the outbound journey, the return portion can be refunded minus a £10 processing fee if cancelled more than 24 hours before the return departure. Within 24 hours, standard Flexible cancellation terms apply to the unused portion.",
+      "section": "Flexible Fare Policies",
+      "topics": [
+        "payment",
+        "refund",
+        "fares",
+        "timing",
+        "cancellation",
+        "booking"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 66,
+      "created_at": "2025-07-31T10:48:34.008563"
+    }
+  },
+  {
+    "id": "UKC_FAQ_7",
+    "text": "Question: Can I upgrade a Standard fare to Flexible after booking?\nAnswer: Yes, Standard fares can be upgraded to Flexible by paying the fare difference plus a £15 upgrade processing fee. This upgrade must be completed at least 2 hours before departure and is subject to Flexible fare availability on your specific service. The upgrade provides full Flexible benefits from the point of processing.",
+    "metadata": {
+      "question": "Can I upgrade a Standard fare to Flexible after booking?",
+      "answer": "Yes, Standard fares can be upgraded to Flexible by paying the fare difference plus a £15 upgrade processing fee. This upgrade must be completed at least 2 hours before departure and is subject to Flexible fare availability on your specific service. The upgrade provides full Flexible benefits from the point of processing.",
+      "section": "Flexible Fare Policies",
+      "topics": [
+        "booking",
+        "payment",
+        "timing",
+        "fares"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 64,
+      "created_at": "2025-07-31T10:48:34.008567"
+    }
+  },
+  {
+    "id": "UKC_FAQ_1",
+    "text": "Question: What amenities are included with First Class tickets?\nAnswer: First Class includes: complimentary meal service (hot meals on journeys over 2 hours, light refreshments on shorter routes), complimentary beverages (tea, coffee, soft drinks, selected alcoholic beverages), power sockets at every seat, free WiFi with enhanced bandwidth, wider seats with extra legroom, and dedicated First Class carriage with table seating where available.",
+    "metadata": {
+      "question": "What amenities are included with First Class tickets?",
+      "answer": "First Class includes: complimentary meal service (hot meals on journeys over 2 hours, light refreshments on shorter routes), complimentary beverages (tea, coffee, soft drinks, selected alcoholic beverages), power sockets at every seat, free WiFi with enhanced bandwidth, wider seats with extra legroom, and dedicated First Class carriage with table seating where available.",
+      "section": "First Class Service Details",
+      "topics": [
+        "booking",
+        "payment",
+        "timing",
+        "fares"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 62,
+      "created_at": "2025-07-31T10:48:34.008570"
+    }
+  },
+  {
+    "id": "UKC_FAQ_2",
+    "text": "Question: How does First Class service vary by route length?\nAnswer: Short Routes (under 1 hour): Premium seating, complimentary hot/cold beverages, biscuits or light snacks, priority boarding Medium Routes (1-3 hours): Full meal service, expanded beverage selection including wine/beer, newspaper service, dedicated First Class attendant Long Routes (3+ hours): Multi-course meals, full bar service, enhanced meal options (dietary requirements accommodated), personal service throughout journey, lounge access where available",
+    "metadata": {
+      "question": "How does First Class service vary by route length?",
+      "answer": "Short Routes (under 1 hour): Premium seating, complimentary hot/cold beverages, biscuits or light snacks, priority boarding Medium Routes (1-3 hours): Full meal service, expanded beverage selection including wine/beer, newspaper service, dedicated First Class attendant Long Routes (3+ hours): Multi-course meals, full bar service, enhanced meal options (dietary requirements accommodated), personal service throughout journey, lounge access where available",
+      "section": "First Class Service Details",
+      "topics": [
+        "timing",
+        "eligibility",
+        "fares"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 68,
+      "created_at": "2025-07-31T10:48:34.008573"
+    }
+  },
+  {
+    "id": "UKC_FAQ_3",
+    "text": "Question: What specific First Class amenities are available on Edinburgh-Glasgow routes?\nAnswer: Edinburgh-Glasgow First Class (45-60 minute journey) includes: leather seating with 50% more space than Standard, complimentary tea/coffee/soft drinks, selection of Scottish shortbread and local snacks, free newspapers (Herald, Scotsman, Financial Times), priority boarding at both cities, and scenic route guidance announcements for tourists.",
+    "metadata": {
+      "question": "What specific First Class amenities are available on Edinburgh-Glasgow routes?",
+      "answer": "Edinburgh-Glasgow First Class (45-60 minute journey) includes: leather seating with 50% more space than Standard, complimentary tea/coffee/soft drinks, selection of Scottish shortbread and local snacks, free newspapers (Herald, Scotsman, Financial Times), priority boarding at both cities, and scenic route guidance announcements for tourists.",
+      "section": "First Class Service Details",
+      "topics": [
+        "payment",
+        "timing",
+        "fares"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 55,
+      "created_at": "2025-07-31T10:48:34.008576"
+    }
+  },
+  {
+    "id": "UKC_FAQ_4",
+    "text": "Question: Are First Class upgrades available at the station?\nAnswer: Yes, subject to availability. Station upgrades cost 20-40% more than online advance upgrades. Flexible and Standard fare holders can upgrade at ticket machines, station counters, or onboard (where available). Same-day upgrades are possible up to 30 minutes before departure, though advance online upgrades guarantee availability and better pricing.",
+    "metadata": {
+      "question": "Are First Class upgrades available at the station?",
+      "answer": "Yes, subject to availability. Station upgrades cost 20-40% more than online advance upgrades. Flexible and Standard fare holders can upgrade at ticket machines, station counters, or onboard (where available). Same-day upgrades are possible up to 30 minutes before departure, though advance online upgrades guarantee availability and better pricing.",
+      "section": "First Class Service Details",
+      "topics": [
+        "booking",
+        "payment",
+        "timing",
+        "fares"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 58,
+      "created_at": "2025-07-31T10:48:34.008579"
+    }
+  },
+  {
+    "id": "UKC_FAQ_5",
+    "text": "Question: What happens if First Class services are unavailable during my journey?\nAnswer: If First Class amenities are significantly reduced (no meal service, seating in Standard carriage, etc.), you're entitled to a partial refund of the First Class premium (typically 25-50% depending on service level achieved). Report service issues to onboard staff who will document the situation and arrange automatic compensation processing.",
+    "metadata": {
+      "question": "What happens if First Class services are unavailable during my journey?",
+      "answer": "If First Class amenities are significantly reduced (no meal service, seating in Standard carriage, etc.), you're entitled to a partial refund of the First Class premium (typically 25-50% depending on service level achieved). Report service issues to onboard staff who will document the situation and arrange automatic compensation processing.",
+      "section": "First Class Service Details",
+      "topics": [
+        "refund",
+        "fares"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 62,
+      "created_at": "2025-07-31T10:48:34.008582"
+    }
+  },
+  {
+    "id": "UKC_FAQ_6",
+    "text": "Question: Can First Class passengers access station lounges?\nAnswer: First Class ticket holders have access to UKConnect lounges at London Euston, Manchester Piccadilly, Birmingham New Street, and Edinburgh Waverley. Lounges offer complimentary refreshments, WiFi, charging stations, quiet working areas, and newspaper/magazine selection. Access is included with First Class tickets - no additional fee required.",
+    "metadata": {
+      "question": "Can First Class passengers access station lounges?",
+      "answer": "First Class ticket holders have access to UKConnect lounges at London Euston, Manchester Piccadilly, Birmingham New Street, and Edinburgh Waverley. Lounges offer complimentary refreshments, WiFi, charging stations, quiet working areas, and newspaper/magazine selection. Access is included with First Class tickets - no additional fee required.",
+      "section": "First Class Service Details",
+      "topics": [
+        "booking",
+        "payment",
+        "fares"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 54,
+      "created_at": "2025-07-31T10:48:34.008585"
+    }
+  },
+  {
+    "id": "UKC_FAQ_7",
+    "text": "Question: How does First Class dining accommodate dietary requirements?\nAnswer: First Class meals accommodate: vegetarian, vegan, gluten-free, halal, kosher, and common allergy restrictions. Special dietary requirements must be requested at booking or at least 24 hours before travel. Emergency dietary accommodations are handled case-by-case with alternative meal options or meal vouchers for station purchases.",
+    "metadata": {
+      "question": "How does First Class dining accommodate dietary requirements?",
+      "answer": "First Class meals accommodate: vegetarian, vegan, gluten-free, halal, kosher, and common allergy restrictions. Special dietary requirements must be requested at booking or at least 24 hours before travel. Emergency dietary accommodations are handled case-by-case with alternative meal options or meal vouchers for station purchases.",
+      "section": "First Class Service Details",
+      "topics": [
+        "fares",
+        "timing",
+        "eligibility",
+        "booking",
+        "modification"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 54,
+      "created_at": "2025-07-31T10:48:34.008587"
+    }
+  },
+  {
+    "id": "UKC_FAQ_1",
+    "text": "Question: How do I set up a corporate account with UKConnect?\nAnswer: Corporate accounts can be established for businesses requiring regular rail travel. Contact our corporate sales team at corporate@ukconnect.com or call 0800-123-7891. You'll need to provide company registration details, VAT number, and authorized signatory information. Corporate accounts offer centralized billing, detailed reporting, and preferential payment terms.",
+    "metadata": {
+      "question": "How do I set up a corporate account with UKConnect?",
+      "answer": "Corporate accounts can be established for businesses requiring regular rail travel. Contact our corporate sales team at corporate@ukconnect.com or call 0800-123-7891. You'll need to provide company registration details, VAT number, and authorized signatory information. Corporate accounts offer centralized billing, detailed reporting, and preferential payment terms.",
+      "section": "Corporate & Business Travel",
+      "topics": [
+        "invoice",
+        "payment"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 57,
+      "created_at": "2025-07-31T10:48:34.008590"
+    }
+  },
+  {
+    "id": "UKC_FAQ_2",
+    "text": "Question: Can I book multiple passengers on a corporate account?\nAnswer: Yes, corporate accounts can manage bookings for multiple employees. You can book up to 9 passengers in a single transaction online, or use our group booking form for larger groups. Each booking provides individual tickets with comprehensive expense reporting suitable for corporate accounting systems.",
+    "metadata": {
+      "question": "Can I book multiple passengers on a corporate account?",
+      "answer": "Yes, corporate accounts can manage bookings for multiple employees. You can book up to 9 passengers in a single transaction online, or use our group booking form for larger groups. Each booking provides individual tickets with comprehensive expense reporting suitable for corporate accounting systems.",
+      "section": "Corporate & Business Travel",
+      "topics": [
+        "booking"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 55,
+      "created_at": "2025-07-31T10:48:34.008593"
+    }
+  },
+  {
+    "id": "UKC_FAQ_3",
+    "text": "Question: How do I get detailed invoices for corporate expenses?\nAnswer: Corporate bookings automatically receive detailed invoices including VAT breakdown, passenger details, journey information, and fare categories. Additional invoice formats can be requested for specific accounting systems. E-tickets include all necessary information for expense claim processing and audit requirements.",
+    "metadata": {
+      "question": "How do I get detailed invoices for corporate expenses?",
+      "answer": "Corporate bookings automatically receive detailed invoices including VAT breakdown, passenger details, journey information, and fare categories. Additional invoice formats can be requested for specific accounting systems. E-tickets include all necessary information for expense claim processing and audit requirements.",
+      "section": "Corporate & Business Travel",
+      "topics": [
+        "booking",
+        "invoice",
+        "eligibility",
+        "fares"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 49,
+      "created_at": "2025-07-31T10:48:34.008596"
+    }
+  },
+  {
+    "id": "UKC_FAQ_4",
+    "text": "Question: Can corporate bookings be modified or cancelled by different employees?\nAnswer: Corporate account administrators can manage all bookings within their account. Individual employees can only modify their own bookings unless granted broader access permissions. Cancellation and modification policies apply according to fare type, with flexible options available for corporate customers.",
+    "metadata": {
+      "question": "Can corporate bookings be modified or cancelled by different employees?",
+      "answer": "Corporate account administrators can manage all bookings within their account. Individual employees can only modify their own bookings unless granted broader access permissions. Cancellation and modification policies apply according to fare type, with flexible options available for corporate customers.",
+      "section": "Corporate & Business Travel",
+      "topics": [
+        "booking",
+        "fares",
+        "cancellation",
+        "modification"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 51,
+      "created_at": "2025-07-31T10:48:34.008598"
+    }
+  },
+  {
+    "id": "UKC_FAQ_5",
+    "text": "Question: Are there special rates for corporate customers?\nAnswer: Corporate customers with significant travel volumes may be eligible for negotiated rates and volume discounts. Contact our corporate sales team to discuss customized pricing structures based on your company's travel patterns and requirements.",
+    "metadata": {
+      "question": "Are there special rates for corporate customers?",
+      "answer": "Corporate customers with significant travel volumes may be eligible for negotiated rates and volume discounts. Contact our corporate sales team to discuss customized pricing structures based on your company's travel patterns and requirements.",
+      "section": "Corporate & Business Travel",
+      "topics": [
+        "eligibility",
+        "fares"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 42,
+      "created_at": "2025-07-31T10:48:34.008601"
+    }
+  },
+  {
+    "id": "UKC_FAQ_6",
+    "text": "Question: How does group booking work for business travel?\nAnswer: Groups of 3-9 passengers can be booked online with coordinated seating where available. For groups of 10 or more, use our dedicated group booking service which offers enhanced coordination, group rates, and specialized support. Business groups receive priority assistance for seating arrangements and special requirements.",
+    "metadata": {
+      "question": "How does group booking work for business travel?",
+      "answer": "Groups of 3-9 passengers can be booked online with coordinated seating where available. For groups of 10 or more, use our dedicated group booking service which offers enhanced coordination, group rates, and specialized support. Business groups receive priority assistance for seating arrangements and special requirements.",
+      "section": "Corporate & Business Travel",
+      "topics": [
+        "booking",
+        "eligibility"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 55,
+      "created_at": "2025-07-31T10:48:34.008603"
+    }
+  },
+  {
+    "id": "UKC_FAQ_1",
+    "text": "Question: What payment methods are accepted for international visitors?\nAnswer: International visitors can pay with Visa, Mastercard, and American Express cards issued worldwide. We accept international debit cards, PayPal, and digital wallets (Apple Pay, Google Pay) linked to international accounts. Currency conversion is handled automatically at current exchange rates, or you can pay in GBP directly.",
+    "metadata": {
+      "question": "What payment methods are accepted for international visitors?",
+      "answer": "International visitors can pay with Visa, Mastercard, and American Express cards issued worldwide. We accept international debit cards, PayPal, and digital wallets (Apple Pay, Google Pay) linked to international accounts. Currency conversion is handled automatically at current exchange rates, or you can pay in GBP directly.",
+      "section": "International Visitor Services",
+      "topics": [
+        "payment",
+        "modification"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 56,
+      "created_at": "2025-07-31T10:48:34.008606"
+    }
+  },
+  {
+    "id": "UKC_FAQ_2",
+    "text": "Question: Are there additional fees for international payment cards?\nAnswer: UKConnect does not charge additional fees for international cards. However, your bank may apply foreign transaction fees or currency conversion charges. Using our currency conversion service at checkout can help avoid some bank fees by charging your card in your home currency at guaranteed rates.",
+    "metadata": {
+      "question": "Are there additional fees for international payment cards?",
+      "answer": "UKConnect does not charge additional fees for international cards. However, your bank may apply foreign transaction fees or currency conversion charges. Using our currency conversion service at checkout can help avoid some bank fees by charging your card in your home currency at guaranteed rates.",
+      "section": "International Visitor Services",
+      "topics": [
+        "payment"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 55,
+      "created_at": "2025-07-31T10:48:34.008609"
+    }
+  },
+  {
+    "id": "UKC_FAQ_3",
+    "text": "Question: What travel documentation do international visitors need?\nAnswer: For train travel within the UK, no special documentation is required beyond valid government-issued photo ID (passport, national ID card, or driving license). Random ticket inspections may request ID verification, so carry the same ID used during booking. No advance booking or pre-registration is required.",
+    "metadata": {
+      "question": "What travel documentation do international visitors need?",
+      "answer": "For train travel within the UK, no special documentation is required beyond valid government-issued photo ID (passport, national ID card, or driving license). Random ticket inspections may request ID verification, so carry the same ID used during booking. No advance booking or pre-registration is required.",
+      "section": "International Visitor Services",
+      "topics": [
+        "booking",
+        "payment",
+        "security"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 54,
+      "created_at": "2025-07-31T10:48:34.008612"
+    }
+  },
+  {
+    "id": "UKC_FAQ_4",
+    "text": "Question: Do international visitors have different booking modification policies?\nAnswer: International visitors follow the same modification and cancellation policies as UK residents. However, if travel plans change due to visa issues, flight cancellations, or other international travel complications, contact our customer service team who may authorize special exceptions on a case-by-case basis.",
+    "metadata": {
+      "question": "Do international visitors have different booking modification policies?",
+      "answer": "International visitors follow the same modification and cancellation policies as UK residents. However, if travel plans change due to visa issues, flight cancellations, or other international travel complications, contact our customer service team who may authorize special exceptions on a case-by-case basis.",
+      "section": "International Visitor Services",
+      "topics": [
+        "booking",
+        "cancellation",
+        "modification"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 52,
+      "created_at": "2025-07-31T10:48:34.008614"
+    }
+  },
+  {
+    "id": "UKC_FAQ_5",
+    "text": "Question: Can international visitors receive detailed invoices and receipts?\nAnswer: Yes, international visitors receive the same comprehensive e-ticket confirmations and invoices as domestic customers. These documents include all necessary details for expense claims, tax purposes, and visa applications. Additional invoice formats can be requested for specific business or tax requirements.",
+    "metadata": {
+      "question": "Can international visitors receive detailed invoices and receipts?",
+      "answer": "Yes, international visitors receive the same comprehensive e-ticket confirmations and invoices as domestic customers. These documents include all necessary details for expense claims, tax purposes, and visa applications. Additional invoice formats can be requested for specific business or tax requirements.",
+      "section": "International Visitor Services",
+      "topics": [
+        "booking",
+        "invoice",
+        "eligibility"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 50,
+      "created_at": "2025-07-31T10:48:34.008617"
+    }
+  },
+  {
+    "id": "UKC_FAQ_6",
+    "text": "Question: How does currency conversion work for international bookings?\nAnswer: International bookings can be processed in GBP or converted to major currencies (USD, EUR, CAD, AUD) at checkout. The exchange rate is locked at booking confirmation and displayed clearly. Refunds are processed in the original transaction currency. Currency conversion rates are updated daily based on major UK bank rates.",
+    "metadata": {
+      "question": "How does currency conversion work for international bookings?",
+      "answer": "International bookings can be processed in GBP or converted to major currencies (USD, EUR, CAD, AUD) at checkout. The exchange rate is locked at booking confirmation and displayed clearly. Refunds are processed in the original transaction currency. Currency conversion rates are updated daily based on major UK bank rates.",
+      "section": "International Visitor Services",
+      "topics": [
+        "booking",
+        "invoice",
+        "refund",
+        "modification"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 59,
+      "created_at": "2025-07-31T10:48:34.008619"
+    }
+  },
+  {
+    "id": "UKC_FAQ_7",
+    "text": "Question: What support is available for international visitors with travel questions?\nAnswer: Our customer service team includes multilingual support for major languages and specialized assistance for international travel queries. Contact us at international@ukconnect.com or +44-800-123-7890. We can provide travel guidance, booking assistance, and help coordinate with other transport services.",
+    "metadata": {
+      "question": "What support is available for international visitors with travel questions?",
+      "answer": "Our customer service team includes multilingual support for major languages and specialized assistance for international travel queries. Contact us at international@ukconnect.com or +44-800-123-7890. We can provide travel guidance, booking assistance, and help coordinate with other transport services.",
+      "section": "International Visitor Services",
+      "topics": [
+        "booking"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 49,
+      "created_at": "2025-07-31T10:48:34.008622"
+    }
+  },
+  {
+    "id": "UKC_FAQ_1",
+    "text": "Question: How do I request assistance for disabled passengers?\nAnswer: Request assistance at least 2 hours before travel by calling our accessibility helpline at 0800-123-7892, booking online, or through station staff. Specify your requirements: wheelchair assistance, visual/hearing impairment support, or mobility aid help. Assistance includes boarding, onboard support, and platform transfers at your destination.",
+    "metadata": {
+      "question": "How do I request assistance for disabled passengers?",
+      "answer": "Request assistance at least 2 hours before travel by calling our accessibility helpline at 0800-123-7892, booking online, or through station staff. Specify your requirements: wheelchair assistance, visual/hearing impairment support, or mobility aid help. Assistance includes boarding, onboard support, and platform transfers at your destination.",
+      "section": "Enhanced Accessibility Services",
+      "topics": [
+        "booking",
+        "timing",
+        "eligibility"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 54,
+      "created_at": "2025-07-31T10:48:34.008625"
+    }
+  },
+  {
+    "id": "UKC_FAQ_2",
+    "text": "Question: What accessibility features are available on UKConnect trains?\nAnswer: All UKConnect trains feature wheelchair-accessible carriages with dedicated spaces, accessible toilets, audio/visual announcements, priority seating, and level boarding at most stations. Onboard wheelchair storage is available, and assistance animals travel free of charge with appropriate documentation.",
+    "metadata": {
+      "question": "What accessibility features are available on UKConnect trains?",
+      "answer": "All UKConnect trains feature wheelchair-accessible carriages with dedicated spaces, accessible toilets, audio/visual announcements, priority seating, and level boarding at most stations. Onboard wheelchair storage is available, and assistance animals travel free of charge with appropriate documentation.",
+      "section": "Enhanced Accessibility Services",
+      "topics": [
+        "payment"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 46,
+      "created_at": "2025-07-31T10:48:34.008627"
+    }
+  },
+  {
+    "id": "UKC_FAQ_3",
+    "text": "Question: Do I need to pay extra for accessibility services?\nAnswer: No, all accessibility services and assistance are provided free of charge. This includes personal assistance, wheelchair spaces, priority boarding, and companion travel discounts where applicable. Guide dogs and other registered assistance animals travel free without requiring a pet ticket.",
+    "metadata": {
+      "question": "Do I need to pay extra for accessibility services?",
+      "answer": "No, all accessibility services and assistance are provided free of charge. This includes personal assistance, wheelchair spaces, priority boarding, and companion travel discounts where applicable. Guide dogs and other registered assistance animals travel free without requiring a pet ticket.",
+      "section": "Enhanced Accessibility Services",
+      "topics": [
+        "booking",
+        "payment"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 50,
+      "created_at": "2025-07-31T10:48:34.008629"
+    }
+  },
+  {
+    "id": "UKC_FAQ_4",
+    "text": "Question: Can I book accessible seating online?\nAnswer: Yes, accessible seating can be reserved during online booking by selecting accessibility requirements. Wheelchair spaces, priority seating, and companion seats can be pre-arranged. For complex requirements, call our accessibility booking line for personalized assistance with seating arrangements.",
+    "metadata": {
+      "question": "Can I book accessible seating online?",
+      "answer": "Yes, accessible seating can be reserved during online booking by selecting accessibility requirements. Wheelchair spaces, priority seating, and companion seats can be pre-arranged. For complex requirements, call our accessibility booking line for personalized assistance with seating arrangements.",
+      "section": "Enhanced Accessibility Services",
+      "topics": [
+        "booking",
+        "eligibility"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 45,
+      "created_at": "2025-07-31T10:48:34.008632"
+    }
+  },
+  {
+    "id": "UKC_FAQ_5",
+    "text": "Question: What station accessibility contacts are available?\nAnswer: Major Station Accessibility Contacts: - London Euston: 020-7387-9876 | accessibility.euston@networkrail.co.uk - Manchester Piccadilly: 0161-832-5432 | access.manchester@networkrail.co.uk - Birmingham New Street: 0121-654-7890 | accessibility.birmingham@networkrail.co.uk - Edinburgh Waverley: 0131-467-8901 | access.edinburgh@networkrail.co.uk - Glasgow Central: 0141-335-6789 | accessibility.glasgow@networkrail.co.uk For other stations, contact our central accessibility team who can coordinate with local station services.",
+    "metadata": {
+      "question": "What station accessibility contacts are available?",
+      "answer": "Major Station Accessibility Contacts: - London Euston: 020-7387-9876 | accessibility.euston@networkrail.co.uk - Manchester Piccadilly: 0161-832-5432 | access.manchester@networkrail.co.uk - Birmingham New Street: 0121-654-7890 | accessibility.birmingham@networkrail.co.uk - Edinburgh Waverley: 0131-467-8901 | access.edinburgh@networkrail.co.uk - Glasgow Central: 0141-335-6789 | accessibility.glasgow@networkrail.co.uk For other stations, contact our central accessibility team who can coordinate with local station services.",
+      "section": "Enhanced Accessibility Services",
+      "topics": [],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 58,
+      "created_at": "2025-07-31T10:48:34.008635"
+    }
+  },
+  {
+    "id": "UKC_FAQ_6",
+    "text": "Question: How does accessibility assistance work for connecting journeys?\nAnswer: Accessibility assistance is coordinated across connecting services when booking through UKConnect. Inform us of your complete journey including connections, and we'll arrange continuous support. Allow extra connection time for assistance transfers and notify us of any service changes that might affect your accessibility arrangements.",
+    "metadata": {
+      "question": "How does accessibility assistance work for connecting journeys?",
+      "answer": "Accessibility assistance is coordinated across connecting services when booking through UKConnect. Inform us of your complete journey including connections, and we'll arrange continuous support. Allow extra connection time for assistance transfers and notify us of any service changes that might affect your accessibility arrangements.",
+      "section": "Enhanced Accessibility Services",
+      "topics": [
+        "booking",
+        "timing",
+        "modification"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 54,
+      "created_at": "2025-07-31T10:48:34.008637"
+    }
+  },
+  {
+    "id": "UKC_FAQ_7",
+    "text": "Question: What should I do if accessibility equipment is out of service?\nAnswer: If accessibility equipment fails (lifts, ramps, accessible toilets), report it immediately to train staff or station personnel. Alternative arrangements will be made including taxi transfers at our expense if necessary. UKConnect maintains backup accessibility equipment and prioritizes rapid repairs of essential accessibility services.",
+    "metadata": {
+      "question": "What should I do if accessibility equipment is out of service?",
+      "answer": "If accessibility equipment fails (lifts, ramps, accessible toilets), report it immediately to train staff or station personnel. Alternative arrangements will be made including taxi transfers at our expense if necessary. UKConnect maintains backup accessibility equipment and prioritizes rapid repairs of essential accessibility services.",
+      "section": "Enhanced Accessibility Services",
+      "topics": [
+        "modification"
+      ],
+      "extraction_method": "numbered_faq",
+      "confidence": 0.95,
+      "token_count": 56,
+      "created_at": "2025-07-31T10:48:34.008640"
+    }
+  },
+  {
+    "id": "UKC_POLICY_1",
+    "text": "Question: What is the policy for flexible fares?\nAnswer: Most flexible, allowing changes/cancellations without additional fees",
+    "metadata": {
+      "question": "What is the policy for flexible fares?",
+      "answer": "Most flexible, allowing changes/cancellations without additional fees",
+      "section": "Fare Policies",
+      "topics": [
+        "fares",
+        "payment",
+        "cancellation",
+        "modification"
+      ],
+      "extraction_method": "policy_statement",
+      "confidence": 0.9,
+      "token_count": 16,
+      "created_at": "2025-07-31T10:48:34.008642"
+    }
+  },
+  {
+    "id": "UKC_POLICY_2",
+    "text": "Question: What is the policy for standard fares?\nAnswer: Moderate flexibility with cancellation fees ranging from £25-£75 depending on route and timing",
+    "metadata": {
+      "question": "What is the policy for standard fares?",
+      "answer": "Moderate flexibility with cancellation fees ranging from £25-£75 depending on route and timing",
+      "section": "Fare Policies",
+      "topics": [
+        "payment",
+        "cancellation",
+        "fares"
+      ],
+      "extraction_method": "policy_statement",
+      "confidence": 0.9,
+      "token_count": 22,
+      "created_at": "2025-07-31T10:48:34.008643"
+    }
+  },
+  {
+    "id": "UKC_POLICY_3",
+    "text": "Question: What is the policy for first class fares?\nAnswer: Premium service with cancellation fees from £25-£100 depending on route and timing",
+    "metadata": {
+      "question": "What is the policy for first class fares?",
+      "answer": "Premium service with cancellation fees from £25-£100 depending on route and timing",
+      "section": "Fare Policies",
+      "topics": [
+        "payment",
+        "cancellation",
+        "fares"
+      ],
+      "extraction_method": "policy_statement",
+      "confidence": 0.9,
+      "token_count": 22,
+      "created_at": "2025-07-31T10:48:34.008645"
+    }
+  },
+  {
+    "id": "UKC_PROCEDURE_1",
+    "text": "Question: How to Purchase First Luggage with Advance Fares?\nAnswer: First luggage (max 23kg) can be purchased through travel agents, ukconnect.com (up to 2 hours before departure), UKConnect Service Centre (up to 4 hours before departure), or at the station. Station prices are higher than advance purchase.",
+    "metadata": {
+      "question": "How to Purchase First Luggage with Advance Fares?",
+      "answer": "First luggage (max 23kg) can be purchased through travel agents, ukconnect.com (up to 2 hours before departure), UKConnect Service Centre (up to 4 hours before departure), or at the station. Station prices are higher than advance purchase.",
+      "section": "Procedures",
+      "topics": [
+        "timing",
+        "fares"
+      ],
+      "extraction_method": "procedure_extraction",
+      "confidence": 0.85,
+      "token_count": 47,
+      "created_at": "2025-07-31T10:48:34.008648"
+    }
+  },
+  {
+    "id": "UKC_PROCEDURE_2",
+    "text": "Question: How to Cancel Online?\nAnswer: 1. Visit ukconnect.com and navigate to \"My Bookings\" 2. Log in with your booking details 3. Find your journey and click \"Cancel\" 4. Follow prompts to confirm cancellation 5. Review cancellation policy and applicable fees 6. Submit refund request if eligible",
+    "metadata": {
+      "question": "How to Cancel Online?",
+      "answer": "1. Visit ukconnect.com and navigate to \"My Bookings\" 2. Log in with your booking details 3. Find your journey and click \"Cancel\" 4. Follow prompts to confirm cancellation 5. Review cancellation policy and applicable fees 6. Submit refund request if eligible",
+      "section": "Procedures",
+      "topics": [
+        "payment",
+        "refund",
+        "cancellation",
+        "eligibility",
+        "booking"
+      ],
+      "extraction_method": "procedure_extraction",
+      "confidence": 0.85,
+      "token_count": 47,
+      "created_at": "2025-07-31T10:48:34.008650"
+    }
+  },
+  {
+    "id": "UKC_PROCEDURE_3",
+    "text": "Question: How to Cancel by Phone?\nAnswer: Step 1: Find the customer service number: 0800-123-7890 Step 2: Call and select language preference Step 3: Provide booking reference, journey details, and departure date Step 4: Confirm cancellation and review fees/refund options Step 5: Receive email confirmation",
+    "metadata": {
+      "question": "How to Cancel by Phone?",
+      "answer": "Step 1: Find the customer service number: 0800-123-7890 Step 2: Call and select language preference Step 3: Provide booking reference, journey details, and departure date Step 4: Confirm cancellation and review fees/refund options Step 5: Receive email confirmation",
+      "section": "Procedures",
+      "topics": [
+        "payment",
+        "refund",
+        "invoice",
+        "cancellation",
+        "booking"
+      ],
+      "extraction_method": "procedure_extraction",
+      "confidence": 0.85,
+      "token_count": 45,
+      "created_at": "2025-07-31T10:48:34.008652"
+    }
+  },
+  {
+    "id": "UKC_PROCEDURE_4",
+    "text": "Question: How to Cancel at the Station?\nAnswer: Step 1: Visit UKConnect ticket office or customer service desk Step 2: Provide booking details to staff Step 3: Confirm cancellation and review fees/refund options Step 4: Receive confirmation receipt",
+    "metadata": {
+      "question": "How to Cancel at the Station?",
+      "answer": "Step 1: Visit UKConnect ticket office or customer service desk Step 2: Provide booking details to staff Step 3: Confirm cancellation and review fees/refund options Step 4: Receive confirmation receipt",
+      "section": "Procedures",
+      "topics": [
+        "payment",
+        "refund",
+        "invoice",
+        "cancellation",
+        "booking"
+      ],
+      "extraction_method": "procedure_extraction",
+      "confidence": 0.85,
+      "token_count": 38,
+      "created_at": "2025-07-31T10:48:34.008654"
+    }
+  },
+  {
+    "id": "UKC_REQ_1",
+    "text": "Question: What are the requirements to how can i change my booking?\nAnswer: The ticket number must start with 812 (UKConnect ticket reference).. The ticket was not paid for by voucher or promotional code (exceptions apply; full voucher payments may allow online rebooking under certain circumstances).. There must be an active train booking for your ticket. Open tickets or tickets without corresponding journey segments cannot be rebooked online currently.. Currently, only single journey tickets or return tickets with direct routes (point. to. point) can be rebooked online.",
+    "metadata": {
+      "question": "What are the requirements to how can i change my booking?",
+      "answer": "The ticket number must start with 812 (UKConnect ticket reference).. The ticket was not paid for by voucher or promotional code (exceptions apply; full voucher payments may allow online rebooking under certain circumstances).. There must be an active train booking for your ticket. Open tickets or tickets without corresponding journey segments cannot be rebooked online currently.. Currently, only single journey tickets or return tickets with direct routes (point. to. point) can be rebooked online.",
+      "section": "Requirements",
+      "topics": [
+        "payment",
+        "eligibility",
+        "booking",
+        "rebooking",
+        "modification"
+      ],
+      "extraction_method": "requirements_extraction",
+      "confidence": 0.8,
+      "token_count": 87,
+      "created_at": "2025-07-31T10:48:34.008658"
+    }
+  },
+  {
+    "id": "UKC_REQ_2",
+    "text": "Question: What are the requirements to which tickets/bookings cannot be rebooked online currently?\nAnswer: Bookings containing journey segments with other rail operators. Bookings containing reservations where a ticket has not yet been issued. Bookings with multiple valid tickets for the same person and route. Tickets with a status other than \"Valid\". Bookings with segments showing status other than \"Confirmed\" (e.g., containing segments with \"Waitlist\" status). Tickets that do not display fare calculation (promotional tickets). Bookings containing special services (e.g., bicycle transport, wheelchair assistance, pet transport). Tickets that are part of a group booking. Tickets where the booking class does not correspond to the fare code",
+    "metadata": {
+      "question": "What are the requirements to which tickets/bookings cannot be rebooked online currently?",
+      "answer": "Bookings containing journey segments with other rail operators. Bookings containing reservations where a ticket has not yet been issued. Bookings with multiple valid tickets for the same person and route. Tickets with a status other than \"Valid\". Bookings with segments showing status other than \"Confirmed\" (e.g., containing segments with \"Waitlist\" status). Tickets that do not display fare calculation (promotional tickets). Bookings containing special services (e.g., bicycle transport, wheelchair assistance, pet transport). Tickets that are part of a group booking. Tickets where the booking class does not correspond to the fare code",
+      "section": "Requirements",
+      "topics": [
+        "fares",
+        "eligibility",
+        "booking",
+        "rebooking",
+        "modification"
+      ],
+      "extraction_method": "requirements_extraction",
+      "confidence": 0.8,
+      "token_count": 105,
+      "created_at": "2025-07-31T10:48:34.008662"
+    }
+  },
+  {
+    "id": "UKC_REQ_3",
+    "text": "Question: What are the requirements to am i allowed to make changes to my online season ticket booking?\nAnswer: Season ticket bookings cannot yet be changed on ukconnect.com.",
+    "metadata": {
+      "question": "What are the requirements to am i allowed to make changes to my online season ticket booking?",
+      "answer": "Season ticket bookings cannot yet be changed on ukconnect.com.",
+      "section": "Requirements",
+      "topics": [
+        "booking",
+        "eligibility",
+        "modification"
+      ],
+      "extraction_method": "requirements_extraction",
+      "confidence": 0.8,
+      "token_count": 28,
+      "created_at": "2025-07-31T10:48:34.008664"
+    }
+  },
+  {
+    "id": "UKC_REQ_4",
+    "text": "Question: What are the requirements to what changes can i make to my ticket?\nAnswer: You can change the train service and travel dates. Changes to origin and destination stations or passenger name changes are not possible online.",
+    "metadata": {
+      "question": "What are the requirements to what changes can i make to my ticket?",
+      "answer": "You can change the train service and travel dates. Changes to origin and destination stations or passenger name changes are not possible online.",
+      "section": "Requirements",
+      "topics": [
+        "booking",
+        "eligibility",
+        "modification"
+      ],
+      "extraction_method": "requirements_extraction",
+      "confidence": 0.8,
+      "token_count": 38,
+      "created_at": "2025-07-31T10:48:34.008666"
+    }
+  },
+  {
+    "id": "UKC_REQ_5",
+    "text": "Question: What are the requirements to after making changes to my itinerary online, can i make another change?\nAnswer: If fare conditions permit, multiple changes to the itinerary are possible.",
+    "metadata": {
+      "question": "What are the requirements to after making changes to my itinerary online, can i make another change?",
+      "answer": "If fare conditions permit, multiple changes to the itinerary are possible.",
+      "section": "Requirements",
+      "topics": [
+        "fares",
+        "eligibility",
+        "modification"
+      ],
+      "extraction_method": "requirements_extraction",
+      "confidence": 0.8,
+      "token_count": 30,
+      "created_at": "2025-07-31T10:48:34.008678"
+    }
+  },
+  {
+    "id": "UKC_REQ_6",
+    "text": "Question: What are the requirements to can a name be changed after booking?\nAnswer: The correct name(s) of the travelling passenger must be entered in the booking. First and last names must match travel documents exactly. Middle names are optional and can be added to the first name field, subject to character limitations.. First and middle names are stored without spaces. this is not an error and doesn't affect your booking.. Subsequent name changes, including adding names to tickets, are not permitted.",
+    "metadata": {
+      "question": "What are the requirements to can a name be changed after booking?",
+      "answer": "The correct name(s) of the travelling passenger must be entered in the booking. First and last names must match travel documents exactly. Middle names are optional and can be added to the first name field, subject to character limitations.. First and middle names are stored without spaces. this is not an error and doesn't affect your booking.. Subsequent name changes, including adding names to tickets, are not permitted.",
+      "section": "Requirements",
+      "topics": [
+        "booking",
+        "eligibility",
+        "modification"
+      ],
+      "extraction_method": "requirements_extraction",
+      "confidence": 0.8,
+      "token_count": 82,
+      "created_at": "2025-07-31T10:48:34.008682"
+    }
+  },
+  {
+    "id": "UKC_REQ_7",
+    "text": "Question: What are the requirements to is it possible to apply changes to only some passengers in the same booking?\nAnswer: Changes apply to all passengers travelling together. Individual passenger name changes or adjustments to passenger numbers are not possible online.",
+    "metadata": {
+      "question": "What are the requirements to is it possible to apply changes to only some passengers in the same booking?",
+      "answer": "Changes apply to all passengers travelling together. Individual passenger name changes or adjustments to passenger numbers are not possible online.",
+      "section": "Requirements",
+      "topics": [
+        "booking",
+        "eligibility",
+        "modification"
+      ],
+      "extraction_method": "requirements_extraction",
+      "confidence": 0.8,
+      "token_count": 41,
+      "created_at": "2025-07-31T10:48:34.008684"
+    }
+  },
+  {
+    "id": "UKC_REQ_8",
+    "text": "Question: What are the requirements to until what time before departure can a journey be rebooked online?\nAnswer: Online rebooking minimum times vary by departure station. For major stations, rebooking is possible up to 2 hours before departure.",
+    "metadata": {
+      "question": "What are the requirements to until what time before departure can a journey be rebooked online?",
+      "answer": "Online rebooking minimum times vary by departure station. For major stations, rebooking is possible up to 2 hours before departure.",
+      "section": "Requirements",
+      "topics": [
+        "timing",
+        "eligibility",
+        "booking",
+        "rebooking",
+        "modification"
+      ],
+      "extraction_method": "requirements_extraction",
+      "confidence": 0.8,
+      "token_count": 38,
+      "created_at": "2025-07-31T10:48:34.008686"
+    }
+  },
+  {
+    "id": "UKC_REQ_9",
+    "text": "Question: What are the requirements to will differences in booking fees be refunded if the new journey choice is cheaper?\nAnswer: Online refunds are currently not available for fare differences.",
+    "metadata": {
+      "question": "What are the requirements to will differences in booking fees be refunded if the new journey choice is cheaper?",
+      "answer": "Online refunds are currently not available for fare differences.",
+      "section": "Requirements",
+      "topics": [
+        "payment",
+        "refund",
+        "fares",
+        "eligibility",
+        "booking"
+      ],
+      "extraction_method": "requirements_extraction",
+      "confidence": 0.8,
+      "token_count": 30,
+      "created_at": "2025-07-31T10:48:34.008688"
+    }
+  },
+  {
+    "id": "UKC_REQ_10",
+    "text": "Question: What are the requirements to why isn't rebooking processed in the same currency as the original ticket?\nAnswer: Rebooking calculations are processed in GBP, the standard currency for UK rail travel.",
+    "metadata": {
+      "question": "What are the requirements to why isn't rebooking processed in the same currency as the original ticket?",
+      "answer": "Rebooking calculations are processed in GBP, the standard currency for UK rail travel.",
+      "section": "Requirements",
+      "topics": [
+        "fares",
+        "eligibility",
+        "booking",
+        "rebooking",
+        "modification"
+      ],
+      "extraction_method": "requirements_extraction",
+      "confidence": 0.8,
+      "token_count": 32,
+      "created_at": "2025-07-31T10:48:34.008690"
+    }
+  },
+  {
+    "id": "UKC_REQ_11",
+    "text": "Question: What are the requirements to will my seat reservation be included in the rebooking?\nAnswer: Yes, your seat reservation will be transferred to the new booking where available.",
+    "metadata": {
+      "question": "What are the requirements to will my seat reservation be included in the rebooking?",
+      "answer": "Yes, your seat reservation will be transferred to the new booking where available.",
+      "section": "Requirements",
+      "topics": [
+        "booking",
+        "rebooking",
+        "eligibility",
+        "modification"
+      ],
+      "extraction_method": "requirements_extraction",
+      "confidence": 0.8,
+      "token_count": 29,
+      "created_at": "2025-07-31T10:48:34.008692"
+    }
+  },
+  {
+    "id": "UKC_REQ_12",
+    "text": "Question: What are the requirements to will my meal preferences be included in the rebooking?\nAnswer: Yes, any special meal requests will be transferred to the new booking.",
+    "metadata": {
+      "question": "What are the requirements to will my meal preferences be included in the rebooking?",
+      "answer": "Yes, any special meal requests will be transferred to the new booking.",
+      "section": "Requirements",
+      "topics": [
+        "booking",
+        "rebooking",
+        "eligibility",
+        "modification"
+      ],
+      "extraction_method": "requirements_extraction",
+      "confidence": 0.8,
+      "token_count": 28,
+      "created_at": "2025-07-31T10:48:34.008693"
+    }
+  },
+  {
+    "id": "UKC_REQ_13",
+    "text": "Question: What are the requirements to will my accessibility requirements be included in the rebooking?\nAnswer: Yes, your accessibility requirements will be transferred to the new booking.",
+    "metadata": {
+      "question": "What are the requirements to will my accessibility requirements be included in the rebooking?",
+      "answer": "Yes, your accessibility requirements will be transferred to the new booking.",
+      "section": "Requirements",
+      "topics": [
+        "booking",
+        "rebooking",
+        "eligibility",
+        "modification"
+      ],
+      "extraction_method": "requirements_extraction",
+      "confidence": 0.8,
+      "token_count": 27,
+      "created_at": "2025-07-31T10:48:34.008695"
+    }
+  },
+  {
+    "id": "UKC_REQ_14",
+    "text": "Question: What are the requirements to will travel insurance purchased through ukconnect be included in the new ticket?\nAnswer: Yes, travel insurance obtained through UKConnect will remain valid on the new ticket.",
+    "metadata": {
+      "question": "What are the requirements to will travel insurance purchased through ukconnect be included in the new ticket?",
+      "answer": "Yes, travel insurance obtained through UKConnect will remain valid on the new ticket.",
+      "section": "Requirements",
+      "topics": [
+        "booking",
+        "eligibility"
+      ],
+      "extraction_method": "requirements_extraction",
+      "confidence": 0.8,
+      "token_count": 32,
+      "created_at": "2025-07-31T10:48:34.008697"
+    }
+  },
+  {
+    "id": "UKC_REQ_15",
+    "text": "Question: What are the requirements to will i receive a new booking reference after rebooking?\nAnswer: No, your booking reference remains the same after rebooking.",
+    "metadata": {
+      "question": "What are the requirements to will i receive a new booking reference after rebooking?",
+      "answer": "No, your booking reference remains the same after rebooking.",
+      "section": "Requirements",
+      "topics": [
+        "booking",
+        "rebooking",
+        "eligibility",
+        "modification"
+      ],
+      "extraction_method": "requirements_extraction",
+      "confidence": 0.8,
+      "token_count": 25,
+      "created_at": "2025-07-31T10:48:34.008699"
+    }
+  },
+  {
+    "id": "UKC_REQ_16",
+    "text": "Question: What are the requirements to will i receive a new ticket number after rebooking?\nAnswer: Yes, you will receive a new ticket number after rebooking.",
+    "metadata": {
+      "question": "What are the requirements to will i receive a new ticket number after rebooking?",
+      "answer": "Yes, you will receive a new ticket number after rebooking.",
+      "section": "Requirements",
+      "topics": [
+        "booking",
+        "rebooking",
+        "eligibility",
+        "modification"
+      ],
+      "extraction_method": "requirements_extraction",
+      "confidence": 0.8,
+      "token_count": 26,
+      "created_at": "2025-07-31T10:48:34.008700"
+    }
+  },
+  {
+    "id": "UKC_REQ_17",
+    "text": "Question: What are the requirements to can i change my booking after checking in online?\nAnswer: No, only tickets with \"Valid\" status can be changed online.",
+    "metadata": {
+      "question": "What are the requirements to can i change my booking after checking in online?",
+      "answer": "No, only tickets with \"Valid\" status can be changed online.",
+      "section": "Requirements",
+      "topics": [
+        "booking",
+        "eligibility",
+        "modification"
+      ],
+      "extraction_method": "requirements_extraction",
+      "confidence": 0.8,
+      "token_count": 26,
+      "created_at": "2025-07-31T10:48:34.008702"
+    }
+  },
+  {
+    "id": "UKC_REQ_18",
+    "text": "Question: What are the requirements to i want to change a rail journey that's part of a package purchased through a travel agent. what should i consider?\nAnswer: Changes on ukconnect.com are limited to the rail journey only. No changes to other package services (e.g., hotel, car hire) will be processed.",
+    "metadata": {
+      "question": "What are the requirements to i want to change a rail journey that's part of a package purchased through a travel agent. what should i consider?",
+      "answer": "Changes on ukconnect.com are limited to the rail journey only. No changes to other package services (e.g., hotel, car hire) will be processed.",
+      "section": "Requirements",
+      "topics": [
+        "eligibility",
+        "modification"
+      ],
+      "extraction_method": "requirements_extraction",
+      "confidence": 0.8,
+      "token_count": 51,
+      "created_at": "2025-07-31T10:48:34.008704"
+    }
+  },
+  {
+    "id": "UKC_REQ_19",
+    "text": "Question: What are the requirements to i want to process an online change to a rail booking purchased through a travel agent. what should i consider?\nAnswer: You can change your rail booking online, but your travel agent will not have access to your new electronic ticket.",
+    "metadata": {
+      "question": "What are the requirements to i want to process an online change to a rail booking purchased through a travel agent. what should i consider?",
+      "answer": "You can change your rail booking online, but your travel agent will not have access to your new electronic ticket.",
+      "section": "Requirements",
+      "topics": [
+        "booking",
+        "eligibility",
+        "modification"
+      ],
+      "extraction_method": "requirements_extraction",
+      "confidence": 0.8,
+      "token_count": 47,
+      "created_at": "2025-07-31T10:48:34.008707"
+    }
+  },
+  {
+    "id": "UKC_COMPARISON_FARES",
+    "text": "Question: What are the differences between the fare types?\nAnswer: Flexible Fares: Full refund available without fees. Standard Fares: Full refund within 24 hours of booking; partial refund after 24 hours minus cancellation fees. First Class Fares: Full refund within 24 hours of booking; partial refund after 24 hours minus cancellation fees",
+    "metadata": {
+      "question": "What are the differences between the fare types?",
+      "answer": "Flexible Fares: Full refund available without fees. Standard Fares: Full refund within 24 hours of booking; partial refund after 24 hours minus cancellation fees. First Class Fares: Full refund within 24 hours of booking; partial refund after 24 hours minus cancellation fees",
+      "section": "Fare Comparison",
+      "topics": [
+        "payment",
+        "refund",
+        "fares",
+        "timing",
+        "cancellation",
+        "booking"
+      ],
+      "extraction_method": "comparison_synthesis",
+      "confidence": 0.75,
+      "token_count": 52,
+      "created_at": "2025-07-31T10:48:34.008710"
+    }
+  }
+]

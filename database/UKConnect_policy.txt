@@ -1,0 +1,819 @@
+# UKConnect Train Company Policy & FAQ
+
+## Ticket Receipt and Invoice Questions
+
+1. **Can I receive an invoice for my booked train journey?**
+
+Yes, we can send you a new booking confirmation free of charge for up to 100 days after the ticket has been completely used. A fee of £25.00 per transaction (maximum of five E-ticket confirmations) will be charged after these 100 days. The E-ticket can be used for invoicing purposes.
+
+2. **Do I need to reconfirm my train journey?**
+
+No, reconfirmation of UKConnect train journeys is not required. However, we recommend checking for any service updates on the day of travel.
+
+3. **Can I check for availability and fares without booking a journey?**
+
+Yes, you can check train availability and fares without finalising a booking. Payment is only processed as the final step, after entering your personal details.
+
+4. **What are the fare categories?**
+
+The letters A, B, C, D, E, F, G, H (Standard Class), J, K, L, M (First Class), and P, Q, R, S (Off-Peak/Super Off-Peak) are used to indicate different price categories across service classes.
+
+5. **Where can I find the fare conditions for my booked tickets?**
+
+Fare conditions for your booked tickets will be displayed during the booking process. Please note that tariff conditions are in English and can be accessed during booking.
+
+6. **Why are my first and middle names sometimes combined without a space?**
+
+Your first and middle names are stored by our system as one continuous string without spaces. This is not an error and does not affect your booking validity.
+
+## Booking and Cancellation
+
+1. **How can I change my booking?**
+   * The ticket number must start with 812 (UKConnect ticket reference).
+   * The ticket was not paid for by voucher or promotional code (exceptions apply; full voucher payments may allow online rebooking under certain circumstances).
+   * There must be an active train booking for your ticket. Open tickets or tickets without corresponding journey segments cannot be rebooked online currently.
+   * Currently, only single journey tickets or return tickets with direct routes (point-to-point) can be rebooked online.
+
+2. **Which tickets/bookings cannot be rebooked online currently?**
+   * Bookings containing journey segments with other rail operators
+   * Bookings containing reservations where a ticket has not yet been issued
+   * Bookings with multiple valid tickets for the same person and route
+   * Tickets with a status other than "Valid" 
+   * Bookings with segments showing status other than "Confirmed" (e.g., containing segments with "Waitlist" status)
+   * Tickets that do not display fare calculation (promotional tickets)
+   * Bookings containing special services (e.g., bicycle transport, wheelchair assistance, pet transport)
+   * Tickets that are part of a group booking
+   * Tickets where the booking class does not correspond to the fare code
+
+3. **Am I allowed to make changes to my online season ticket booking?**
+   * Season ticket bookings cannot yet be changed on ukconnect.com.
+
+4. **What changes can I make to my ticket?**
+   * You can change the train service and travel dates. Changes to origin and destination stations or passenger name changes are not possible online.
+
+5. **After making changes to my itinerary online, can I make another change?**
+   * If fare conditions permit, multiple changes to the itinerary are possible.
+
+6. **Can a name be changed after booking?**
+   * The correct name(s) of the travelling passenger must be entered in the booking. First and last names must match travel documents exactly. Middle names are optional and can be added to the first name field, subject to character limitations.
+   * First and middle names are stored without spaces - this is not an error and doesn't affect your booking.
+   * Subsequent name changes, including adding names to tickets, are not permitted.
+
+7. **Is it possible to apply changes to only some passengers in the same booking?**
+   * Changes apply to all passengers travelling together. Individual passenger name changes or adjustments to passenger numbers are not possible online.
+
+8. **Until what time before departure can a journey be rebooked online?**
+   * Online rebooking minimum times vary by departure station. For major stations, rebooking is possible up to 2 hours before departure.
+
+9. **Will differences in booking fees be refunded if the new journey choice is cheaper?**
+   * Online refunds are currently not available for fare differences.
+
+10. **Why isn't rebooking processed in the same currency as the original ticket?**
+    * Rebooking calculations are processed in GBP, the standard currency for UK rail travel.
+
+11. **Will my seat reservation be included in the rebooking?**
+    * Yes, your seat reservation will be transferred to the new booking where available.
+
+12. **Will my meal preferences be included in the rebooking?**
+    * Yes, any special meal requests will be transferred to the new booking.
+
+13. **Will my accessibility requirements be included in the rebooking?**
+    * Yes, your accessibility requirements will be transferred to the new booking.
+
+14. **Will travel insurance purchased through UKConnect be included in the new ticket?**
+    * Yes, travel insurance obtained through UKConnect will remain valid on the new ticket.
+
+15. **Will I receive a new booking reference after rebooking?**
+    * No, your booking reference remains the same after rebooking.
+
+16. **Will I receive a new ticket number after rebooking?**
+    * Yes, you will receive a new ticket number after rebooking.
+
+17. **Can I change my booking after checking in online?**
+    * No, only tickets with "Valid" status can be changed online.
+
+18. **I want to change a rail journey that's part of a package purchased through a travel agent. What should I consider?**
+    * Changes on ukconnect.com are limited to the rail journey only. No changes to other package services (e.g., hotel, car hire) will be processed.
+
+19. **I want to process an online change to a rail booking purchased through a travel agent. What should I consider?**
+    * You can change your rail booking online, but your travel agent will not have access to your new electronic ticket.
+
+## Booking Platform
+
+1. **Why can I no longer see all my bookings in my profile?**
+   Bookings made before 15.03.2022 via your profile on ukconnect.com or in the UKConnect app are no longer visible. You can add them again if necessary.
+
+2. **Why can I no longer see third-party bookings in my profile?**
+   To add third-party bookings, please use your smartphone. Via desktop and tablet, you can only add third-party bookings if you're part of the same booking as the profile owner.
+
+3. **Where can I see booking class information for fares?**
+   On desktop and tablet, booking class information is displayed directly in the journey results.
+
+4. **Where can I see train seating plans?**
+   On desktop and tablet, seating plans are available directly in the journey results where applicable.
+
+5. **How do I arrange an upgrade?**
+   On desktop and tablet, you can arrange upgrades after successful booking via Profile → My bookings → Edit booking → Book upgrade for this journey.
+
+6. **How can I make bookings for more than 9 passengers?**
+   Group bookings for more than 9 passengers can be arranged using our group booking form.
+
+7. **Why don't I see saved payment card data from the UKConnect app on desktop?**
+   Payment card data saving is device-specific. Cards saved via desktop/tablet are not available on mobile and vice versa.
+
+8. **Some functions aren't available on my smartphone. What can I do?**
+   The following features are temporarily available only via desktop and tablet: Redeeming vouchers and promotion codes, Booking multi-leg journeys, Making rebookings.
+
+9. **Can I book connecting services with other rail operators?**
+   Yes, you can choose from our partner rail operators across the UK rail network.
+
+10. **What if I need further support?**
+    You can contact our customer support team for assistance.
+
+## Ordering an Invoice
+
+If you need an invoice for personal or business purposes, most UK organisations accept an e-ticket confirmation as an invoice. For specific requirements, invoices can be ordered using dedicated forms.
+
+### Using E-ticket Confirmation as Invoice
+
+Your e-ticket confirmation is recognised as a receipt throughout the UK and can be used for expense reimbursement and tax purposes.
+
+You can order your e-ticket confirmation in your profile under "Bookings" via "E-documents (Invoice)" or "Passenger Receipt".
+
+### Ordering an Invoice After Travel
+
+We can send you a new booking confirmation free of charge up to 90 days after the ticket has been completely used. After 90 days, we charge £25 for each confirmation (maximum of five e-ticket confirmations).
+
+### Special Invoice Requirements
+
+For certain business requirements or specific accounting needs, we can issue detailed invoices on request. Contact our customer service team for assistance with special invoice formats.
+
+## Payment Cards
+
+### Card Security Number
+
+For secure online payments, we require the card security number for all online bookings. This code validates your credit/debit card information.
+
+**American Express**: 4-digit number above the card number on the front
+**Mastercard**: 3-digit number on the back where the signature appears
+**Visa**: 3-digit number on the back where the signature appears
+**Maestro**: 3-digit number on the back where the signature appears
+
+## Card Security
+
+### Payment Security Standards
+
+Following UK payment security regulations, we maintain enhanced security standards ensuring safe online transactions.
+
+We comply with Payment Card Industry Data Security Standards, defining how we store, transmit, and process payment data. All payment data is encrypted to the highest safety standards.
+
+### 3-D Secure Authentication
+
+3-D Secure authentication is required for all credit and debit cards issued in the UK. This additional authentication step guarantees secure payments and reduces fraud risk.
+
+**How 3-D Secure Works:**
+1. Register your card via your bank's website (process varies by bank)
+2. During transaction, you'll be redirected to your bank's website for additional authentication
+3. Complete the authentication to finalize your booking
+
+For 3-D Secure registration questions, contact your bank directly.
+
+## Pay Monthly Option
+
+### Who Can Use Pay Monthly?
+
+You must be over 18 and a UK resident. This payment option is available for all UK rail journeys.
+
+### What Does ID Verification Check?
+
+ID verification prevents fraud and ensures the booking person is the actual account holder, preventing identity theft. You'll receive a smartphone link via text message to upload documents and complete identification.
+
+### Do I Need ID Verification for Every Booking?
+
+No, once successfully completed, ID verification is not required for future bookings.
+
+### Why Did My ID Verification Fail?
+
+Ensure photographs are sharp, well-lit, and avoid reflections. Don't cover documents and take recent photos of yourself.
+
+### Can I Retry Failed ID Verification?
+
+Yes, you can repeat the ID verification process if documents weren't recognised.
+
+### Why Might Pay Monthly Be Declined?
+
+Our partner PayLater conducts online checks that may be declined for various reasons including creditworthiness, contradictory information, or unpaid PayLater invoices. More details available on the PayLater website.
+
+### How Do I Receive PayLater Invoices?
+
+PayLater issues invoices via email within 24-48 hours. Individual invoices are free when paid on time. Outstanding amounts are consolidated into monthly statements sent by post with a £2.50 processing fee.
+
+### Payment Periods and Reminder Fees
+
+**Individual Invoice**: Must be paid within 15 days of email receipt via online banking. Post office payments incur additional costs.
+**Monthly Invoice**: Payment due by month end using the provided payment slip.
+
+### Is Partial Payment Possible?
+
+Yes, partial payments between 10% and 100% of the total amount are accepted for both individual and monthly invoices.
+
+### When Are Reminder Fees Charged?
+
+Late payment of monthly invoices incurs reminder fees: £12 for the first reminder, £20 for the second reminder.
+
+### How Do Refunds Work with Pay Monthly?
+
+Refunds depend on cancellation timing:
+- If invoice is paid: Refund via bank transfer
+- If PayLater is notified before payment period ends: New invoice issued for adjusted amount
+- If notification is after payment period: Monthly invoice issued with £2.50 processing fee minus refund amount
+
+### Do I Need to Pay Before Travel?
+
+No, you can travel regardless of PayLater invoice payment status.
+
+### Pay Monthly Queries
+
+For Pay Monthly invoice queries, contact PayLater customer service:
+- Email: info@paylater.co.uk
+- Phone: +44 20 7946 0958
+- Hours: Monday-Friday, 8:00-17:00
+
+### Business Address for Pay Monthly
+
+Pay Monthly accounts require your personal address; business addresses are not accepted.
+
+## Frequently Asked Questions: Payment
+
+### Currency Conversion Advantages
+
+Using currency conversion provides:
+- Choose which currency to charge your card
+- Guaranteed daily exchange rate displayed
+- Avoids foreign currency fees typically charged by card companies
+
+### Who Can Use Currency Conversion?
+
+Available only when booking through ukconnect.com. Not available for journey changes, upgrades, or additional services, which are charged in GBP.
+
+### Exchange Rate Information
+
+Conversion uses daily exchange rates from major UK banks. Rates may vary for new bookings. The rate at booking conclusion is definitive and appears on confirmations.
+
+### Additional Card Charges
+
+Some banks may charge additional fees. UKConnect has no influence over these charges.
+
+### Refund Currency
+
+Refunds are processed in the currency of the original ticket (GBP for UK bookings).
+
+## Frequently Asked Questions: UK Fare Structure
+
+### Can Particular Standard Fares Be Fully Booked?
+
+No. As long as Standard Class seats are available, all Standard fare types remain available in every booking class.
+
+### Can UKConnect Fares Be Booked on Partner Rail Services?
+
+Standard, Flexible, and First Class fares can be booked on partner rail services. Advance fares can only be booked on UKConnect-operated services. Seat reservations may not be available on all partner services.
+
+### Why Doesn't UKConnect Offer Flexible Fares for Groups?
+
+Group bookings can be changed free of charge until ticket issue, provided the same price remains available. Flexible fares therefore provide no additional group benefit.
+
+### Can Additional Options Always Be Changed?
+
+Additional options cannot be changed with Advance fares as the fare itself cannot be modified. With Standard fares, additional options can only be booked on the same reservation.
+
+### Is Upgrading to First Class Possible?
+
+If you've booked Advance, Standard, or Flexible fares, you can upgrade to First Class, which includes many First Class services. Upgrades are bookable via ukconnect.com or the UKConnect Service Centre.
+
+### What Do Loyalty Members Need to Consider?
+
+Advance fares don't include free seat reservations or additional luggage allowances. All other loyalty benefits, such as lounge access, remain unchanged.
+
+### What Are Mile/Point Credit Differences?
+
+Point credits are still determined by the booking class and fare type purchased.
+
+### If I Book an Advance Fare with Paid Extras and Cancel, Do I Lose Everything?
+
+Like Advance fares, charges for paid extras are non-refundable and cannot be transferred to different journeys.
+
+### Refunds for Unused Included Services
+
+No refunds are given for included fare services that aren't used (e.g., seat reservations, lounge access).
+
+### First vs Additional Luggage
+
+First luggage can only be purchased with Advance fares and costs less than additional luggage items.
+
+### How to Purchase First Luggage with Advance Fares
+
+First luggage (max 23kg) can be purchased through travel agents, ukconnect.com (up to 2 hours before departure), UKConnect Service Centre (up to 4 hours before departure), or at the station. Station prices are higher than advance purchase.
+
+### Last-Minute Luggage Purchase
+
+You can purchase luggage via ukconnect.com up to 2 hours before departure. Different prices apply at the station.
+
+### Maximum Additional Luggage
+
+You can purchase up to two additional luggage items via ukconnect.com. Travel agents can arrange one first luggage plus one additional item. The UKConnect Service Centre has no limit on additional luggage purchases.
+
+### UKConnect Flexible: Same-Day Journey Change Service
+
+Applies to "Flexible" and "First Class Flexible" fares. Free rebooking is possible only on the departure day during online check-in or at station ticket machines/counters. Applies to direct journeys only. Route or operator changes are not possible.
+
+## How to Cancel a UKConnect Train Journey: 0800-123-7890 Step-by-Step Guide
+
+UKConnect is a premium rail operator serving destinations across the UK. Sometimes passengers need to cancel their train journeys, making it important to understand the UKConnect Cancellation Policy.
+
+### UKConnect Cancellation Policy Overview
+
+UKConnect offers different fare types with specific cancellation terms:
+
+- **Flexible and First Class Flexible fares**: Cancel up to 24 hours before departure without penalty
+- **Standard fares**: Cancellation fees apply outside the 24-hour window
+- **Advance fares**: Limited flexibility with higher cancellation fees
+
+Cancellation fees depend on fare type and timing. The closer to departure, the higher the fee.
+
+UKConnect may allow journey changes instead of cancellation, though fees may apply based on fare type and requested changes.
+
+If UKConnect cancels your journey, you're entitled to a full refund or rebooking. For cancellations due to extraordinary circumstances (severe weather, industrial action), compensation may be limited.
+
+### How to Cancel Online
+
+1. Visit ukconnect.com and navigate to "My Bookings"
+2. Log in with your booking details
+3. Find your journey and click "Cancel"
+4. Follow prompts to confirm cancellation
+5. Review cancellation policy and applicable fees
+6. Submit refund request if eligible
+
+### How to Cancel by Phone
+
+**Step 1**: Find the customer service number: 0800-123-7890
+**Step 2**: Call and select language preference
+**Step 3**: Provide booking reference, journey details, and departure date
+**Step 4**: Confirm cancellation and review fees/refund options
+**Step 5**: Receive email confirmation
+
+### How to Cancel at the Station
+
+**Step 1**: Visit UKConnect ticket office or customer service desk
+**Step 2**: Provide booking details to staff
+**Step 3**: Confirm cancellation and review fees/refund options
+**Step 4**: Receive confirmation receipt
+
+### Important Cancellation Considerations
+
+- Non-refundable tickets may only qualify for partial refunds
+- Third-party bookings may require contacting the original booking agent
+- Check ticket terms and conditions for specific cancellation policies
+- Medical emergencies or extraordinary circumstances may qualify for special exemptions
+
+### 24-Hour Cancellation Policy
+
+UKConnect allows cancellation within 24 hours of booking without penalty for all fare types, including non-refundable tickets. Full refunds are provided for cancellations within this period.
+
+### Cancellation Fees by Fare Type
+
+**Flexible Fares**: Most flexible, allowing changes/cancellations without additional fees
+
+**Standard Fares**: Moderate flexibility with cancellation fees ranging from £25-£75 depending on route and timing
+
+**First Class Fares**: Premium service with cancellation fees from £25-£100 depending on route and timing
+
+Fees are subject to change and may vary by specific ticket terms. Add-on services (seat reservations, luggage) may have separate cancellation fees.
+
+### Refund Policy
+
+**Flexible Fares**: Full refund available without fees
+
+**Standard Fares**: Full refund within 24 hours of booking; partial refund after 24 hours minus cancellation fees
+
+**First Class Fares**: Full refund within 24 hours of booking; partial refund after 24 hours minus cancellation fees
+
+Refund policies vary by route and timing. Add-on services follow separate refund terms.
+
+### Cancellation Compensation
+
+UKConnect's comprehensive cancellation policy outlines passenger compensation for journey cancellations. Depending on circumstances, passengers may receive full refunds, rebooking on next available services, or financial compensation.
+
+### Conclusion
+
+UKConnect's comprehensive policy framework serves passengers across the UK rail network, from short journeys like Brighton to London Victoria (£23.80) to long-distance routes like Birmingham New Street to Edinburgh Waverley (£185.00 First Class). 
+
+Our flexible cancellation policy has helped customers like Emily Johnson receive £53.70 refunds on cancelled Standard tickets, while our modification service allowed David Evans to change his Cardiff to London departure time for just £15.00. Whether you're booking Flex tickets for business travel like Jennifer Smith's Glasgow to London journey, or Standard tickets for leisure travel like Christopher Jones's Brighton to London trip, UKConnect provides clear policies and fair pricing.
+
+With payment options including credit cards, debit cards, and PayPal, plus our Pay Monthly service for eligible UK residents, UKConnect makes rail travel accessible and convenient. Our customer service team is available to assist with any booking queries, modifications, or cancellations.
+
+By understanding UKConnect's policies, you can make informed travel decisions and enjoy a seamless rail travel experience across the UK.
+
+## Comprehensive Payment Methods
+
+1. **What credit and debit cards are accepted?**
+
+**Credit Cards Accepted:**
+- Visa (including Visa Business, Visa Corporate)
+- Mastercard (including Mastercard Business, Mastercard Corporate)  
+- American Express (including American Express Corporate, American Express Business)
+
+**Debit Cards Accepted:**
+- Visa Debit (UK and international)
+- Mastercard Debit (UK and international)
+- Maestro (UK and EU)
+- UK bank debit cards (all major UK banks)
+
+All cards must support 3-D Secure authentication for online transactions.
+
+2. **What digital payment methods are available?**
+
+**Digital Wallets:**
+- Apple Pay (iPhone, iPad, Apple Watch, Mac)
+- Google Pay (Android devices, web browsers)
+- Samsung Pay (Samsung devices)
+
+**Online Payment Services:**
+- PayPal (including PayPal Credit where eligible)
+- PayPal Business accounts for corporate bookings
+
+**Contactless Payments:**
+- All contactless-enabled credit/debit cards
+- Mobile contactless payments via digital wallets
+
+3. **How does the Pay Monthly / PayLater service work?**
+
+PayLater allows UK residents over 18 to book now and pay later with flexible payment options:
+- Individual invoices: Pay within 15 days of email receipt (no fees if paid on time)
+- Monthly statements: Consolidated billing with £2.50 processing fee
+- Partial payments accepted (10-100% of total amount)
+- ID verification required for first use
+- Credit assessment determines eligibility
+
+Late payment fees: £12 first reminder, £20 second reminder.
+
+4. **What corporate payment options are available?**
+
+**Corporate Cards:**
+- Visa Business and Corporate cards
+- Mastercard Business and Corporate cards  
+- American Express Corporate cards
+- Purchase cards and procurement cards
+
+**Business Payment Methods:**
+- Direct billing accounts (30-day payment terms)
+- Purchase order systems for large organizations
+- Corporate PayPal Business accounts
+- Bank transfers for high-value group bookings
+
+**Invoice Processing:**
+- Detailed VAT invoices with expense coding
+- Multiple cost center allocation available
+- Integration with expense management systems
+
+5. **Are there any payment method restrictions or fees?**
+
+**No Additional Fees:**
+- No surcharges for any accepted payment methods
+- No booking fees for standard transactions  
+- Currency conversion available at bank rates (no markup)
+
+**Payment Restrictions:**
+- Prepaid cards may be declined by fraud prevention systems
+- Gift cards and store cards are not accepted
+- Cash payments only accepted at station ticket offices
+- Cheques are not accepted for online bookings
+
+**International Considerations:**
+- International cards welcome with standard bank foreign exchange rates
+- Some international banks may charge foreign transaction fees (UKConnect does not control these)
+
+6. **What happens if my payment fails or is declined?**
+
+**Common Decline Reasons:**
+- Insufficient funds or credit limit exceeded
+- 3-D Secure authentication failure
+- Card issuer fraud prevention triggers
+- Expired or inactive payment method
+
+**Resolution Steps:**
+1. Verify card details and billing address match exactly
+2. Contact your bank to authorize the transaction
+3. Try an alternative payment method
+4. For persistent issues, call our payment support line at 0800-123-7893
+
+**Payment Hold Policy:**
+Failed payments may result in a 24-hour hold on repeated booking attempts using the same payment method.
+
+7. **How are refunds processed back to different payment methods?**
+
+**Refund Processing Times:**
+- Credit/Debit Cards: 3-5 business days
+- PayPal: 1-3 business days  
+- Digital Wallets: 1-3 business days
+- PayLater: Adjusted invoice or account credit
+- Corporate Accounts: Bank transfer or account credit
+
+**Refund Policies:**
+- Refunds always return to original payment method
+- Partial refunds maintain original payment method
+- Corporate bookings can redirect refunds to different accounts with authorization
+- International refunds processed in original transaction currency
+
+## Pricing & Fare Structure
+
+1. **Why do train prices vary throughout the day?**
+
+Train pricing follows demand-based and time-of-day structures. Peak hours (7-9 AM, 5-7 PM weekdays) have higher demand and premium pricing. Off-peak and Super Off-peak times offer discounted fares to encourage travel during quieter periods. Weekend pricing typically follows off-peak rates except for popular tourist routes.
+
+2. **What are the specific off-peak times and discounts?**
+
+**Off-Peak Times:**
+- Weekdays: 9:30 AM - 4:30 PM, after 7:00 PM
+- Weekends: All day Saturday and Sunday
+- Public holidays: All day
+
+**Super Off-Peak Times:**
+- Weekdays: 10:00 AM - 3:30 PM, after 8:00 PM
+- Weekends: All day
+
+Off-peak discounts range from 20-40% off peak fares. Super off-peak offers 30-50% discounts. Specific times may vary by route and are clearly displayed during booking.
+
+3. **How are fare categories A-H and J-S structured?**
+
+Fare categories indicate pricing levels within each class:
+- **A-H (Standard Class)**: A is most expensive peak fare, H is cheapest off-peak
+- **J-M (First Class)**: J is premium peak fare, M is discounted off-peak
+- **P-S (Advance/Promotional)**: Special advance purchase and promotional fares
+
+Each category has different flexibility, cancellation terms, and availability windows. Higher letter categories generally offer more restrictions but lower prices.
+
+4. **What determines the price difference between Standard and Flexible fares?**
+
+Flexible fares cost 15-35% more than Standard fares but include: free cancellation up to 24 hours before departure, free changes up to 2 hours before departure, no advance purchase requirements, and full refunds for delays over 2 hours. Standard fares have restricted change/cancellation policies but offer significant savings.
+
+5. **Are there seasonal pricing variations?**
+
+Yes, seasonal variations apply to popular routes:
+- **Summer (June-August)**: 10-25% premium on tourist routes
+- **Christmas/New Year (Dec 20-Jan 5)**: 15-30% premium on most routes  
+- **Bank holidays**: 10-20% premium depending on route popularity
+- **School holidays**: Variable pricing on family-oriented routes
+
+Advance booking (7+ days) can minimize seasonal premiums.
+
+6. **How does distance affect pricing?**
+
+UKConnect uses zone-based pricing combined with distance calculations. Short journeys (under 50 miles) have flat-rate pricing. Medium distances (50-200 miles) use linear distance pricing. Long journeys (200+ miles) include zone premiums for major city connections and may offer better per-mile value for advance bookings.
+
+7. **What are the current price ranges for major routes?**
+
+**Sample Route Pricing (Standard/Flexible/First Class):**
+- London-Manchester: £45-65 / £60-85 / £95-140
+- London-Edinburgh: £65-95 / £85-125 / £145-220  
+- Birmingham-Glasgow: £55-80 / £75-105 / £120-180
+- Liverpool-London: £50-75 / £70-95 / £110-165
+
+Prices vary by time, season, and advance booking. Super off-peak and advance fares can be 40-60% lower than peak walk-up fares.
+
+## Student Discounts & Special Fares
+
+1. **Are student discounts available on UKConnect services?**
+
+Yes, UKConnect offers student discounts up to 34% off Standard and Flexible fares for full-time students aged 16-25. Students must register with a valid student ID and .ac.uk email address. The discount applies to off-peak and selected peak services across our network.
+
+2. **How do I apply for a student discount?**
+
+Register online at ukconnect.com/students with your student ID, full-time enrollment verification, and university email address. You'll receive a student railcard number that can be applied during booking. The railcard costs £30 annually and pays for itself with just a few journeys.
+
+3. **What is UKConnect's best price guarantee?**
+
+If you find a lower fare for the same journey on a competitor's website within 24 hours of booking, we'll refund the difference plus an additional 10% discount voucher. This applies to Standard and Flexible fares on like-for-like services. Submit price match requests through our website with competitor booking details.
+
+4. **Do student discounts apply to First Class tickets?**
+
+Student discounts apply to Standard and Flexible fares only. However, students can upgrade to First Class at a reduced rate when purchasing their initial ticket. Student upgrades to First Class receive a 20% discount off the standard upgrade fee.
+
+5. **Can students use the student discount with other promotional offers?**
+
+Student discounts cannot be combined with other promotional codes or group booking discounts. However, the student discount automatically applies to the lowest available fare in each booking class, ensuring you always receive the best student price.
+
+6. **What happens if I book without applying my student discount?**
+
+If you forget to apply your student discount during booking, contact customer service within 24 hours with your booking reference and student railcard number. We can process a partial refund for the discount amount for bookings that haven't been used for travel.
+
+7. **Are there age restrictions for student discounts?**
+
+Student discounts are available for full-time students aged 16-25 enrolled in recognized UK educational institutions. Part-time students may be eligible with additional verification. Apprentices and vocational students qualify with appropriate documentation from their training provider.
+
+## Mobile Ticketing & Digital Services
+
+1. **Are mobile tickets accepted on UKConnect trains?**
+
+Yes, mobile tickets are fully accepted on all UKConnect services. You can display your e-ticket confirmation on your smartphone screen to train staff and ticket inspectors. Mobile tickets are stored securely in the UKConnect app and can be accessed offline once downloaded.
+
+2. **Can I manage my bookings through the UKConnect mobile app?**
+
+Yes, the UKConnect app allows you to view, modify, and cancel bookings. You can access your booking history, download mobile tickets, receive real-time journey updates, and manage your customer profile. However, some advanced features like voucher redemption and complex multi-leg bookings are currently available only via desktop.
+
+3. **What happens if my phone battery dies and I can't show my mobile ticket?**
+
+If your mobile device is unavailable, you can provide your booking reference number to train staff who can verify your ticket in their system. We recommend taking a screenshot of your ticket or noting your booking reference as backup. Physical tickets can be collected from station machines using your booking reference if needed.
+
+4. **Can I transfer mobile tickets to another device?**
+
+Mobile tickets are linked to your UKConnect account and can be accessed from any device where you log in to the app or website. However, tickets cannot be transferred to other people's accounts or devices without proper rebooking procedures.
+
+5. **Are there any limitations with mobile tickets compared to physical tickets?**
+
+Mobile tickets have the same functionality as physical tickets. However, some station facilities and partner services may have limited smartphone integration. For business expense purposes, mobile tickets serve as valid receipts and can be forwarded to accounting departments.
+
+## Ticket Modifications & Transfers
+
+1. **Can I transfer my ticket to another person?**
+
+Standard and First Class tickets are non-transferable between passengers. The passenger name must match valid photo ID for travel. However, Flexible fares allow name changes up to 24 hours before departure for a £25 administration fee, provided the new passenger meets all travel requirements.
+
+2. **What are the detailed fees for ticket modifications?**
+
+Modification fees vary by fare type: Standard fares incur £25-£75 change fees depending on timing and route. Flexible fares allow free changes up to 2 hours before departure. First Class tickets have change fees of £25-£100. Same-day changes cost an additional £15. Weekend and peak-time changes may incur premium rates.
+
+3. **Can I change my ticket to a different route or destination?**
+
+Route changes are treated as new bookings rather than modifications. You must cancel your original ticket (subject to cancellation fees) and purchase a new ticket for the different route. The price difference and applicable fees will apply. This policy ensures fare integrity across our network pricing structure.
+
+4. **How late can I modify my booking before departure?**
+
+Online modifications are possible up to 2 hours before departure for most stations. Major stations like London terminals, Manchester Piccadilly, and Birmingham New Street allow changes up to 1 hour before departure. Station ticket offices can process changes up to 30 minutes before departure with additional fees.
+
+5. **What happens if I miss my train after modifying my booking?**
+
+If you miss your rescheduled train, the same fare conditions apply as your modified ticket type. Flexible fare holders can take the next available service without additional charges. Standard fare holders must purchase a new ticket unless they have valid reasons (medical emergency, transport delays affecting your journey to the station).
+
+6. **Can I modify tickets purchased with promotional codes or vouchers?**
+
+Tickets purchased with promotional codes or vouchers have restricted modification rights. Most promotional fares allow date/time changes for a higher fee (£35-£50) but route changes are not permitted. Voucher-purchased tickets must be cancelled and rebought if significant changes are needed, subject to voucher terms.
+
+7. **Are group booking modifications handled differently?**
+
+Group bookings (3+ passengers) can be modified up to 48 hours before departure. Individual passenger changes within a group booking incur standard modification fees per person. Entire group modifications may qualify for reduced per-person fees. Groups of 10+ passengers receive dedicated support for complex modifications.
+
+## Flexible Fare Policies
+
+1. **What is the specific 24-hour cancellation policy for Flexible fares?**
+
+Flexible fares can be cancelled up to 24 hours before scheduled departure without any penalty fees, receiving a full refund to the original payment method. Cancellations within 24 hours but more than 2 hours before departure incur a £15 service fee. Cancellations within 2 hours of departure forfeit 50% of the ticket value as a cancellation fee.
+
+2. **How do Flexible fare changes work compared to Standard fares?**
+
+Flexible fares allow unlimited free changes (date, time, train service) up to 2 hours before departure. Changes within 2 hours incur a £10 same-day change fee. Standard fares require £25-£75 change fees depending on timing and route, with no free change window. First Class Flexible fares follow the same terms but apply to First Class inventory.
+
+3. **Can Flexible fare holders take any train on their travel date?**
+
+Yes, Flexible fare holders can take any UKConnect service on their booked date without advance rebooking. If your original train is cancelled or significantly delayed, you can board any alternative service that day. This same-day flexibility is the key benefit distinguishing Flexible from Standard fares.
+
+4. **What happens if I miss my Flexible fare train?**
+
+Flexible fare holders can take the next available service on the same day at no additional cost. If travelling the next day, standard rebooking policies apply (free changes up to 24 hours before the new departure time). This flexibility makes Flexible fares ideal for business travel with uncertain timing.
+
+5. **Do Flexible fares include any additional services beyond flexibility?**
+
+Yes, Flexible fares include: priority customer service, enhanced delay compensation (full refund for delays over 30 minutes), complimentary seat reservations where available, and automatic rebooking on alternative services during disruptions. These services are included in the Flexible fare premium.
+
+6. **How do refunds work for partially used Flexible return tickets?**
+
+For Flexible return tickets, unused portions can be refunded up to the original validity period. If you've used the outbound journey, the return portion can be refunded minus a £10 processing fee if cancelled more than 24 hours before the return departure. Within 24 hours, standard Flexible cancellation terms apply to the unused portion.
+
+7. **Can I upgrade a Standard fare to Flexible after booking?**
+
+Yes, Standard fares can be upgraded to Flexible by paying the fare difference plus a £15 upgrade processing fee. This upgrade must be completed at least 2 hours before departure and is subject to Flexible fare availability on your specific service. The upgrade provides full Flexible benefits from the point of processing.
+
+## First Class Service Details
+
+1. **What amenities are included with First Class tickets?**
+
+First Class includes: complimentary meal service (hot meals on journeys over 2 hours, light refreshments on shorter routes), complimentary beverages (tea, coffee, soft drinks, selected alcoholic beverages), power sockets at every seat, free WiFi with enhanced bandwidth, wider seats with extra legroom, and dedicated First Class carriage with table seating where available.
+
+2. **How does First Class service vary by route length?**
+
+**Short Routes (under 1 hour)**: Premium seating, complimentary hot/cold beverages, biscuits or light snacks, priority boarding
+**Medium Routes (1-3 hours)**: Full meal service, expanded beverage selection including wine/beer, newspaper service, dedicated First Class attendant
+**Long Routes (3+ hours)**: Multi-course meals, full bar service, enhanced meal options (dietary requirements accommodated), personal service throughout journey, lounge access where available
+
+3. **What specific First Class amenities are available on Edinburgh-Glasgow routes?**
+
+Edinburgh-Glasgow First Class (45-60 minute journey) includes: leather seating with 50% more space than Standard, complimentary tea/coffee/soft drinks, selection of Scottish shortbread and local snacks, free newspapers (Herald, Scotsman, Financial Times), priority boarding at both cities, and scenic route guidance announcements for tourists.
+
+4. **Are First Class upgrades available at the station?**
+
+Yes, subject to availability. Station upgrades cost 20-40% more than online advance upgrades. Flexible and Standard fare holders can upgrade at ticket machines, station counters, or onboard (where available). Same-day upgrades are possible up to 30 minutes before departure, though advance online upgrades guarantee availability and better pricing.
+
+5. **What happens if First Class services are unavailable during my journey?**
+
+If First Class amenities are significantly reduced (no meal service, seating in Standard carriage, etc.), you're entitled to a partial refund of the First Class premium (typically 25-50% depending on service level achieved). Report service issues to onboard staff who will document the situation and arrange automatic compensation processing.
+
+6. **Can First Class passengers access station lounges?**
+
+First Class ticket holders have access to UKConnect lounges at London Euston, Manchester Piccadilly, Birmingham New Street, and Edinburgh Waverley. Lounges offer complimentary refreshments, WiFi, charging stations, quiet working areas, and newspaper/magazine selection. Access is included with First Class tickets - no additional fee required.
+
+7. **How does First Class dining accommodate dietary requirements?**
+
+First Class meals accommodate: vegetarian, vegan, gluten-free, halal, kosher, and common allergy restrictions. Special dietary requirements must be requested at booking or at least 24 hours before travel. Emergency dietary accommodations are handled case-by-case with alternative meal options or meal vouchers for station purchases.
+
+## Corporate & Business Travel
+
+1. **How do I set up a corporate account with UKConnect?**
+
+Corporate accounts can be established for businesses requiring regular rail travel. Contact our corporate sales team at corporate@ukconnect.com or call 0800-123-7891. You'll need to provide company registration details, VAT number, and authorized signatory information. Corporate accounts offer centralized billing, detailed reporting, and preferential payment terms.
+
+2. **Can I book multiple passengers on a corporate account?**
+
+Yes, corporate accounts can manage bookings for multiple employees. You can book up to 9 passengers in a single transaction online, or use our group booking form for larger groups. Each booking provides individual tickets with comprehensive expense reporting suitable for corporate accounting systems.
+
+3. **How do I get detailed invoices for corporate expenses?**
+
+Corporate bookings automatically receive detailed invoices including VAT breakdown, passenger details, journey information, and fare categories. Additional invoice formats can be requested for specific accounting systems. E-tickets include all necessary information for expense claim processing and audit requirements.
+
+4. **Can corporate bookings be modified or cancelled by different employees?**
+
+Corporate account administrators can manage all bookings within their account. Individual employees can only modify their own bookings unless granted broader access permissions. Cancellation and modification policies apply according to fare type, with flexible options available for corporate customers.
+
+5. **Are there special rates for corporate customers?**
+
+Corporate customers with significant travel volumes may be eligible for negotiated rates and volume discounts. Contact our corporate sales team to discuss customized pricing structures based on your company's travel patterns and requirements.
+
+6. **How does group booking work for business travel?**
+
+Groups of 3-9 passengers can be booked online with coordinated seating where available. For groups of 10 or more, use our dedicated group booking service which offers enhanced coordination, group rates, and specialized support. Business groups receive priority assistance for seating arrangements and special requirements.
+
+## International Visitor Services
+
+1. **What payment methods are accepted for international visitors?**
+
+International visitors can pay with Visa, Mastercard, and American Express cards issued worldwide. We accept international debit cards, PayPal, and digital wallets (Apple Pay, Google Pay) linked to international accounts. Currency conversion is handled automatically at current exchange rates, or you can pay in GBP directly.
+
+2. **Are there additional fees for international payment cards?**
+
+UKConnect does not charge additional fees for international cards. However, your bank may apply foreign transaction fees or currency conversion charges. Using our currency conversion service at checkout can help avoid some bank fees by charging your card in your home currency at guaranteed rates.
+
+3. **What travel documentation do international visitors need?**
+
+For train travel within the UK, no special documentation is required beyond valid government-issued photo ID (passport, national ID card, or driving license). Random ticket inspections may request ID verification, so carry the same ID used during booking. No advance booking or pre-registration is required.
+
+4. **Do international visitors have different booking modification policies?**
+
+International visitors follow the same modification and cancellation policies as UK residents. However, if travel plans change due to visa issues, flight cancellations, or other international travel complications, contact our customer service team who may authorize special exceptions on a case-by-case basis.
+
+5. **Can international visitors receive detailed invoices and receipts?**
+
+Yes, international visitors receive the same comprehensive e-ticket confirmations and invoices as domestic customers. These documents include all necessary details for expense claims, tax purposes, and visa applications. Additional invoice formats can be requested for specific business or tax requirements.
+
+6. **How does currency conversion work for international bookings?**
+
+International bookings can be processed in GBP or converted to major currencies (USD, EUR, CAD, AUD) at checkout. The exchange rate is locked at booking confirmation and displayed clearly. Refunds are processed in the original transaction currency. Currency conversion rates are updated daily based on major UK bank rates.
+
+7. **What support is available for international visitors with travel questions?**
+
+Our customer service team includes multilingual support for major languages and specialized assistance for international travel queries. Contact us at international@ukconnect.com or +44-800-123-7890. We can provide travel guidance, booking assistance, and help coordinate with other transport services.
+
+## Enhanced Accessibility Services
+
+1. **How do I request assistance for disabled passengers?**
+
+Request assistance at least 2 hours before travel by calling our accessibility helpline at 0800-123-7892, booking online, or through station staff. Specify your requirements: wheelchair assistance, visual/hearing impairment support, or mobility aid help. Assistance includes boarding, onboard support, and platform transfers at your destination.
+
+2. **What accessibility features are available on UKConnect trains?**
+
+All UKConnect trains feature wheelchair-accessible carriages with dedicated spaces, accessible toilets, audio/visual announcements, priority seating, and level boarding at most stations. Onboard wheelchair storage is available, and assistance animals travel free of charge with appropriate documentation.
+
+3. **Do I need to pay extra for accessibility services?**
+
+No, all accessibility services and assistance are provided free of charge. This includes personal assistance, wheelchair spaces, priority boarding, and companion travel discounts where applicable. Guide dogs and other registered assistance animals travel free without requiring a pet ticket.
+
+4. **Can I book accessible seating online?**
+
+Yes, accessible seating can be reserved during online booking by selecting accessibility requirements. Wheelchair spaces, priority seating, and companion seats can be pre-arranged. For complex requirements, call our accessibility booking line for personalized assistance with seating arrangements.
+
+5. **What station accessibility contacts are available?**
+
+**Major Station Accessibility Contacts:**
+- London Euston: 020-7387-9876 | accessibility.euston@networkrail.co.uk
+- Manchester Piccadilly: 0161-832-5432 | access.manchester@networkrail.co.uk  
+- Birmingham New Street: 0121-654-7890 | accessibility.birmingham@networkrail.co.uk
+- Edinburgh Waverley: 0131-467-8901 | access.edinburgh@networkrail.co.uk
+- Glasgow Central: 0141-335-6789 | accessibility.glasgow@networkrail.co.uk
+
+For other stations, contact our central accessibility team who can coordinate with local station services.
+
+6. **How does accessibility assistance work for connecting journeys?**
+
+Accessibility assistance is coordinated across connecting services when booking through UKConnect. Inform us of your complete journey including connections, and we'll arrange continuous support. Allow extra connection time for assistance transfers and notify us of any service changes that might affect your accessibility arrangements.
+
+7. **What should I do if accessibility equipment is out of service?**
+
+If accessibility equipment fails (lifts, ramps, accessible toilets), report it immediately to train staff or station personnel. Alternative arrangements will be made including taxi transfers at our expense if necessary. UKConnect maintains backup accessibility equipment and prioritizes rapid repairs of essential accessibility services.
+
