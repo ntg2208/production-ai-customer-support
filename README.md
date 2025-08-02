@@ -53,10 +53,12 @@ This isn't just code - it's a complete learning experience:
 
 ## 💡 Key Features
 
-### Multi-Agent Intelligence
-- **Master Agent**: Routes queries to specialist agents
-- **Policy Agent**: Handles rules, policies, refunds using RAG
-- **Ticket Agent**: Manages bookings, searches, transactions
+### Multi-Agent Orchestration
+- **Master Agent**: Primary orchestrator that analyzes customer queries, maintains context, and intelligently routes requests to specialist agents
+- **Policy Agent**: RAG-powered specialist for company policies, refund rules, terms & conditions, and fare regulations  
+- **Ticket Agent**: Operational specialist for ticket searches, bookings, modifications, and transaction processing
+
+**🧠 Intelligent Routing**: The Master Agent acts as the central intelligence hub, determining which specialist agent can best handle each customer request while preserving conversation context across all interactions.
 
 ### Production Features  
 - **Location Intelligence**: Auto-detects customer departure stations
@@ -83,21 +85,67 @@ This isn't just code - it's a complete learning experience:
 ## 📊 Architecture Overview
 
 ```
-┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
-│   Master Agent  │    │   Policy Agent   │    │  Ticket Agent   │
-│                 │◄──►│                  │    │                 │
-│ • Query Routing │    │ • Company Policy │    │ • Ticket Search │
-│ • Orchestration │    │ • Refund Rules   │    │ • Booking Mgmt  │
-│ • Context Mgmt  │    │ • T&C, Fares     │    │ • Customer Data │
-└─────────────────┘    └──────────────────┘    └─────────────────┘
-         ▲                        ▲                        ▲
-         │                        │                        │
-         ▼                        ▼                        ▼
 ┌─────────────────────────────────────────────────────────────────┐
 │                     Customer Interface                          │
-│  • Natural Language Processing                                  │
-│  • Context Awareness • Location Intelligence                    │
-└─────────────────────────────────────────────────────────────────┘
+│        • Natural Language Processing                            │
+│        • Context Awareness • Location Intelligence              │
+└─────────────────────────────────┬───────────────────────────────┘
+                                  ▼
+                    ┌─────────────────────────┐
+                    │     Master Agent        │ ◄── Main Orchestrator
+                    │   (Coordinator)         │
+                    │                         │
+                    │ • Query Analysis        │
+                    │ • Intelligent Routing   │
+                    │ • Context Preservation  │
+                    │ • Response Coordination │
+                    └─────────────┬───────────┘
+                                  ▼
+                    ┌─────────────┼─────────────┐
+                    ▼                           ▼
+          ┌──────────────────┐          ┌─────────────────┐
+          │   Policy Agent   │          │  Ticket Agent   │
+          │   (Specialist)   │          │  (Specialist)   │
+          │                  │          │                 │
+          │ • Company Policy │          │ • Ticket Search │
+          │ • Refund Rules   │          │ • Booking Mgmt  │
+          │ • T&C, Fares     │          │ • Customer Data │
+          │ • RAG Knowledge  │          │ • Transactions  │
+          └──────────────────┘          └─────────────────┘
+```
+
+**🎯 Orchestration Flow:**
+1. **Customer Query** → Master Agent analyzes intent and context
+2. **Intelligent Routing** → Routes to appropriate specialist agent
+3. **Specialist Processing** → Policy or Ticket agent handles specific task
+4. **Response Coordination** → Master agent ensures seamless customer experience
+
+### 🤖 Orchestration Examples
+
+**Simple Policy Query:**
+```
+Customer: "What's your refund policy?"
+Master Agent: [Analyzes: policy question] → Routes to Policy Agent
+Policy Agent: [RAG search] → Returns policy details
+Master Agent: [Coordinates response] → Customer receives seamless answer
+```
+
+**Complex Booking Operation:**
+```
+Customer: "Cancel my booking UKC005 and tell me the refund amount"
+Master Agent: [Analyzes: booking + policy] → Sequential routing
+  ↓ Step 1: Ticket Agent → Cancels booking, calculates base refund
+  ↓ Step 2: Policy Agent → Applies refund rules and fees
+Master Agent: [Synthesizes] → "Booking cancelled, £67.50 refunded"
+```
+
+**Mixed Query Handling:**
+```
+Customer: "I need to change my London-Manchester ticket, what are my options?"
+Master Agent: [Analyzes: operational + policy] → Parallel consultation
+  ↓ Ticket Agent: Available alternative trains and pricing
+  ↓ Policy Agent: Change fees and conditions
+Master Agent: [Combines responses] → Comprehensive options presented
 ```
 
 ## 🎯 Use Cases
