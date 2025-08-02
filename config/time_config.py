@@ -11,10 +11,10 @@ from typing import Optional
 # ==============================================
 
 # Set this to your desired test time, or None to use real current time
-SYSTEM_CURRENT_TIME: Optional[str] = "2025-07-29 14:30:00"
+SYSTEM_CURRENT_TIME: Optional[str] = None
 
 # Alternative format for agent prompts 
-SYSTEM_CURRENT_TIME_DISPLAY: Optional[str] = "Monday 2025-07-29 14:30 GMT"
+SYSTEM_CURRENT_TIME_DISPLAY: Optional[str] = None
 
 # ==============================================
 # TIME ACCESS FUNCTIONS

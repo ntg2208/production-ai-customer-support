@@ -289,7 +289,7 @@ async def process_and_display_response(events):
         print(f"\n{Colors.WHITE_BOLD}{'─'*60}{Colors.RESET}")
         print(f"{Colors.WHITE_BOLD}💬 Agent Response:{Colors.RESET}")
         print(f"{Colors.WHITE_BOLD}{'─'*60}{Colors.RESET}")
-        print(f"{Colors.WHITE}{final_response}{Colors.RESET}")
+        print(f"{Colors.WHITE_BOLD}{final_response}{Colors.RESET}")
         print(f"{Colors.WHITE_BOLD}{'─'*60}{Colors.RESET}")
     else:
         print(f"\n{Colors.RED}❌ No response generated{Colors.RESET}")

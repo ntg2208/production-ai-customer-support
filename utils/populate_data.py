@@ -217,7 +217,8 @@ def populate_data(db_path=None):
         ]
         
         # Generate dates for next 30 days (starting tomorrow to ensure future departures)
-        base_date = datetime(2025, 7, 29)  # Start from tomorrow to ensure future bookings
+        current_system_time = datetime.fromisoformat(get_system_time_iso())
+        base_date = current_system_time.replace(hour=0, minute=0, second=0, microsecond=0) + timedelta(days=1)  # Start from tomorrow to ensure future bookings
         
         for day_offset in range(30):
             current_date = base_date + timedelta(days=day_offset)
@@ -347,7 +348,7 @@ def populate_data(db_path=None):
                 ticket[10], # current_price (paid_price)
                 'confirmed', # booking_status
                 'upcoming', # travel_status
-                (datetime(2025, 7, 28) - timedelta(days=(i % 10) + 1)).strftime('%Y-%m-%d %H:%M:%S'), # purchase_date
+                (current_system_time - timedelta(days=(i % 10) + 1)).strftime('%Y-%m-%d %H:%M:%S'), # purchase_date
                 None, # check_in_time
                 None, # boarding_time
                 None, # special_requirements
@@ -483,6 +484,13 @@ def populate_data(db_path=None):
         test_tickets = []
         current_time = get_system_time_iso()
         
+        # Calculate dynamic dates relative to current system time
+        today = current_system_time.date()
+        tomorrow = today + timedelta(days=1)
+        next_tuesday = today + timedelta(days=(1 - today.weekday()) % 7 + 7)  # Next Tuesday
+        next_week = today + timedelta(days=7)
+        friday = today + timedelta(days=(4 - today.weekday()) % 7)  # This week's Friday, or next Friday if past
+        
         # Define test-specific tickets with exact specifications
         test_ticket_specs = [
             # Session 1: UK102 11:30 flexible fare, seat 12A carriage 2 (tomorrow)
@@ -490,8 +498,8 @@ def populate_data(db_path=None):
                 'train_number': 'UK102',
                 'from_station': 'London Euston',
                 'to_station': 'Manchester Piccadilly', 
-                'departure_time': '2025-07-29 11:30:00',
-                'arrival_time': '2025-07-29 13:38:00',
+                'departure_time': f'{tomorrow} 11:30:00',
+                'arrival_time': f'{tomorrow} 13:38:00',
                 'seat_number': '12A',
                 'carriage': '2',
                 'ticket_type': 'flexible',
@@ -501,13 +509,13 @@ def populate_data(db_path=None):
                 'distance': 320
             },
             
-            # Session 2: UK101 9:30 flexible fare for rebooking (August 5th)
+            # Session 2: UK101 9:30 flexible fare for rebooking (next week)
             {
                 'train_number': 'UK101',
                 'from_station': 'London Euston',
                 'to_station': 'Manchester Piccadilly',
-                'departure_time': '2025-08-05 09:30:00',
-                'arrival_time': '2025-08-05 11:38:00', 
+                'departure_time': f'{next_week} 09:30:00',
+                'arrival_time': f'{next_week} 11:38:00', 
                 'seat_number': '08A',
                 'carriage': '1',
                 'ticket_type': 'flexible',
@@ -522,8 +530,8 @@ def populate_data(db_path=None):
                 'train_number': 'UK401',
                 'from_station': 'Birmingham New Street',
                 'to_station': 'London Euston',
-                'departure_time': '2025-07-29 15:30:00',
-                'arrival_time': '2025-07-29 16:53:00',
+                'departure_time': f'{tomorrow} 15:30:00',
+                'arrival_time': f'{tomorrow} 16:53:00',
                 'seat_number': '01A',
                 'carriage': '1', 
                 'ticket_type': 'first_class',
@@ -538,8 +546,8 @@ def populate_data(db_path=None):
                 'train_number': 'UK502',
                 'from_station': 'London King\'s Cross',
                 'to_station': 'Edinburgh Waverley',
-                'departure_time': '2025-07-29 07:00:00',
-                'arrival_time': '2025-07-29 11:28:00',
+                'departure_time': f'{tomorrow} 07:00:00',
+                'arrival_time': f'{tomorrow} 11:28:00',
                 'seat_number': '01A',
                 'carriage': '1',
                 'ticket_type': 'first_class',
@@ -554,8 +562,8 @@ def populate_data(db_path=None):
                 'train_number': 'UK502',
                 'from_station': 'London King\'s Cross',
                 'to_station': 'Edinburgh Waverley',
-                'departure_time': '2025-07-29 07:00:00',
-                'arrival_time': '2025-07-29 11:28:00',
+                'departure_time': f'{tomorrow} 07:00:00',
+                'arrival_time': f'{tomorrow} 11:28:00',
                 'seat_number': '01B',
                 'carriage': '1',
                 'ticket_type': 'first_class',
@@ -569,8 +577,8 @@ def populate_data(db_path=None):
                 'train_number': 'UK502',
                 'from_station': 'London King\'s Cross',
                 'to_station': 'Edinburgh Waverley',
-                'departure_time': '2025-07-29 07:00:00',
-                'arrival_time': '2025-07-29 11:28:00',
+                'departure_time': f'{tomorrow} 07:00:00',
+                'arrival_time': f'{tomorrow} 11:28:00',
                 'seat_number': '01C',
                 'carriage': '1',
                 'ticket_type': 'first_class',
@@ -585,8 +593,8 @@ def populate_data(db_path=None):
                 'train_number': 'UK503',
                 'from_station': 'London King\'s Cross',
                 'to_station': 'Edinburgh Waverley',
-                'departure_time': '2025-07-28 15:00:00',
-                'arrival_time': '2025-07-28 19:28:00',
+                'departure_time': f'{today} 15:00:00',
+                'arrival_time': f'{today} 19:28:00',
                 'seat_number': '08A',
                 'carriage': '1',
                 'ticket_type': 'flexible',
@@ -601,8 +609,8 @@ def populate_data(db_path=None):
                 'train_number': 'UK801',
                 'from_station': 'Glasgow Central',
                 'to_station': 'Edinburgh Waverley',
-                'departure_time': '2025-08-01 08:00:00',  # Friday
-                'arrival_time': '2025-08-01 08:55:00',
+                'departure_time': f'{friday} 08:00:00',  # Friday
+                'arrival_time': f'{friday} 08:55:00',
                 'seat_number': '12A',
                 'carriage': '2',
                 'ticket_type': 'flexible',
@@ -617,8 +625,8 @@ def populate_data(db_path=None):
                 'train_number': 'UK701',
                 'from_station': 'Liverpool Lime Street',
                 'to_station': 'Manchester Piccadilly',
-                'departure_time': '2025-07-29 08:00:00',
-                'arrival_time': '2025-07-29 08:47:00',
+                'departure_time': f'{tomorrow} 08:00:00',
+                'arrival_time': f'{tomorrow} 08:47:00',
                 'seat_number': '15A',
                 'carriage': '3',
                 'ticket_type': 'standard',
@@ -633,8 +641,8 @@ def populate_data(db_path=None):
                 'train_number': 'UK301',
                 'from_station': 'London Euston',
                 'to_station': 'Birmingham New Street',
-                'departure_time': '2025-07-29 09:00:00',
-                'arrival_time': '2025-07-29 10:23:00',
+                'departure_time': f'{tomorrow} 09:00:00',
+                'arrival_time': f'{tomorrow} 10:23:00',
                 'seat_number': 'WCA1',  # Wheelchair accessible seat
                 'carriage': '1',
                 'ticket_type': 'standard',
@@ -649,8 +657,8 @@ def populate_data(db_path=None):
                 'train_number': 'UK502',
                 'from_station': 'London King\'s Cross',
                 'to_station': 'Edinburgh Waverley',
-                'departure_time': '2025-08-05 07:00:00',  # Next Tuesday
-                'arrival_time': '2025-08-05 11:28:00',
+                'departure_time': f'{next_tuesday} 07:00:00',  # Next Tuesday
+                'arrival_time': f'{next_tuesday} 11:28:00',
                 'seat_number': '02A',
                 'carriage': '1',
                 'ticket_type': 'first_class',
@@ -665,8 +673,8 @@ def populate_data(db_path=None):
                 'train_number': 'UK999',
                 'from_station': 'London King\'s Cross',
                 'to_station': 'Manchester Piccadilly',
-                'departure_time': '2025-07-28 16:45:00',
-                'arrival_time': '2025-07-28 19:15:00',
+                'departure_time': f'{today} 16:45:00',
+                'arrival_time': f'{today} 19:15:00',
                 'seat_number': '08A',
                 'carriage': '1',
                 'ticket_type': 'flexible',
@@ -681,8 +689,8 @@ def populate_data(db_path=None):
                 'train_number': 'UK997',
                 'from_station': 'London King\'s Cross',
                 'to_station': 'Manchester Piccadilly',
-                'departure_time': '2025-07-28 18:00:00',
-                'arrival_time': '2025-07-28 20:30:00',
+                'departure_time': f'{today} 18:00:00',
+                'arrival_time': f'{today} 20:30:00',
                 'seat_number': '06A',
                 'carriage': '1',
                 'ticket_type': 'standard',
@@ -751,8 +759,8 @@ def populate_data(db_path=None):
             'UK102',
             'London Euston',
             'Manchester Piccadilly',
-            '2025-07-30 11:30:00',  # Tomorrow (cancellable)
-            '2025-07-30 13:38:00',
+            f'{tomorrow} 11:30:00',  # Tomorrow (cancellable)
+            f'{tomorrow} 13:38:00',
             '05A',
             '1',
             'standard',
@@ -760,7 +768,7 @@ def populate_data(db_path=None):
             89.0,   # paid_price
             'confirmed',
             'upcoming',
-            '2025-07-27 10:15:00',  # purchase_date (yesterday)
+            (current_system_time - timedelta(days=1)).strftime('%Y-%m-%d %H:%M:%S'),  # purchase_date (yesterday)
             None,   # check_in_time
             None,   # boarding_time
             None,   # special_requirements
@@ -789,8 +797,8 @@ def populate_data(db_path=None):
             'UK201',
             'Manchester Piccadilly',
             'London Euston',
-            '2025-08-15 08:15:00',  # Future date (modifiable)
-            '2025-08-15 10:23:00',
+            (current_system_time + timedelta(days=15)).strftime('%Y-%m-%d') + ' 08:15:00',  # Future date (modifiable)
+            (current_system_time + timedelta(days=15)).strftime('%Y-%m-%d') + ' 10:23:00',
             '03A',
             '1',
             'flexible',
@@ -798,7 +806,7 @@ def populate_data(db_path=None):
             106.8,  # paid_price
             'confirmed',
             'upcoming',
-            '2025-07-26 14:20:00',  # purchase_date
+            (current_system_time - timedelta(days=2)).strftime('%Y-%m-%d %H:%M:%S'),  # purchase_date (2 days ago)
             None,   # check_in_time
             None,   # boarding_time
             'Wheelchair accessibility required',  # special_requirements
@@ -824,7 +832,7 @@ def populate_data(db_path=None):
             'purchase',
             89.0,
             'debit_card',
-            '2025-07-27 10:15:00',
+            (current_system_time - timedelta(days=1)).strftime('%Y-%m-%d %H:%M:%S'),
             'completed',
             'REF000021',
             'Stripe',
@@ -847,7 +855,7 @@ def populate_data(db_path=None):
             'purchase',
             106.8,
             'corporate_account',
-            '2025-07-26 14:20:00',
+            (current_system_time - timedelta(days=2)).strftime('%Y-%m-%d %H:%M:%S'),
             'completed',
             'REF000022',
             'Stripe',
