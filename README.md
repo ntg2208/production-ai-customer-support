@@ -25,7 +25,7 @@ git clone https://github.com/ntg2208/production-ai-customer-support
 cd production-ai-customer-support
 pip install -r requirements.txt
 cp .env.example .env  # Add your GOOGLE_API_KEY
-python customer_support_agent/run_test_scenarios.py
+python production-ai-customer-support/run_test_scenarios.py
 ```
 
 ## 🎓 Learn by Building
@@ -185,23 +185,24 @@ cp .env.example .env
 
 4. **Initialize database**
 ```bash
-cd customer_support_agent
-python -c "from utils.create_schema import create_database_schema; from utils.populate_data import populate_data; create_database_schema(); populate_data()"
+cd production-ai-customer-support
+python -c "from utils.create_schema import create_database_schema; create_database_schema()"
+python -c "from utils.populate_data import populate_data; populate_data()"
 ```
 
 ### Your First Demo
 
 ```bash
 # Quick demo with 3 scenarios
-python customer_support_agent/run_test_scenarios.py
+python production-ai-customer-support/run_test_scenarios.py
 
 # Try specific interactions
-python customer_support_agent/run_test_scenarios.py --session 1    # New customer
-python customer_support_agent/run_test_scenarios.py --session 11   # Casual style  
-python customer_support_agent/run_test_scenarios.py --session 15   # Complex booking
+python production-ai-customer-support/run_test_scenarios.py --session 1    # New customer
+python production-ai-customer-support/run_test_scenarios.py --session 11   # Casual style  
+python production-ai-customer-support/run_test_scenarios.py --session 15   # Complex booking
 
 # Interactive demo
-python customer_support_agent/interactive_test.py
+python interactive_test.py
 ```
 
 ## 📊 Live Demo Results
@@ -227,12 +228,12 @@ Agent: Hey! Got it - London to Birmingham tomorrow. Let me check the available t
 
 ## 📚 Documentation
 
-- **[Quick Start Guide](customer_support_agent/README.md)** - 5-minute setup
+- **[Quick Start Guide](README.md)** - 5-minute setup
 - **[Architecture Guide](docs/ARCHITECTURE.md)** - System design
 - **[Deployment Guide](docs/DEPLOYMENT.md)** - Production setup  
 - **[Customization Guide](docs/CUSTOMIZATION.md)** - Adapt for your domain
 - **[API Reference](docs/API.md)** - Integration endpoints
-- **[Test Scenarios](customer_support_agent/TEST_SCENARIOS_README.md)** - All 15 test cases
+- **[Test Scenarios](TEST_SCENARIOS_README.md)** - All 15 test cases
 
 ## 💰 Support This Project
 

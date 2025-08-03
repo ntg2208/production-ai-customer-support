@@ -24,7 +24,7 @@ Thank you for your interest in contributing!
 1. Fork and clone the repository
 2. Install dependencies: `pip install -r requirements.txt`
 3. Copy `.env.example` to `.env` and add your Google API key
-4. Run tests: `python customer_support_agent/run_test_scenarios.py`
+4. Run tests: `python run_test_scenarios.py`
 
 ## Code Style Guidelines
 
