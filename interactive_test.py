@@ -300,6 +300,7 @@ def print_help():
     print(f"{Colors.CYAN}• Enter any message{Colors.RESET} - Send message to agent")
     print(f"{Colors.CYAN}• /help{Colors.RESET} - Show this help")
     print(f"{Colors.CYAN}• /customer{Colors.RESET} - Show current customer info")
+    print(f"{Colors.CYAN}• /switch{Colors.RESET} - Switch to different customer profile")
     print(f"{Colors.CYAN}• /clear{Colors.RESET} - Clear screen")
     print(f"{Colors.CYAN}• quit/exit{Colors.RESET} - Exit the program")
     print()
@@ -329,6 +330,9 @@ async def interactive_session(runner, session, customer_state):
             if user_input.lower() == '/customer':
                 display_customer_context(customer_state)
                 continue
+            
+            if user_input.lower() == '/switch':
+                return 'switch_profile'  # Signal to switch profile
             
             if user_input.lower() == '/clear':
                 os.system('clear' if os.name == 'posix' else 'cls')
@@ -374,44 +378,55 @@ async def main():
         print(f"{Colors.YELLOW}Please set your Google API key in .env file{Colors.RESET}")
         sys.exit(1)
     
+    # Initialize master agent once
+    print(f"{Colors.BLUE}📦 Initializing master agent with sub-agents...{Colors.RESET}")
+    master_agent = get_master_agent()
+    print(f"{Colors.GREEN}✅ Master agent ready with {len(master_agent.sub_agents)} sub-agents{Colors.RESET}")
+    
     try:
-        # Display customer options
-        display_customer_options()
-        
-        # Get customer choice
-        selected_customer = get_customer_choice()
-        
-        print(f"\n{Colors.BLUE}🔧 Setting up session for {selected_customer['name']}...{Colors.RESET}")
-        
-        # Initialize master agent
-        print(f"{Colors.BLUE}📦 Initializing master agent with sub-agents...{Colors.RESET}")
-        master_agent = get_master_agent()
-        print(f"{Colors.GREEN}✅ Master agent ready with {len(master_agent.sub_agents)} sub-agents{Colors.RESET}")
-        
-        # Setup customer state
-        print(f"{Colors.BLUE}👤 Loading customer data...{Colors.RESET}")
-        customer_state = await customer_setup.setup_customer_for_session(selected_customer['key'])
-        
-        # Display customer context
-        display_customer_context(customer_state)
-        
-        # Create session service and runner
-        print(f"\n{Colors.BLUE}🔧 Creating session and runner...{Colors.RESET}")
-        session_service = InMemorySessionService()
-        session = await session_service.create_session(
-            app_name="interactive_test",
-            user_id=customer_state["user_email"],
-            state=customer_state
-        )
-        
-        runner = Runner(
-            agent=master_agent,
-            app_name="interactive_test", 
-            session_service=session_service
-        )
-        
-        # Start interactive session
-        await interactive_session(runner, session, customer_state)
+        while True:  # Profile switching loop
+            # Display customer options
+            display_customer_options()
+            
+            # Get customer choice
+            selected_customer = get_customer_choice()
+            
+            print(f"\n{Colors.BLUE}🔧 Setting up session for {selected_customer['name']}...{Colors.RESET}")
+            
+            # Setup customer state
+            print(f"{Colors.BLUE}👤 Loading customer data...{Colors.RESET}")
+            customer_state = await customer_setup.setup_customer_for_session(selected_customer['key'])
+            
+            # Display customer context
+            display_customer_context(customer_state)
+            
+            # Create new session service and runner for this profile
+            print(f"\n{Colors.BLUE}🔧 Creating session and runner...{Colors.RESET}")
+            session_service = InMemorySessionService()
+            session = await session_service.create_session(
+                app_name="interactive_test",
+                user_id=customer_state["user_email"],
+                state=customer_state
+            )
+            
+            runner = Runner(
+                agent=master_agent,
+                app_name="interactive_test", 
+                session_service=session_service
+            )
+            
+            # Start interactive session
+            result = await interactive_session(runner, session, customer_state)
+            
+            # Check if user wants to switch profile
+            if result != 'switch_profile':
+                break  # User quit normally
+            
+            # Clear screen for profile switch
+            os.system('clear' if os.name == 'posix' else 'cls')
+            print_banner()
+            print(f"\n{Colors.YELLOW_BOLD}🔄 Switching Customer Profile{Colors.RESET}")
+            print(f"{Colors.CYAN}Select a new customer to continue testing...{Colors.RESET}\n")
         
     except Exception as e:
         print(f"{Colors.RED}❌ Setup error: {e}{Colors.RESET}")

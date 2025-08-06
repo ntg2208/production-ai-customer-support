@@ -30,7 +30,14 @@ except ImportError:
 try:
     from .location_intelligence import get_customer_location_context
 except ImportError:
-    from location_intelligence import get_customer_location_context
+    try:
+        from location_intelligence import get_customer_location_context
+    except ImportError:
+        # Fallback: add utils to path and try again
+        utils_path = os.path.dirname(os.path.abspath(__file__))
+        if utils_path not in sys.path:
+            sys.path.insert(0, utils_path)
+        from location_intelligence import get_customer_location_context
 
 # Customer mapping for test scenarios
 CUSTOMER_SCENARIO_MAPPING = {
