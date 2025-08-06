@@ -18,14 +18,17 @@
 - 🏢 **Production Ready** - 15 test scenarios, deployment docs, error handling
 - 💰 **Proven ROI** - Companies save £150K+ annually vs traditional support teams
 
-## 🚀 Quick Demo (30 seconds)
+## 🚀 Live Demo
 
+[![UKConnect AI Customer Support Demo](https://img.youtube.com/vi/QNhT_bGf5ks/maxresdefault.jpg)](https://youtu.be/QNhT_bGf5ks)
+
+**Try it yourself (30 seconds):**
 ```bash
 git clone https://github.com/ntg2208/production-ai-customer-support
 cd production-ai-customer-support
 pip install -r requirements.txt
 cp .env.example .env  # Add your GOOGLE_API_KEY
-python run_test_scenarios.py
+python interactive_test.py
 ```
 
 ## 🎓 Learn by Building
