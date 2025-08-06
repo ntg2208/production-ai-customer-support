@@ -227,7 +227,56 @@ def display_customer_context(customer_state):
         print(f"  • {transaction['booking_reference']}: £{transaction['amount']} via {transaction['payment_method']}")
         print(f"    {transaction['transaction_time']}")
 
-async def process_and_display_response(events):
+def clean_response_template_variables(response_text, customer_state):
+    """Clean template variables from agent response"""
+    if not response_text:
+        return response_text
+    
+    try:
+        # Get customer information from state
+        user_info = customer_state.get('user_information', {})
+        customer_name = user_info.get('name', 'Customer')
+        customer_id = user_info.get('customer_id', 'N/A')
+        user_email = customer_state.get('user_email', 'N/A')
+        
+        # Get location context from state
+        location_context = customer_state.get('location_context', {})
+        
+        # Replace user information template variables
+        cleaned_response = response_text.replace(
+            '{user_information[name]}', customer_name
+        ).replace(
+            '{user_information[customer_id]}', customer_id
+        ).replace(
+            '{user_information[email]}', user_email
+        )
+        
+        # Replace location context template variables
+        if location_context:
+            cleaned_response = cleaned_response.replace(
+                '{location_context[default_departure_station]}', 
+                location_context.get('default_departure_station', 'your local station')
+            ).replace(
+                '{location_context[location_city]}', 
+                location_context.get('location_city', 'your area')
+            ).replace(
+                '{location_context[location_area]}', 
+                location_context.get('location_area', 'your area')
+            ).replace(
+                '{location_context[travel_context]}', 
+                location_context.get('travel_context', 'your travel needs')
+            ).replace(
+                '{location_context[location_assumption]}', 
+                location_context.get('location_assumption', 'based on your location')
+            )
+        
+        return cleaned_response
+        
+    except Exception as e:
+        print(f"{Colors.YELLOW}⚠️  Template cleanup failed: {e}{Colors.RESET}")
+        return response_text
+
+async def process_and_display_response(events, customer_state):
     """Process and display agent response events"""
     print(f"\n{Colors.BLUE}{'='*60}{Colors.RESET}")
     print(f"{Colors.BLUE_BOLD}🤖 Agent Response Analysis{Colors.RESET}")
@@ -284,12 +333,13 @@ async def process_and_display_response(events):
             for activity in activities:
                 print(f"   • {activity}")
     
-    # Display final response
+    # Display final response (with template variable cleanup)
     if final_response:
+        cleaned_response = clean_response_template_variables(final_response, customer_state)
         print(f"\n{Colors.WHITE_BOLD}{'─'*60}{Colors.RESET}")
         print(f"{Colors.WHITE_BOLD}💬 Agent Response:{Colors.RESET}")
         print(f"{Colors.WHITE_BOLD}{'─'*60}{Colors.RESET}")
-        print(f"{Colors.WHITE_BOLD}{final_response}{Colors.RESET}")
+        print(f"{Colors.WHITE_BOLD}{cleaned_response}{Colors.RESET}")
         print(f"{Colors.WHITE_BOLD}{'─'*60}{Colors.RESET}")
     else:
         print(f"\n{Colors.RED}❌ No response generated{Colors.RESET}")
@@ -358,7 +408,7 @@ async def interactive_session(runner, session, customer_state):
             )
             
             # Process and display response
-            await process_and_display_response(events)
+            await process_and_display_response(events, customer_state)
             
         except KeyboardInterrupt:
             print(f"\n{Colors.YELLOW}👋 Session interrupted. Goodbye!{Colors.RESET}")
