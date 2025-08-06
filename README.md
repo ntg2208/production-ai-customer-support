@@ -25,7 +25,7 @@ git clone https://github.com/ntg2208/production-ai-customer-support
 cd production-ai-customer-support
 pip install -r requirements.txt
 cp .env.example .env  # Add your GOOGLE_API_KEY
-python production-ai-customer-support/run_test_scenarios.py
+python run_test_scenarios.py
 ```
 
 ## 🎓 Learn by Building
@@ -185,7 +185,6 @@ cp .env.example .env
 
 4. **Initialize database**
 ```bash
-cd production-ai-customer-support
 python -c "from utils.create_schema import create_database_schema; create_database_schema()"
 python -c "from utils.populate_data import populate_data; populate_data()"
 ```
@@ -194,12 +193,12 @@ python -c "from utils.populate_data import populate_data; populate_data()"
 
 ```bash
 # Quick demo with 3 scenarios
-python production-ai-customer-support/run_test_scenarios.py
+python run_test_scenarios.py
 
 # Try specific interactions
-python production-ai-customer-support/run_test_scenarios.py --session 1    # New customer
-python production-ai-customer-support/run_test_scenarios.py --session 11   # Casual style  
-python production-ai-customer-support/run_test_scenarios.py --session 15   # Complex booking
+python run_test_scenarios.py --session 1    # New customer
+python run_test_scenarios.py --session 11   # Casual style  
+python run_test_scenarios.py --session 15   # Complex booking
 
 # Interactive demo
 python interactive_test.py
