@@ -282,7 +282,7 @@ Built by **[Truong Giang Nguyen](https://twentytwotensors.co.uk)** - ML Engineer
 **Connect:**
 - 🌐 Website: [twentytwotensors.co.uk](https://twentytwotensors.co.uk)
 - 📺 YouTube: [@twentytwotensors](https://youtube.com/@twentytwotensors)
-- 💼 LinkedIn: [linkedin.com/in/truong-giang-nguyen](https://linkedin.com/in/truong-giang-nguyen)
+- 💼 LinkedIn: [linkedin.com/in/ntg2208](https://linkedin.com/in/ntg2208)
 - 📧 Email: ntg2208@gmail.com
 
 ## 🌟 Why This Project Matters
