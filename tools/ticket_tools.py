@@ -144,22 +144,6 @@ def search_available_tickets(from_station: Optional[str], to_station: Optional[s
             }
             ticket_list.append(ticket_info)
         
-        # Data integrity check: Verify ticket IDs match their data
-        for ticket in ticket_list:
-            if ticket['ticket_id'] in [33, 34]:  # Monitor these specific problematic tickets
-                expected_data = {
-                    33: {'type': 'standard', 'price': 67.5},
-                    34: {'type': 'flexible', 'price': 89.0}
-                }
-                expected = expected_data.get(ticket['ticket_id'])
-                if expected:
-                    actual_type = ticket['ticket_type']
-                    actual_price = float(ticket['current_price'])
-                    if actual_type != expected['type'] or abs(actual_price - expected['price']) > 0.01:
-                        print(f"⚠️  DATA INTEGRITY WARNING for ticket {ticket['ticket_id']}:")
-                        print(f"   Expected: type={expected['type']}, price=£{expected['price']}")
-                        print(f"   Actual: type={actual_type}, price=£{actual_price}")
-        
         result = {
             "success": True,
             "total_tickets": len(ticket_list),
