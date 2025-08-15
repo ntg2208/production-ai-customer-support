@@ -8,7 +8,7 @@
 
 > **The customer support system that enterprises pay £100K+ for - now open source with complete tutorials**
 
-🎥 **[Watch the Complete Tutorial Series →](https://youtube.com/@twentytwotensors)**
+🎥 **[Watch the Complete Tutorial Series →](https://www.youtube.com/@truonggiangai)**
 
 ## ✨ What Makes This Special
 
@@ -35,7 +35,7 @@ python interactive_test.py
 
 This isn't just code - it's a complete learning experience:
 
-**[🎬 Tutorial Series: Building Enterprise AI Customer Support](https://youtube.com/@twentytwotensors)**
+**[🎬 Tutorial Series: Building Enterprise AI Customer Support](https://www.youtube.com/@truonggiangai)**
 
 1. **[Introduction & Architecture](docs/tutorials/01-introduction.md)** (15 min)
 2. **[Database & RAG Setup](docs/tutorials/02-database-setup.md)** (25 min)  
@@ -284,7 +284,7 @@ Built by **[Truong Giang Nguyen](https://twentytwotensors.co.uk)** - ML Engineer
 
 **Connect:**
 - 🌐 Website: [twentytwotensors.co.uk](https://twentytwotensors.co.uk)
-- 📺 YouTube: [@twentytwotensors](https://youtube.com/@twentytwotensors)
+- 📺 YouTube: [@truonggiangai](https://www.youtube.com/@truonggiangai)
 - 💼 LinkedIn: [linkedin.com/in/ntg2208](https://linkedin.com/in/ntg2208)
 - 📧 Email: ntg2208@gmail.com
 
