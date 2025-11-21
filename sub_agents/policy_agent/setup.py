@@ -1,79 +1,71 @@
 """
-PREMIUM POLICY AGENT SETUP - LICENSING PROTECTED
-Vector database initialization and policy agent setup removed for licensing protection
+Vector Database Setup for Policy Agent
+Direct copy from notebook cells #14-16 with minimal changes for internal imports.
 """
-
-# PREMIUM RAG SETUP IMPLEMENTATION REMOVED FOR LICENSING PROTECTION
-# This module contains advanced setup procedures including:
-# - Vector database initialization and loading
-# - Policy document processing and embedding
-# - RAG system configuration and optimization
-# - Agent-database integration and synchronization
 
 import json
 import os
+
+# Handle imports - use direct imports instead of package imports
 import sys
+
+# Add required paths to import modules directly
+production_path = os.path.join(os.path.dirname(__file__), '../..')
+database_path = os.path.join(production_path, 'database')
+tools_path = os.path.join(production_path, 'tools')
+
+# Add paths if not already present
+for path in [production_path, database_path, tools_path]:
+    if path not in sys.path:
+        sys.path.insert(0, path)
+
+# Direct imports
+from vector_db import VectorDB
+from policy_search import set_vector_db
 
 def setup_policy_vector_db():
     """
-    PREMIUM FEATURE - Vector database setup removed
-
-    This function would:
-    - Load and process policy documents
-    - Initialize vector database with embeddings
-    - Configure RAG search capabilities
-    - Optimize query performance
+    Setup the policy vector database exactly as done in the notebook.
+    
+    Returns:
+        VectorDB: Initialized and loaded vector database instance
     """
-    raise NotImplementedError("Premium feature - contact Truong Giang Nguyen (ntg2208@gmail.com) for access")
+    # Load the transformed dataset (copied from notebook cell #14)
+    data_path = os.path.join(os.path.dirname(__file__), '../../database/ukconnect_rag_chunks.json')
+    with open(data_path, 'r') as f:
+        transformed_dataset = json.load(f)
+
+    print("✅ Policy knowledge dataset loaded")
+    print(f"📊 Dataset contains {len(transformed_dataset)} knowledge chunks")
+
+    # Check if vector database exists and is valid
+    vector_db_path = os.path.join(os.path.dirname(__file__), '../../database/vector_db.pkl')
+    vector_db_exists = os.path.exists(vector_db_path)
+    
+    if vector_db_exists:
+        print("Found existing vector database, will attempt to load from disk.")
+
+    # Initialize the VectorDB (copied from notebook cell #16)
+    base_db = VectorDB("base_db")
+
+    # Load and process the data (copied from notebook cell #16)
+    base_db.load_data(transformed_dataset)
+    set_vector_db(base_db)
+    
+    print("✅ Vector database setup completed")
+    return base_db
 
 def initialize_policy_agent():
     """
-    PREMIUM FEATURE - Policy agent initialization removed
-
-    This function would:
-    - Setup vector database with policy knowledge
-    - Initialize RAG-powered policy agent
-    - Configure semantic search tools
-    - Integrate agent with knowledge base
+    Initialize the policy agent with vector database setup.
+    This function combines the vector DB setup with agent creation.
     """
-    raise NotImplementedError("Premium feature - contact Truong Giang Nguyen (ntg2208@gmail.com) for access")
-
-# ==============================================
-# LICENSING NOTICE
-# ==============================================
-
-"""
-This module contains premium policy agent setup that has been
-removed for licensing protection. The full implementation includes:
-
-🤖 POLICY AGENT INITIALIZATION:
-- Advanced RAG-powered policy specialist agent
-- Vector database integration and configuration
-- Semantic search tool setup and optimization
-- Agent-knowledge base synchronization
-
-📚 KNOWLEDGE BASE SETUP:
-- Policy document loading and preprocessing
-- Advanced text chunking and embedding
-- Vector database initialization and indexing
-- Metadata organization and categorization
-
-⚡ PERFORMANCE OPTIMIZATION:
-- Efficient vector database loading
-- Query optimization and caching
-- Memory management for large knowledge bases
-- Batch processing for document updates
-
-🔧 CONFIGURATION MANAGEMENT:
-- Environment-based model selection
-- API key and connection management
-- Error handling and recovery mechanisms
-- Logging and monitoring setup
-
-For access to the full policy agent setup with all premium features,
-please contact the author for licensing information.
-
-Author: Truong Giang Nguyen (ntg2208@gmail.com)
-Consultant: twentytwotensors.co.uk
-License: Premium Commercial License Required
-"""
+    # Setup vector database first
+    vector_db = setup_policy_vector_db()
+    
+    # Import and create the policy agent
+    from .agent import create_policy_agent
+    agent = create_policy_agent()
+    
+    print("✅ Policy agent initialized with vector database")
+    return agent, vector_db

@@ -1,70 +1,63 @@
 """
-PREMIUM POLICY SEARCH TOOL - LICENSING PROTECTED
-RAG-powered policy knowledge search system removed for licensing protection
+Policy Search Tool
+Direct copy from external agent_tools.py for policy knowledge search functionality.
 """
 
-# PREMIUM RAG IMPLEMENTATION REMOVED FOR LICENSING PROTECTION
-# This module contains advanced RAG capabilities including:
-# - Vector database integration for policy search
-# - Semantic similarity matching
-# - Advanced query processing
-# - Context-aware policy retrieval
-# - Multi-document knowledge synthesis
+from google.adk.tools import FunctionTool
 
-# All imports and vector database connections have been removed
+# Global vector database instance
+_vector_db = None
 
 def set_vector_db(vector_db):
+    """Set the VectorDB instance for policy searches"""
+    global _vector_db
+    _vector_db = vector_db
+
+def search_policy_knowledge(query: str, k: int) -> str:
     """
-    PREMIUM FEATURE - Vector database integration removed
-    This would set up the vector database instance for policy searches
+    Search the UKConnect policy knowledge base for information.
+    
+    Args:
+        query: The search query for policy information
+        k: Number of results to return
+    
+    Returns:
+        Formatted search results from the policy knowledge base
     """
-    raise NotImplementedError("Premium feature - contact Truong Giang Nguyen (ntg2208@gmail.com) for access")
-
-def search_policy_knowledge(query, k=5):
-    """
-    PREMIUM FEATURE - RAG-powered policy search removed
-
-    This function would provide:
-    - Semantic search across policy documents
-    - Relevance-ranked results
-    - Context-aware information retrieval
-    - Multi-document synthesis
-    """
-    raise NotImplementedError("Premium feature - contact Truong Giang Nguyen (ntg2208@gmail.com) for access")
-
-# Policy Knowledge Tool - REMOVED
-search_policy_knowledge_tool = None  # Premium tool removed - contact author for access
-
-# ==============================================
-# LICENSING NOTICE
-# ==============================================
-
+    global _vector_db
+    
+    if _vector_db is None:
+        return "Error: Policy knowledge base not initialized. Please contact support."
+    
+    try:
+        # Handle default value internally
+        if k <= 0:
+            k = 5
+        
+        results = _vector_db.search(query, k=k)
+        
+        if not results:
+            return f"No policy information found for query: {query}"
+        
+        formatted_results = []
+        for i, result in enumerate(results, 1):
+            metadata = result['metadata']
+            similarity = result['similarity']
+            
+            # Format the result for the agent
+            result_text = f"""
+Result {i} (Relevance: {similarity:.3f}):
+Section: {metadata.get('section', 'Unknown')}
+Question: {metadata.get('question', 'N/A')}
+Answer: {metadata.get('answer', 'N/A')}
+Topics: {', '.join(metadata.get('topics', []))}
 """
-This module contains premium RAG-powered policy search that has been
-removed for licensing protection. The full implementation includes:
+            formatted_results.append(result_text.strip())
+        
+        return "\n\n".join(formatted_results)
+        
+    except Exception as e:
+        return f"Error searching policy knowledge base: {str(e)}"
 
-🔍 ADVANCED SEARCH CAPABILITIES:
-- Semantic vector search across policy documents
-- Relevance-ranked results with similarity scores
-- Context-aware information retrieval
-- Multi-document knowledge synthesis
-
-🧠 RAG IMPLEMENTATION:
-- Vector database integration
-- Advanced embedding models
-- Query optimization and processing
-- Intelligent context matching
-
-📚 KNOWLEDGE BASE MANAGEMENT:
-- Dynamic policy document updates
-- Version control and change tracking
-- Structured metadata organization
-- Topic categorization and tagging
-
-For access to the full RAG implementation with all premium features,
-please contact the author for licensing information.
-
-Author: Truong Giang Nguyen (ntg2208@gmail.com)
-Consultant: twentytwotensors.co.uk
-License: Premium Commercial License Required
-"""
+# Policy Knowledge Tool
+search_policy_knowledge_tool = FunctionTool(search_policy_knowledge)
