@@ -12,8 +12,8 @@ from typing import Dict
 
 DEFAULT_MODELS = {
     "master_agent": "gemini-2.5-flash",
-    "ticket_agent": "gemini-2.5-flash-lite",  # Upgraded for better task completion
-    "policy_agent": "gemini-2.5-flash-lite",  # Upgraded for better task completion
+    "ticket_agent": "gemini-2.5-flash",  # Upgraded for better task completion
+    "policy_agent": "gemini-2.5-flash",  # Upgraded for better task completion
     "embedding": "gemini-embedding-001"
 }
 

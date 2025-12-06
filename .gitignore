@@ -212,3 +212,4 @@ __marimo__/
 database/ukconnect_rail.db
 
 gradio_ui/
+evaluation_results/
