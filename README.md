@@ -274,11 +274,50 @@ python run_test_scenarios.py
 
 # Try specific interactions
 python run_test_scenarios.py --session 1    # New customer
-python run_test_scenarios.py --session 11   # Casual style  
+python run_test_scenarios.py --session 11   # Casual style
 python run_test_scenarios.py --session 15   # Complex booking
 
 # Interactive demo
 python interactive_test.py
+```
+
+### 🔧 Development Utilities
+
+#### Time Configuration
+Control the system time for testing scenarios with specific dates:
+
+```python
+from config.time_config import set_system_time, use_real_time, is_using_fixed_time
+
+# Set a fixed date/time for testing (affects all database queries)
+set_system_time("2025-07-29 14:30:00")
+
+# Check if using fixed time
+print(is_using_fixed_time())  # True
+
+# Switch back to real current time
+use_real_time()
+```
+
+Or edit `config/time_config.py` directly:
+```python
+# Set to a specific date for reproducible testing
+SYSTEM_CURRENT_TIME = "2025-07-29 14:30:00"
+
+# Or use None for real current time
+SYSTEM_CURRENT_TIME = None
+```
+
+#### Database Reset
+Reset the database to a clean state with fresh sample data:
+
+```bash
+# Reset database to clean state
+python test_message_scenarios.py --reset-db
+
+# Or programmatically:
+python -c "from utils.create_schema import create_database_schema; create_database_schema()"
+python -c "from utils.populate_data import populate_data; populate_data()"
 ```
 
 ## 📊 Live Demo Results
