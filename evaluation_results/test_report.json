@@ -1,0 +1,186 @@
+{
+  "report_id": "test_report",
+  "generated_at": "2025-12-06T06:09:32.516573",
+  "summary": {
+    "total_sessions": 1,
+    "total_turns": 3,
+    "overall_pass_rate": 100.0,
+    "overall_score": 4.58,
+    "pass_threshold": 3.5
+  },
+  "scores_by_criterion": {
+    "accuracy": 5.0,
+    "helpfulness": 4.67,
+    "task_completion": 4.0,
+    "tone": 4.0,
+    "routing": 5.0,
+    "policy_adherence": 5.0
+  },
+  "scores_by_session": {
+    "test_booking_session": 4.58
+  },
+  "sessions": [
+    {
+      "session_id": "test_booking_session",
+      "session_title": "Test Booking Flow",
+      "customer_name": "Test Customer",
+      "turn_results": [
+        {
+          "session_id": "test_booking_session",
+          "turn_index": 0,
+          "user_input": "What trains go from London to Manchester tomorrow?",
+          "agent_response": "I found several trains from London Euston to Manchester Piccadilly tomorrow. The earliest departure is at 06:30. Would you like me to show specific times?",
+          "scores": {
+            "accuracy": 5,
+            "helpfulness": 4,
+            "task_completion": 3,
+            "tone": 4,
+            "routing": 5,
+            "policy_adherence": 5
+          },
+          "overall_score": 4.33,
+          "reasoning": "The agent provides accurate information and confirms the availability of trains from London to Manchester. It also offers to show specific times, which is helpful. However, the task is not fully completed as the specific times are not provided without further prompting.",
+          "issues": [],
+          "strengths": [
+            "Accurate information",
+            "Helpful offer to show times",
+            "Appropriate tone"
+          ],
+          "pass_fail": true,
+          "timestamp": "2025-12-06T06:09:27.287118",
+          "evaluation_latency_ms": 1663.5990000000002
+        },
+        {
+          "session_id": "test_booking_session",
+          "turn_index": 1,
+          "user_input": "Yes, show me morning departures please",
+          "agent_response": "Here are the morning departures:\n- 06:30 arriving 08:45 (Standard: \u00a345)\n- 07:00 arriving 09:15 (Standard: \u00a349)\n- 07:30 arriving 09:45 (Standard: \u00a352)\nWould you like to book any of these?",
+          "scores": {
+            "accuracy": 5,
+            "helpfulness": 5,
+            "task_completion": 4,
+            "tone": 4,
+            "routing": 5,
+            "policy_adherence": 5
+          },
+          "overall_score": 4.666666666666667,
+          "reasoning": "The agent provided accurate and helpful information regarding morning departures. The task was successfully completed, and the tone was appropriate for a formal session. The agent could have asked for the destination to provide more relevant results.",
+          "issues": [],
+          "strengths": [
+            "Accurate information",
+            "Helpful response",
+            "Appropriate tone",
+            "Correct routing"
+          ],
+          "pass_fail": true,
+          "timestamp": "2025-12-06T06:09:28.854731",
+          "evaluation_latency_ms": 1567.403
+        },
+        {
+          "session_id": "test_booking_session",
+          "turn_index": 2,
+          "user_input": "Book the 7am one please. My email is test@test.com",
+          "agent_response": "I have booked your ticket on the 07:00 service from London Euston to Manchester Piccadilly. Your booking reference is UKC999. A confirmation has been sent to test@test.com. Have a great journey!",
+          "scores": {
+            "accuracy": 5,
+            "helpfulness": 5,
+            "task_completion": 5,
+            "tone": 4,
+            "routing": 5,
+            "policy_adherence": 5
+          },
+          "overall_score": 4.83,
+          "reasoning": "The agent successfully booked the ticket as requested and provided all necessary details, including the booking reference and confirmation email. The tone is professional and appropriate for a formal session. The agent routing was correct, and there were no policy violations.",
+          "issues": [],
+          "strengths": [
+            "Accurate information",
+            "Successful task completion",
+            "Professional tone",
+            "Correct routing",
+            "Policy adherence"
+          ],
+          "pass_fail": true,
+          "timestamp": "2025-12-06T06:09:30.672368",
+          "evaluation_latency_ms": 1817.498
+        }
+      ],
+      "aggregate_scores": {
+        "accuracy": 5.0,
+        "helpfulness": 4.67,
+        "task_completion": 4.0,
+        "tone": 4.0,
+        "routing": 5.0,
+        "policy_adherence": 5.0
+      },
+      "overall_score": 4.58,
+      "conversation_flow_score": 5,
+      "context_retention_score": 5,
+      "pass_fail": true,
+      "total_turns": 3,
+      "passed_turns": 3,
+      "failed_turns": 0,
+      "key_issues": [],
+      "key_strengths": [
+        "Accurate information",
+        "Helpful offer to show times",
+        "Appropriate tone",
+        "Helpful response",
+        "Correct routing"
+      ],
+      "timestamp": "2025-12-06T06:09:32.513367"
+    }
+  ],
+  "top_issues": [],
+  "top_strengths": [
+    "Accurate information",
+    "Helpful offer to show times",
+    "Appropriate tone",
+    "Helpful response",
+    "Correct routing"
+  ],
+  "criterion_distribution": {
+    "accuracy": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 3
+    },
+    "helpfulness": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 1,
+      "5": 2
+    },
+    "task_completion": {
+      "1": 0,
+      "2": 0,
+      "3": 1,
+      "4": 1,
+      "5": 1
+    },
+    "tone": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 3,
+      "5": 0
+    },
+    "routing": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 3
+    },
+    "policy_adherence": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 3
+    }
+  },
+  "recommendations": []
+}

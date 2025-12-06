@@ -12,9 +12,11 @@
 
 ## ✨ What Makes This Special
 
-- 🤖 **Multi-Agent Architecture** - Intelligent routing between specialized agents  
+- 🤖 **Multi-Agent Architecture** - Intelligent routing between specialized agents
 - 🧠 **RAG + Database Hybrid** - Best of both worlds for knowledge management
 - 🌍 **Location Intelligence** - Smart defaults based on customer location
+- 🛡️ **Safety Guardrails** - PII protection, prompt injection defense, content filtering
+- 📊 **LLM-as-a-Judge Evaluation** - Automated quality assessment with detailed reports
 - 🏢 **Production Ready** - 15 test scenarios, deployment docs, error handling
 - 💰 **Proven ROI** - Companies save £150K+ annually vs traditional support teams
 
@@ -63,12 +65,66 @@ This isn't just code - it's a complete learning experience:
 
 **🧠 Intelligent Routing**: The Master Agent acts as the central intelligence hub, determining which specialist agent can best handle each customer request while preserving conversation context across all interactions.
 
-### Production Features  
+### Production Features
 - **Location Intelligence**: Auto-detects customer departure stations
 - **State Management**: Maintains context across conversations
 - **Error Handling**: Comprehensive exception management
 - **Testing Suite**: 15 realistic customer scenarios
 - **Deployment Ready**: Docker, cloud deployment guides
+
+### 🛡️ Safety Guardrails
+
+Built-in protection using Google ADK callbacks to ensure safe and compliant agent behavior:
+
+- **PII Detection & Redaction**: Automatically detects and sanitizes sensitive data (emails, phone numbers, credit cards, addresses)
+- **Prompt Injection Defense**: Blocks jailbreak attempts, instruction overrides, and system prompt extraction
+- **Content Moderation**: Filters toxic, threatening, and inappropriate content
+- **Tool Validation**: Validates tool arguments and blocks unauthorized operations
+- **Audit Logging**: Complete audit trail for compliance and debugging
+
+```python
+from guardrails import create_safety_callbacks, GuardrailConfig
+
+callbacks = create_safety_callbacks(GuardrailConfig(
+    enable_pii_detection=True,
+    enable_injection_detection=True,
+    block_on_high_risk=True,
+))
+
+agent = Agent(
+    model="gemini-2.0-flash",
+    before_model_callback=callbacks["before_model"],
+    after_model_callback=callbacks["after_model"],
+)
+```
+
+### 📊 LLM-as-a-Judge Evaluation
+
+Automated quality assessment system that evaluates agent responses across 6 dimensions:
+
+| Criterion | Weight | Description |
+|-----------|--------|-------------|
+| Accuracy | 25% | Factual correctness, no hallucinations |
+| Helpfulness | 20% | Addresses customer's actual need |
+| Task Completion | 20% | Successfully performs requested action |
+| Tone | 15% | Professional, appropriate communication |
+| Routing | 10% | Correct agent handles the query |
+| Policy Adherence | 10% | Follows company policies |
+
+```bash
+# Run evaluation on test scenarios
+python -m evaluation.run_evaluation --quick          # Quick eval (3 sessions)
+python -m evaluation.run_evaluation --session 1      # Single session
+python -m evaluation.run_evaluation --all            # Full test suite
+```
+
+**Sample Output:**
+```
+Session: Test Booking Flow
+Overall Score: 4.58/5.0 - PASS
+Turns: 3/3 passed
+Scores: accuracy=5.0, helpfulness=4.67, task_completion=4.0
+```
 
 ### Enterprise Capabilities
 - **Scalable Architecture**: Handle 1000+ concurrent users
@@ -79,7 +135,9 @@ This isn't just code - it's a complete learning experience:
 ## 🛠️ Technology Stack
 
 - **LLM Framework**: Google AI Platform / Google Cloud Vertex AI
-- **Multi-Agent**: Google ADK Agents Framework  
+- **Multi-Agent**: Google ADK Agents Framework
+- **Safety**: ADK Callbacks (before/after model & tool)
+- **Evaluation**: LLM-as-a-Judge with Gemini
 - **Vector Database**: Embeddings with similarity search
 - **Database**: SQLite (development) / PostgreSQL (production)
 - **Backend**: Python 3.8+, FastAPI
@@ -92,6 +150,12 @@ This isn't just code - it's a complete learning experience:
 │                     Customer Interface                          │
 │        • Natural Language Processing                            │
 │        • Context Awareness • Location Intelligence              │
+└─────────────────────────────────┬───────────────────────────────┘
+                                  ▼
+┌─────────────────────────────────────────────────────────────────┐
+│                    🛡️ Safety Guardrails                         │
+│  • PII Detection  • Prompt Injection Defense  • Content Filter  │
+│  • before_model_callback        • after_model_callback          │
 └─────────────────────────────────┬───────────────────────────────┘
                                   ▼
                     ┌─────────────────────────┐
@@ -115,6 +179,16 @@ This isn't just code - it's a complete learning experience:
           │ • T&C, Fares     │          │ • Customer Data │
           │ • RAG Knowledge  │          │ • Transactions  │
           └──────────────────┘          └─────────────────┘
+                                  │
+                                  ▼
+                    ┌─────────────────────────┐
+                    │  📊 LLM-as-a-Judge      │ ◄── Quality Assurance
+                    │     Evaluation          │
+                    │                         │
+                    │ • Response Scoring      │
+                    │ • Multi-turn Analysis   │
+                    │ • Regression Detection  │
+                    └─────────────────────────┘
 ```
 
 **🎯 Orchestration Flow:**
@@ -232,10 +306,12 @@ Agent: Hey! Got it - London to Birmingham tomorrow. Let me check the available t
 
 - **[Quick Start Guide](README.md)** - 5-minute setup
 - **[Architecture Guide](docs/ARCHITECTURE.md)** - System design
-- **[Deployment Guide](docs/DEPLOYMENT.md)** - Production setup  
+- **[Deployment Guide](docs/DEPLOYMENT.md)** - Production setup
 - **[Customization Guide](docs/CUSTOMIZATION.md)** - Adapt for your domain
 - **[API Reference](docs/API.md)** - Integration endpoints
 - **[Test Scenarios](TEST_SCENARIOS_README.md)** - All 15 test cases
+- **[Guardrails Guide](guardrails/example_usage.py)** - Safety implementation
+- **[Evaluation Guide](evaluation/run_evaluation.py)** - Quality assessment
 
 ## 💰 Support This Project
 

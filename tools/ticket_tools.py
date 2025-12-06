@@ -3,6 +3,7 @@ Ticket Agent Tools
 Direct copy from external agent_tools.py for ticket search, booking, and refund functionality.
 """
 
+import sqlite3
 from typing import Dict, Optional
 from google.adk.tools import FunctionTool, ToolContext
 
@@ -160,11 +161,15 @@ def search_available_tickets(from_station: Optional[str], to_station: Optional[s
         return result
     except ValueError as e:
         return {"error": str(e)}
+    except sqlite3.Error as e:
+        return {"success": False, "error": f"Database error: {str(e)}", "tickets": []}
+    except ConnectionError as e:
+        return {"success": False, "error": f"Connection error: {str(e)}", "tickets": []}
     except Exception as e:
-        print(f"❌ Search error: {str(e)}")
-        import traceback
-        traceback.print_exc()
-        return {"success": False, "error": f"Search error: {str(e)}", "tickets": []}
+        # Log unexpected errors for debugging while returning user-friendly message
+        import logging
+        logging.getLogger(__name__).exception("Unexpected error in search_available_tickets")
+        return {"success": False, "error": "An unexpected error occurred during search", "tickets": []}
     finally:
         if db:
             db.close()
@@ -210,8 +215,10 @@ def get_available_ticket_details(ticket_id: int) -> Dict:
         }
     except ValueError as e:
         return {"error": str(e)}
-    except Exception as e:
+    except sqlite3.Error as e:
         return {"error": f"Database error: {str(e)}"}
+    except (KeyError, TypeError) as e:
+        return {"error": f"Data processing error: {str(e)}"}
     finally:
         if db:
             db.close()
@@ -498,8 +505,10 @@ def book_ticket(customer_email: str, ticket_id: int, payment_method: str, tool_c
         }
     except ValueError as e:
         return {"error": str(e)}
-    except Exception as e:
-        return {"error": f"Booking error: {str(e)}"}
+    except sqlite3.Error as e:
+        return {"error": f"Database error during booking: {str(e)}"}
+    except (KeyError, TypeError) as e:
+        return {"error": f"Booking data error: {str(e)}"}
     finally:
         if db:
             db.close()
@@ -553,8 +562,10 @@ def refund_ticket(booking_reference: str, reason: str, tool_context: ToolContext
         }
     except ValueError as e:
         return {"error": str(e)}
-    except Exception as e:
-        return {"error": f"Refund error: {str(e)}"}
+    except sqlite3.Error as e:
+        return {"error": f"Database error during refund: {str(e)}"}
+    except (KeyError, TypeError) as e:
+        return {"error": f"Refund data error: {str(e)}"}
     finally:
         if db:
             db.close()

@@ -31,15 +31,30 @@ except ImportError:
     from city_station_mapping import normalize_location_input, get_stations_by_city, search_cities_and_stations
 
 class UKConnectDB:
-    """Enhanced database interface for UKConnect Rail AI Agent with inventory management"""
-    
+    """Enhanced database interface for UKConnect Rail AI Agent with inventory management
+
+    Supports both manual connection management and context manager usage:
+
+    Manual usage:
+        db = UKConnectDB()
+        db.connect()
+        try:
+            results = db.search_available_tickets(...)
+        finally:
+            db.close()
+
+    Context manager usage (recommended):
+        with UKConnectDB() as db:
+            results = db.search_available_tickets(...)
+    """
+
     def __init__(self, db_path=None, current_date=None):
         """
         Initialize database connection with enhanced v2.0 features
-        
+
         Args:
             db_path (str, optional): Path to SQLite database file. If None, uses default location.
-            current_date (str, optional): DEPRECATED - use centralized time config instead. 
+            current_date (str, optional): DEPRECATED - use centralized time config instead.
                                         For backward compatibility only.
         """
         if db_path is None:
@@ -52,6 +67,16 @@ class UKConnectDB:
         self.conn = None
         # For backward compatibility, but centralized config takes precedence
         self.current_date = current_date
+
+    def __enter__(self):
+        """Context manager entry - connects to database"""
+        self.connect()
+        return self
+
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        """Context manager exit - ensures connection is closed"""
+        self.close()
+        return False  # Don't suppress exceptions
     
     def get_current_datetime(self):
         """Get current datetime for queries using centralized time configuration"""
